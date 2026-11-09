@@ -1,0 +1,85 @@
+- !<AssetImportMetadata/9389bb6b-e2fe-49b3-b05c-5fab5e4bd612>
+  ImportedAssetIds:
+    26ba073d67b9d0dd: !<reference> 534f010d-17e9-4377-b9f0-bb0ce506f6ad
+    4729d6f54cdf2c44: !<reference> 50ac9a7e-5fb2-46de-8096-0d0d4fadd4f5
+    Meshes/Blob_06_Bean: !<reference> 28089e5e-be45-4bfd-88c9-d588925ef092
+    Scene: !<reference> bcf67888-5513-4842-9f20-2ee90b84bca9
+    c1eeda07d0268f61: !<reference> a43cff8a-1820-4b3c-b8ac-98fb7e44de21
+  ImporterName: ObjImporter
+  PrimaryAsset: !<reference> bcf67888-5513-4842-9f20-2ee90b84bca9
+  PackageType: LegacyPackage
+  LegacyPackagePolicy: CanBeUnpackedTransparent
+  ExtraData:
+    {}
+  AssetDataMap:
+    Scene: !<own> d1b134af-7572-4a70-86ab-6e2fe8798296
+  DependentFiles:
+    []
+  ImporterSettings: !<D3FileImporterSettingsBase>
+    UseLegacyImporter: false
+    WithMaterials: true
+    NamingConvention: ByCategorySanitizeV2
+    PersistentIdGenerationAlgorithm: DescriptorBasedV2
+  CompressionSettings: !<ComplexCompressionSettings>
+    Presets:
+      None Compression: !<FileCompressionSettings>
+        {}
+    ExtensionMappings:
+      mesh: None Compression
+    Overrides:
+      {}
+- !<RenderMeshVisual/50ac9a7e-5fb2-46de-7f69-f2f2b0522b0a>
+  PrefabRemaps:
+    []
+  Name: component_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    []
+  Mesh: !<reference> 28089e5e-be45-4bfd-88c9-d588925ef092
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/534f010d-17e9-4377-460f-44f31af90952>
+  PrefabRemaps:
+    []
+  Name: Blob_06_Bean
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> a43cff8a-1820-4b3c-4753-670481bb21de
+  Components:
+    []
+- !<SceneObject/a43cff8a-1820-4b3c-4753-670481bb21de>
+  PrefabRemaps:
+    []
+  Name: Blob_06_Bean
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 50ac9a7e-5fb2-46de-7f69-f2f2b0522b0a
+- !<ObjectPrefabAssetData/d1b134af-7572-4a70-86ab-6e2fe8798296>
+  Prototype: !<ObjectOwner/d22abad2-b1c2-4648-995f-6997308214ac>
+    PackagePath: ""
+    objects:
+      - !<own> 534f010d-17e9-4377-460f-44f31af90952

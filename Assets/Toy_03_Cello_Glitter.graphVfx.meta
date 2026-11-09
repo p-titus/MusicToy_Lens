@@ -1,0 +1,121 @@
+- !<AssetImportMetadata/cff3bbf9-bc41-40b7-ba26-d518f10d99e0>
+  ImportedAssetIds:
+    VFXGraph: !<reference> 9c5a6860-0457-4998-ad92-d841f14e5a1b
+  ImporterName: VFXAssetImporter
+  PrimaryAsset: !<reference> 9c5a6860-0457-4998-ad92-d841f14e5a1b
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    VFXGraph: !<own> 1d9f8bd3-aaed-4a80-b439-754bb0793372
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<VFXAssetData/1d9f8bd3-aaed-4a80-b439-754bb0793372>
+  SystemPassProperties:
+    0: !<VFXSystemPassProperties>
+      PassPropertiesMap:
+        feedback_0: !<VFXPassProperties>
+          PropertyMap:
+            {}
+          Defines:
+            []
+          Mesh: !<reference> 00000000-0000-0000-0000-000000000000
+        render_0_0: !<VFXPassProperties>
+          PropertyMap:
+            {}
+          Defines:
+            []
+          Mesh: !<reference> 00000000-0000-0000-0000-000000000000
+        simulate_0: !<VFXPassProperties>
+          PropertyMap:
+            glitterState:
+              typeIdx: 1
+              value: 0.000000
+            glitterEnergy:
+              typeIdx: 1
+              value: 0.000000
+            toyAccel:
+              typeIdx: 4
+              value: {x: 0.000000, y: 0.000000, z: 0.000000}
+            pieceSize:
+              typeIdx: 1
+              value: 0.100000
+            sizeVariation:
+              typeIdx: 1
+              value: 0.400000
+            colorA:
+              typeIdx: 5
+              value: {x: 0.847059, y: 0.894240, z: 1.000000, w: 1.000000}
+            colorB:
+              typeIdx: 5
+              value: {x: 0.370611, y: 0.370184, z: 0.344259, w: 1.000000}
+            flashColor:
+              typeIdx: 5
+              value: {x: 1.000000, y: 0.909453, z: 0.954284, w: 1.000000}
+            flashAmount:
+              typeIdx: 1
+              value: 22.000000
+            shineSharpness:
+              typeIdx: 1
+              value: 12.000000
+            countLow:
+              typeIdx: 1
+              value: 12.000000
+            countMed:
+              typeIdx: 1
+              value: 28.000000
+            countHigh:
+              typeIdx: 1
+              value: 45.000000
+            bandBottom:
+              typeIdx: 1
+              value: 0.600000
+            bandTop:
+              typeIdx: 1
+              value: 2.400000
+            radius:
+              typeIdx: 1
+              value: 1.300000
+            drift:
+              typeIdx: 1
+              value: 0.150000
+            driftSpeed:
+              typeIdx: 1
+              value: 1.000000
+            energyDrift:
+              typeIdx: 1
+              value: 0.700000
+            riseAmount:
+              typeIdx: 1
+              value: 0.800000
+            tumbleSpeed:
+              typeIdx: 1
+              value: 2.000000
+            pickupLag:
+              typeIdx: 1
+              value: 0.004000
+            lagMax:
+              typeIdx: 1
+              value: 0.400000
+            outwardBias:
+              typeIdx: 1
+              value: 0.700000
+            swirlTurns:
+              typeIdx: 1
+              value: 0.150000
+            risePhase:
+              typeIdx: 1
+              value: 0.000000
+            puffPhase:
+              typeIdx: 1
+              value: 0.000000
+            driftClock:
+              typeIdx: 1
+              value: 0.000000
+          Defines:
+            []
+          Mesh: !<reference> 00000000-0000-0000-0000-000000000000

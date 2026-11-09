@@ -1,0 +1,152 @@
+- !<AssetImportMetadata/ef1316bc-3fe0-49a9-aa19-a8953a473858>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> e47a2035-c91d-445e-9adb-0f2fdbe6472c
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> e47a2035-c91d-445e-9adb-0f2fdbe6472c
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 52d9be61-5429-4ece-916f-93f7ac42360a
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/52d9be61-5429-4ece-916f-93f7ac42360a>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  VersionPrerelease: ""
+  UpdateOrder: 0
+  ComponentUid: 144b3c0e-fb0c-4d61-b299-2e75f7a71963
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    body: false
+    bodyFit: false
+    cloneAsset: false
+    clusterHigh: false
+    clusterMed: false
+    clusterSize: false
+    fallbackPieceCm: false
+    glitterOn: false
+    hideWhenOff: false
+    keepInside: false
+    lagCm: false
+    loudnessSpread: false
+    maxAccel: false
+    maxSpeed: false
+    motionSmoothSeconds: false
+    outwardSpread: false
+    puffSeconds: false
+    puffSensitivity: false
+    puffStrength: false
+    riseSecondsHigh: false
+    riseSecondsLow: false
+    riseSecondsMed: false
+    spreadSeconds: false
+    stateSeconds: false
+    toy: false
+    vfx: false
+    wanderCm: false
+    wanderSpeedHigh: false
+    wanderSpeedLow: false
+    wanderSpeedMed: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - glitterOn: false
+      vfx: !<reference.VFXComponent> 00000000-0000-0000-0000-000000000000
+      toy: !<MappingBased.AssignableType_1> 00000000-0000-0000-0000-000000000000
+      cloneAsset: true
+      stateSeconds: 0.250000
+      hideWhenOff: true
+      keepInside: true
+      body: !<reference.RenderMeshVisual> 00000000-0000-0000-0000-000000000000
+      bodyFit: 0.800000
+      clusterSize: 0.400000
+      clusterMed: 0.600000
+      clusterHigh: 0.900000
+      loudnessSpread: 0.100000
+      spreadSeconds: 0.600000
+      outwardSpread: 0.700000
+      wanderCm: 0.200000
+      lagCm: 0.300000
+      fallbackPieceCm: 0.100000
+      riseSecondsLow: !<float> 10.000000
+      riseSecondsMed: !<float> 6.000000
+      riseSecondsHigh: 3.500000
+      wanderSpeedLow: 0.500000
+      wanderSpeedMed: !<float> 1.000000
+      wanderSpeedHigh: 1.500000
+      puffStrength: 1.500000
+      puffSensitivity: !<float> 5.000000
+      puffSeconds: 0.350000
+      motionSmoothSeconds: 0.120000
+      maxSpeed: !<float> 80.000000
+      maxAccel: !<float> 1500.000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">Glitter (this toy)</span>"}'
+    - '// @ui {"widget":"group_start", "label":"Glitter"}'
+    - '// @input bool glitterOn {"hint":"ON: this toy shows glitter. OFF (default): the glitter VFX is disabled and costs nothing."}'
+    - '// @input Component.VFXComponent vfx {"hint":"The VFX component of the glitter object. Leave empty to use the VFX component on this same object."}'
+    - "// @input AssignableType_1 toy {\"hint\":\"This toy's ToyConfig. Leave empty to search up the parents of this object for it.\"}"
+    - '// @input bool cloneAsset = true {"hint":"ON (default): this toy gets its own copy of the VFX asset at start, so seven toys sharing one VFX file do not share glitterState and the other values. Values you set on the asset in the Inspector are copied."}'
+    - '// @input float stateSeconds = 0.25 {"hint":"Seconds (s) glitterState takes to move by one state step, for example off to low. Off to high takes three times this. 0 = instant."}'
+    - '// @input bool hideWhenOff = true {"hint":"ON (default): once glitter has faded fully out (state off and no energy) the VFX component is disabled, so an off toy draws nothing. Pieces start again from the beginning when it comes back."}'
+    - '// @ui {"widget":"group_end"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">Keep inside the toy</span>"}'
+    - '// @ui {"widget":"group_start", "label":"Keep inside the toy"}'
+    - "// @input bool keepInside = true {\"hint\":\"ON (default): every frame the glitter is sized to this toy's own body, so it can never leave it, whatever the toy's size or squish. It writes the graph's Band Bottom, Band Top, Radius, Drift and Pickup Lag Limit, so those graph values are ignored while this is ON. OFF: the graph's own values are used.\"}"
+    - "// @input Component.RenderMeshVisual body {\"hint\":\"The toy's body (the object with the Render Mesh Visual). Leave empty to use the Visual of this toy's ToyConfig, or the parent of this object.\"}"
+    - "// @input float bodyFit = 0.8 {\"hint\":\"Unitless 0..1: how much of the body's box the glitter is allowed to use. A blob is rounder than its box, so 0.8 keeps pieces away from the thin corners. Lower = stays further from the surface.\"}"
+    - "// @input float clusterSize = 0.4 {\"hint\":\"Unitless 0..1: cluster size in the LOW state, compared with the room inside the toy. Lower = more bunched up in the middle. 0.5 = half the width and height of the toy's inside. 0.3 = a tight ball.\"}"
+    - '// @input float clusterMed = 0.6 {"hint":"Unitless 0..1: cluster size in the MEDIUM state (same scale as Cluster Size, which is the Low state). Bigger than Low = the glitter spreads as the music builds."}'
+    - '// @input float clusterHigh = 0.9 {"hint":"Unitless 0..1: cluster size in the HIGH state (same scale as Cluster Size). 1 = the glitter may use all the room inside the toy."}'
+    - '// @input float loudnessSpread = 0.1 {"hint":"Unitless 0..1: extra cluster size added at full loudness, on top of the state size, so the glitter pulses outward with the stem loudness. 0 = off."}'
+    - '// @input float spreadSeconds = 0.6 {"hint":"Seconds (s) the cluster takes to grow or shrink by its full range (0 to 1). Larger = slow, soft breathing. 0 = follows instantly."}'
+    - '// @input float outwardSpread = 0.7 {"hint":"Unitless 0..1: how much the glitter fans UPWARD AND OUTWARD like a fountain. 0 = old look (pieces curve back inward near the top). 1 = pieces fade out while still at their widest, so they only move up and out."}'
+    - "// @input float wanderCm = 0.2 {\"hint\":\"Centimetres (cm): the most a piece wanders from its home spot (the graph's Drift). Kept small so pieces stay bunched. It is reduced automatically if the toy is too small for it.\"}"
+    - "// @input float lagCm = 0.3 {\"hint\":\"Centimetres (cm): the furthest pickup movement can push a piece (the graph's Pickup Lag Limit). Reduced automatically if the toy is too small for it.\"}"
+    - "// @input float fallbackPieceCm = 0.1 {\"hint\":\"Centimetres (cm): used for the piece size only if it cannot be read from the graph. Normally the graph's Piece Size is used.\"}"
+    - '// @ui {"widget":"group_end"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">Movement per state</span>"}'
+    - '// @ui {"widget":"group_start", "label":"Movement per state"}'
+    - '// @input float riseSecondsLow = 10 {"hint":"Seconds (s) for one piece to rise from the bottom to the top of the cluster in the LOW state. Bigger = slower, calmer. The rise no longer depends on the cluster size."}'
+    - '// @input float riseSecondsMed = 6 {"hint":"Seconds (s) for one full rise in the MEDIUM state."}'
+    - '// @input float riseSecondsHigh = 3.5 {"hint":"Seconds (s) for one full rise in the HIGH state."}'
+    - "// @input float wanderSpeedLow = 0.5 {\"hint\":\"Unitless multiplier of the wandering speed (the graph's Drift Speed) in the LOW state. 1 = as set in the graph, 0.5 = half as fast.\"}"
+    - '// @input float wanderSpeedMed = 1 {"hint":"Unitless multiplier of the wandering speed in the MEDIUM state."}'
+    - '// @input float wanderSpeedHigh = 1.5 {"hint":"Unitless multiplier of the wandering speed in the HIGH state."}'
+    - '// @ui {"widget":"group_end"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">Music puff (upward only)</span>"}'
+    - '// @ui {"widget":"group_start", "label":"Music puff (upward only)"}'
+    - '// @input float puffStrength = 1.5 {"hint":"Unitless: how strongly a rise in the music loudness puffs the glitter UPWARD. 0 = off. It can only lift pieces, never push them down. Around 1 to 3 is a gentle puff."}'
+    - '// @input float puffSensitivity = 5 {"hint":"Unitless: how easily a small loudness rise triggers a puff. Higher = more puffs from smaller changes. Around 3 to 8."}'
+    - "// @input float puffSeconds = 0.35 {\"hint\":\"Seconds (s) for a puff's extra speed to ease back down to the normal rise (time constant, so the full coast is a few times longer). Larger = a longer, softer puff.\"}"
+    - '// @ui {"widget":"group_end"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">Pickup movement</span>"}'
+    - '// @ui {"widget":"group_start", "label":"Pickup movement"}'
+    - "// @input float motionSmoothSeconds = 0.12 {\"hint\":\"Seconds (s) used to smooth the toy's measured velocity and acceleration. Smaller = twitchier, larger = softer. 0 = no smoothing.\"}"
+    - '// @input float maxSpeed = 80 {"hint":"Largest toyVelocity sent, in cm/s. A fast hand move or a reset cannot send more than this."}'
+    - '// @input float maxAccel = 1500 {"hint":"Largest toyAccel sent, in cm/s^2. Keeps a sudden jump (for example Reset Toy Position) from flinging the pieces."}'
+    - '// @ui {"widget":"group_end"}'

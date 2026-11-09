@@ -1,0 +1,91 @@
+- !<AssetImportMetadata/183e964b-19f0-4221-ae28-bf9d2abb4fce>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> ed1d017c-423b-41f6-b0bb-abd6166a1147
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> ed1d017c-423b-41f6-b0bb-abd6166a1147
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 27353092-f844-4a69-ab57-6cd3d2d81e29
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/27353092-f844-4a69-ab57-6cd3d2d81e29>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  VersionPrerelease: ""
+  UpdateOrder: 0
+  ComponentUid: bfcfd583-84d9-41cc-946f-09a7706a681c
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    colliderHeight: false
+    colliderMargin: false
+    cornerRoundness: false
+    curveSteps: false
+    depth: false
+    endDepthPercent: false
+    fitCollider: false
+    innerCurveDepth: false
+    innerCurveRoundness: false
+    minGripThickness: false
+    visual: false
+    width: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - visual: !<reference.RenderMeshVisual> 00000000-0000-0000-0000-000000000000
+      width: !<float> 8.000000
+      depth: !<float> 3.000000
+      endDepthPercent: !<float> 35.000000
+      cornerRoundness: 0.600000
+      curveSteps: !<float> 24.000000
+      innerCurveDepth: 1.200000
+      innerCurveRoundness: 0.600000
+      minGripThickness: 0.800000
+      fitCollider: true
+      colliderHeight: 1.500000
+      colliderMargin: 0.500000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @input Component.RenderMeshVisual visual {"hint":"The RenderMeshVisual that shows the handle. Empty = the one on this object."}'
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">Handle shape</span>"}'
+    - '// @ui {"widget":"group_start", "label":"Handle shape"}'
+    - '// @input float width = 8 {"hint":"Width of the flat edge, left to right (cm).", "widget":"slider", "min":2, "max":20, "step":0.1}'
+    - '// @input float depth = 3 {"hint":"Depth at the centre, from the flat edge to the pull point toward the user (cm).", "widget":"slider", "min":0.5, "max":10, "step":0.1}'
+    - '// @input float endDepthPercent = 35 {"hint":"Taper: depth at the two ends as a percentage of the centre depth. 100 = no taper (a plain half rounded rectangle), 0 = the ends come to nothing (a pure half ellipse when Corner Roundness is 1). Percent.", "widget":"slider", "min":0, "max":100, "step":1}'
+    - '// @input float cornerRoundness = 0.6 {"hint":"Corner roundness. 1 = smooth half ellipse, 0 = nearly square corners. 0 to 1, no unit.", "widget":"slider", "min":0, "max":1, "step":0.01}'
+    - '// @input float curveSteps = 24 {"hint":"How many straight pieces make up the curved outline (more = smoother). Count.", "widget":"slider", "min":6, "max":64, "step":1}'
+    - '// @ui {"widget":"group_end"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">Inside curve (crescent)</span>"}'
+    - '// @ui {"widget":"group_start", "label":"Inside curve"}'
+    - '// @input float innerCurveDepth = 1.2 {"hint":"How far the inside (toy-facing) edge bows toward the user at the centre (cm). 0 = flat inside edge (no crescent). It is kept at least Min Grip Thickness below the outside edge.", "widget":"slider", "min":0, "max":8, "step":0.1}'
+    - '// @input float innerCurveRoundness = 0.6 {"hint":"Roundness of the inside curve. 1 = smooth half ellipse, 0 = squarish scoop with steep sides. 0 to 1, no unit.", "widget":"slider", "min":0, "max":1, "step":0.01}'
+    - '// @input float minGripThickness = 0.8 {"hint":"Thinnest allowed grip between the inside and outside edges (cm). The inside curve is never allowed closer than this to the outside edge.", "widget":"slider", "min":0.1, "max":3, "step":0.1}'
+    - '// @ui {"widget":"group_end"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">Touch box</span>"}'
+    - '// @ui {"widget":"group_start", "label":"Touch box"}'
+    - "// @input bool fitCollider = true {\"hint\":\"ON = this script sets the box collider on the parent (MoveHandle) to the handle's width and depth. OFF = you set the collider by hand in Lens Studio.\"}"
+    - '// @input float colliderHeight = 1.5 {"hint":"Collider height above and below the floor (cm). Only used when Fit Collider is ON.", "widget":"slider", "min":0.5, "max":6, "step":0.1}'
+    - '// @input float colliderMargin = 0.5 {"hint":"Extra collider margin added to the width and depth on every side (cm). A bigger box is easier to pinch. Only used when Fit Collider is ON.", "widget":"slider", "min":0, "max":5, "step":0.1}'
+    - '// @ui {"widget":"group_end"}'

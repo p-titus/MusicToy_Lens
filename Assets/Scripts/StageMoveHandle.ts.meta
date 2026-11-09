@@ -1,0 +1,46 @@
+- !<AssetImportMetadata/2874cd42-20d5-40ed-9020-f40ca4a7889f>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 46551e6e-26b6-4641-ba83-64f51183f850
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 46551e6e-26b6-4641-ba83-64f51183f850
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> ded8f211-3323-4709-9ffd-2dc9e7544673
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/ded8f211-3323-4709-9ffd-2dc9e7544673>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  VersionPrerelease: ""
+  UpdateOrder: 0
+  ComponentUid: f16bd6a5-db6d-461d-a663-72f3ecdce8c8
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    visual: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - visual: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - "// @input SceneObject visual {\"hint\":\"The handle's picture: a child object (for example a flat disc). It is scaled to Move Handle Size (cm) and hidden when moving is switched off. Swap its mesh or material freely. Empty = an invisible handle.\"}"

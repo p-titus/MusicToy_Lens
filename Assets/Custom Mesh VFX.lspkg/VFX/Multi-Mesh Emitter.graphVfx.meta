@@ -1,0 +1,40 @@
+- !<AssetImportMetadata/11879960-068f-8ee2-3f31-41e260ebeedd>
+  ImportedAssetIds:
+    VFXGraph: !<reference> 731fd72d-e5d1-49bf-a612-17d50768e218
+  ImporterName: VFXAssetImporter
+  PrimaryAsset: !<reference> 731fd72d-e5d1-49bf-a612-17d50768e218
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    AssetLibraryId: 6GcuV85wpCnK95hA6soD0c
+  AssetDataMap:
+    VFXGraph: !<own> 9e513bfb-89c8-47e2-be9a-4707893f5bbf
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<VFXAssetData/9e513bfb-89c8-47e2-be9a-4707893f5bbf>
+  SystemPassProperties:
+    0: !<VFXSystemPassProperties>
+      PassPropertiesMap:
+        render_0_0: !<VFXPassProperties>
+          PropertyMap:
+            numberMeshes:
+              typeIdx: 1
+              value: 5.000000
+          Defines:
+            - NODE_31_DROPLIST_ITEM 0
+          Mesh: !<reference> adad497b-b843-4bba-8a00-69bba31ab830
+        simulate_0: !<VFXPassProperties>
+          PropertyMap:
+            {}
+          Defines:
+            - NODE_31_DROPLIST_ITEM 0
+          Mesh: !<reference> 00000000-0000-0000-0000-000000000000
+        feedback_0: !<VFXPassProperties>
+          PropertyMap:
+            {}
+          Defines:
+            - NODE_31_DROPLIST_ITEM 0
+          Mesh: !<reference> 00000000-0000-0000-0000-000000000000

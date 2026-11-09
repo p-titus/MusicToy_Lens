@@ -1,0 +1,211 @@
+- !<AssetImportMetadata/d3c2fb1f-dabc-4278-9c7b-8fdd5b7ef3c6>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> b2a0cc2d-2098-459f-bd8a-ace8dc985d44
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> b2a0cc2d-2098-459f-bd8a-ace8dc985d44
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 8719893d-7874-4dc9-b327-ead5ce4fc6f3
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/8719893d-7874-4dc9-b327-ead5ce4fc6f3>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  VersionPrerelease: ""
+  UpdateOrder: 0
+  ComponentUid: 0db16fa0-e5e2-467e-a9f9-90f442260a3b
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    bandMixKick: false
+    bandMixSway: false
+    bandMixVfx: false
+    bandSplitHz: false
+    bendAmount: false
+    bendAxis: false
+    bounceCm: false
+    damping: false
+    dimpleCount: false
+    dimpleDepth: false
+    dimpleSize: false
+    driftSpeed: false
+    feelSeed: false
+    flattenBottom: false
+    grabStretch: false
+    hitSpacing: false
+    kickDamping: false
+    kickHz: false
+    landSquash: false
+    levelFloor: false
+    lumpAmp: false
+    lumpCount: false
+    lumpSize: false
+    motionClass: false
+    noiseAmount: false
+    noiseScale: false
+    noiseSpeed: false
+    onsetSensitivity: false
+    pokeSquash: false
+    reactAmount: false
+    ridgeAmp: false
+    ridgeCount: false
+    ridgeDirection: false
+    ruffleAmp: false
+    ruffleBand: false
+    ruffleBandWidth: false
+    ruffleCount: false
+    ruffleSoftness: false
+    ruffleTwist: false
+    scalePulse: false
+    seed: false
+    settleSeconds: false
+    squareness: false
+    squishBulge: false
+    squishHz: false
+    sustain: false
+    swayAmount: false
+    taper: false
+    wobbleDegrees: false
+    wobbleHz: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - taper: !<float> 0.000000
+      bendAmount: !<float> 0.000000
+      bendAxis: !<float> 0.000000
+      flattenBottom: !<float> 0.000000
+      squareness: !<float> 0.000000
+      ruffleCount: !<float> 0.000000
+      ruffleAmp: 0.020000
+      ruffleSoftness: 0.800000
+      ruffleBand: !<float> 0.000000
+      ruffleBandWidth: 0.600000
+      ruffleTwist: !<float> 0.000000
+      lumpCount: !<float> 0.000000
+      lumpAmp: 0.030000
+      lumpSize: 0.450000
+      seed: !<float> 0.000000
+      dimpleCount: !<float> 0.000000
+      dimpleDepth: 0.025000
+      dimpleSize: 0.300000
+      ridgeCount: !<float> 0.000000
+      ridgeAmp: 0.015000
+      ridgeDirection: !<float> 0.000000
+      motionClass: !<float> 0.000000
+      reactAmount: !<float> 1.000000
+      scalePulse: 0.150000
+      bounceCm: 0.500000
+      wobbleDegrees: !<float> 6.000000
+      wobbleHz: 1.100000
+      onsetSensitivity: 0.600000
+      sustain: 0.200000
+      levelFloor: !<float> 0.000000
+      hitSpacing: 0.100000
+      bandSplitHz: !<float> 0.000000
+      bandMixKick: !<float> 0.000000
+      bandMixSway: 0.500000
+      bandMixVfx: !<float> 1.000000
+      kickHz: 3.500000
+      kickDamping: 0.700000
+      swayAmount: 0.070000
+      noiseAmount: 0.010000
+      noiseScale: !<float> 2.000000
+      noiseSpeed: 0.400000
+      pokeSquash: 0.220000
+      landSquash: 0.160000
+      grabStretch: 0.070000
+      squishBulge: 0.500000
+      squishHz: 4.500000
+      damping: 0.600000
+      driftSpeed: !<float> 4.000000
+      settleSeconds: 0.450000
+      feelSeed: !<float> 0.000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @ui {"widget":"group_start", "label":"Form (silhouette)"}'
+    - '// @input float taper {"hint":"Narrows the top (positive: teardrop, pear) or the bottom (negative: mushroom). Unitless, -1 to 1. 0 = none. Range -1 to 1.", "widget":"slider", "min":-1, "max":1, "step":0.01}'
+    - '// @input float bendAmount {"hint":"Curls the blob along the Bend Axis. Positive: both ends curl up like a smile, negative: down. Unitless, -1 to 1. 0 = none. Range -1 to 1.", "widget":"slider", "min":-1, "max":1, "step":0.01}'
+    - '// @input float bendAxis {"hint":"Which way the bend runs: left-right (x) or front-back (z).", "widget":"combobox", "values":[{"label":"Left-right (x)", "value":0}, {"label":"Front-back (z)", "value":1}]}'
+    - '// @input float flattenBottom {"hint":"Flattens the underside so the blob sits on its pad. Unitless, 0 to 1. 0 = round. Range 0 to 1.", "widget":"slider", "min":0, "max":1, "step":0.01}'
+    - '// @input float squareness {"hint":"Pulls the round blob toward a soft cube / pillow. Unitless, 0 to 1. 0 = round. Range 0 to 1.", "widget":"slider", "min":0, "max":1, "step":0.01}'
+    - '// @ui {"widget":"group_end"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"group_start", "label":"Surface: ruffles"}'
+    - '// @input float ruffleCount {"hint":"Number of soft folds around the blob. 0 = no ruffles. Whole number. Range 0 to 10 (creased folds look cleanest up to about 8).", "widget":"slider", "min":0, "max":10, "step":1}'
+    - "// @input float ruffleAmp = 0.02 {\"hint\":\"How high the folds are, as a fraction of the blob's longest side (0.02 = 2%, about 0.8 mm on a 4 cm blob; 0.15 = 6 mm). Capped at 0.15. Range 0 to 0.15.\", \"widget\":\"slider\", \"min\":0, \"max\":0.15, \"step\":0.001}"
+    - '// @input float ruffleSoftness = 0.8 {"hint":"0 = creased folds, 1 = smooth rounded waves. Unitless. Range 0 to 1.", "widget":"slider", "min":0, "max":1, "step":0.01}'
+    - '// @input float ruffleBand {"hint":"Where the ruffles sit: -1 = bottom, 0 = middle, 1 = top. Unitless. Range -1 to 1.", "widget":"slider", "min":-1, "max":1, "step":0.01}'
+    - '// @input float ruffleBandWidth = 0.6 {"hint":"How tall the ruffle band is (0.1 = a thin ring, 2 = the whole blob). Unitless. Range 0.1 to 2.", "widget":"slider", "min":0.1, "max":2, "step":0.01}'
+    - '// @input float ruffleTwist {"hint":"Spirals the folds up the blob. Unitless, -1 to 1 (about half a turn over the full height at 1). 0 = straight. Range -1 to 1.", "widget":"slider", "min":-1, "max":1, "step":0.01}'
+    - '// @ui {"widget":"group_end"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"group_start", "label":"Surface: lumps"}'
+    - '// @input float lumpCount {"hint":"Number of soft bumps, like keys or a pile of beans. 0 = none. Range 0 to 20.", "widget":"slider", "min":0, "max":20, "step":1}'
+    - "// @input float lumpAmp = 0.03 {\"hint\":\"How far the bumps stand out, as a fraction of the blob's longest side. Capped at 0.15 (0.15 = 6 mm on a 4 cm blob). Range 0 to 0.15.\", \"widget\":\"slider\", \"min\":0, \"max\":0.15, \"step\":0.001}"
+    - '// @input float lumpSize = 0.3 {"hint":"How wide each bump is, as a fraction of the gap between neighbouring bumps, so it looks the same at any Count. Unitless. 0.3 = clearly separate bumps, 0.5 = starting to merge. Range 0.1 to 0.5.", "widget":"slider", "min":0.1, "max":0.5, "step":0.01}'
+    - '// @input float seed {"hint":"Pattern seed for the lumps and dimples: the same seed always gives the same pattern. Whole number. Range 0 to 9999.", "widget":"slider", "min":0, "max":9999, "step":1}'
+    - '// @ui {"widget":"group_end"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"group_start", "label":"Surface: dimples"}'
+    - '// @input float dimpleCount {"hint":"Number of little pressed-in spots. 0 = none. Range 0 to 12.", "widget":"slider", "min":0, "max":12, "step":1}'
+    - "// @input float dimpleDepth = 0.025 {\"hint\":\"How deep the spots are, as a fraction of the blob's longest side. Capped at 0.10 (0.10 = 4 mm on a 4 cm blob). Range 0 to 0.10.\", \"widget\":\"slider\", \"min\":0, \"max\":0.1, \"step\":0.001}"
+    - '// @input float dimpleSize = 0.3 {"hint":"How wide each spot is, as a fraction of the gap between neighbouring spots. Unitless. 0.3 = clearly separate spots, 0.5 = starting to merge. Range 0.1 to 0.5.", "widget":"slider", "min":0.1, "max":0.5, "step":0.01}'
+    - '// @ui {"widget":"group_end"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"group_start", "label":"Surface: ridges"}'
+    - '// @input float ridgeCount {"hint":"Number of soft stripes. 0 = none. Whole number. Range 0 to 10 (rings around the blob look cleanest up to about 5).", "widget":"slider", "min":0, "max":10, "step":1}'
+    - "// @input float ridgeAmp = 0.015 {\"hint\":\"How high the stripes are, as a fraction of the blob's longest side. Capped at 0.08 (0.08 = 3 mm on a 4 cm blob). Range 0 to 0.08.\", \"widget\":\"slider\", \"min\":0, \"max\":0.08, \"step\":0.001}"
+    - '// @input float ridgeDirection {"hint":"Stripes run top to bottom, or as rings around the blob.", "widget":"combobox", "values":[{"label":"Top to bottom", "value":0}, {"label":"Rings around", "value":1}]}'
+    - '// @ui {"widget":"group_end"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">Feel (how this toy moves)</span>"}'
+    - '// @ui {"widget":"group_start", "label":"Feel (this toy)"}'
+    - '// @input float motionClass {"hint":"Music Class: a ready-made set of the MUSIC motion values (Scale Pulse, Bounce, Wobble, Wobble Hz, Onset Sensitivity, Sustain, Level Floor, Hit Spacing, Kick Hz, Kick Damping, Sway, Noise, Noise Scale, Noise Speed). While a class is chosen it REPLACES those sliders. Custom uses the sliders as typed. Poke, landing and grab values are never changed.", "widget":"combobox", "values":[{"label":"Custom (my sliders)", "value":0}, {"label":"Strings (slow, flowing)", "value":1}, {"label":"Piano (even, gentle)", "value":2}, {"label":"Chimes / FX (shimmery)", "value":3}, {"label":"Percussion (snappy)", "value":4}]}'
+    - '// @input float reactAmount = 1 {"hint":"How strongly this toy reacts to its own stem. Unitless, 1 = normal. Range 0 to 2 (the Comfort Limiter caps the result).", "widget":"slider", "min":0, "max":2, "step":0.01}'
+    - '// @input float scalePulse = 0.15 {"hint":"How far a full-strength hit pops the shape, as a fraction (0.15 = 15% taller and thinner, volume kept). Range 0 to 0.3.", "widget":"slider", "min":0, "max":0.3, "step":0.005}'
+    - '// @input float bounceCm = 0.5 {"hint":"Bounce height at full music level (cm). Range 0 to 1.", "widget":"slider", "min":0, "max":1, "step":0.01}'
+    - '// @input float wobbleDegrees = 6 {"hint":"How far a hit rocks the toy (degrees), tilting around its base. Range 0 to 10.", "widget":"slider", "min":0, "max":10, "step":0.1}'
+    - '// @input float wobbleHz = 1.1 {"hint":"Base rocking speed (Hz = rocks per second). Feel Seed nudges it by up to 15% so toys never sway together. Range 0.3 to 1.6.", "widget":"slider", "min":0.3, "max":1.6, "step":0.01}'
+    - '// @input float onsetSensitivity = 0.6 {"hint":"How quiet a hit can be and still kick this toy. Unitless, 0 to 1 (higher = reacts to more, softer hits).", "widget":"slider", "min":0, "max":1, "step":0.01}'
+    - '// @input float sustain = 0.2 {"hint":"How much steady loudness (not hits) leans the toy. Fraction, 0 to 1. 0 = only hits move it.", "widget":"slider", "min":0, "max":1, "step":0.01}'
+    - "// @input float levelFloor {\"hint\":\"This toy's own quiet cut-off for the music reading (RMS loudness, unitless, 0 to 0.02). Stem loudness below it counts as silence. 0 = use StageConfig > Level Floor (0.005). Very quiet stems such as chimes need about 0.0005.\", \"widget\":\"slider\", \"min\":0, \"max\":0.02, \"step\":0.0001}"
+    - '// @input float hitSpacing = 0.1 {"hint":"The shortest time between two hits (seconds). Range 0.05 to 1. Raise it for sustained, always-loud stems (strings) so the toy flows instead of jittering.", "widget":"slider", "min":0.05, "max":1, "step":0.01}'
+    - "// @input float bandSplitHz {\"hint\":\"Split this toy's stem into LOWS and HIGHS at this frequency (Hz). 0 = off: everything follows one loudness, as before. Try 250 to 400. Below about 150 the reading is too short to separate bass. The three sliders below choose what follows which band.\", \"widget\":\"slider\", \"min\":0, \"max\":8000, \"step\":10}"
+    - "// @input float bandMixKick {\"hint\":\"What the KICK (the pop, bounce and scale hits, plus the material's audioLevel and glow) follows. Unitless, 0 to 1: 0 = lows only, 0.5 = both equally, 1 = highs only. Only works while Band Split Hz is above 0.\", \"widget\":\"slider\", \"min\":0, \"max\":1, \"step\":0.01}"
+    - '// @input float bandMixSway = 0.5 {"hint":"What the SWAY (the rocking and tilting hits, and the shader sway) follows. Unitless, 0 to 1: 0 = lows only, 0.5 = both equally, 1 = highs only. Only works while Band Split Hz is above 0.", "widget":"slider", "min":0, "max":1, "step":0.01}'
+    - '// @input float bandMixVfx = 1 {"hint":"What the glitter VFX follows. Unitless, 0 to 1: 0 = lows only, 0.5 = both equally, 1 = highs only. Only works while Band Split Hz is above 0.", "widget":"slider", "min":0, "max":1, "step":0.01}'
+    - '// @input float kickHz = 3.5 {"hint":"Speed of the beat spring (Hz = pops per second). Higher = snappier. Range 1 to 8 (the Comfort Limiter caps it at its Fastest Spring).", "widget":"slider", "min":1, "max":8, "step":0.05}'
+    - '// @input float kickDamping = 0.7 {"hint":"How quickly the beat spring settles, unitless. Always below 1. About 0.7 = a slight overshoot, lower = jelly, higher = cushion. Range 0.4 to 0.95 (the Comfort Limiter sets the lowest allowed).", "widget":"slider", "min":0.4, "max":0.95, "step":0.01}'
+    - "// @input float swayAmount = 0.07 {\"hint\":\"Shader deform only: how far the tips sway on a hit, as a fraction of the blob's longest side (0.07 = 2.8 mm on a 4 cm blob). Range 0 to 0.25.\", \"widget\":\"slider\", \"min\":0, \"max\":0.25, \"step\":0.005}"
+    - "// @input float noiseAmount = 0.01 {\"hint\":\"Shader deform only: surface ripple size, as a fraction of the blob's longest side (0.01 = 0.4 mm on a 4 cm blob). Range 0 to 0.06.\", \"widget\":\"slider\", \"min\":0, \"max\":0.06, \"step\":0.001}"
+    - '// @input float noiseScale = 2 {"hint":"Shader deform only: ripple fineness, in noise cycles across the blob (unitless). Higher = finer. Range 0.5 to 6.", "widget":"slider", "min":0.5, "max":6, "step":0.1}'
+    - '// @input float noiseSpeed = 0.4 {"hint":"Shader deform only: how fast the ripples drift (x, 1 = normal speed). Range 0 to 3.", "widget":"slider", "min":0, "max":3, "step":0.05}'
+    - '// @input float pokeSquash = 0.22 {"hint":"How much a poke squashes this toy, as a fraction (0.2 = 20% flatter). Range 0 to 0.35.", "widget":"slider", "min":0, "max":0.35, "step":0.005}'
+    - '// @input float landSquash = 0.16 {"hint":"How much touching down on the stage squashes it, as a fraction. Range 0 to 0.35.", "widget":"slider", "min":0, "max":0.35, "step":0.005}'
+    - '// @input float grabStretch = 0.07 {"hint":"How much holding it stretches it taller, as a fraction (0.07 = 7%). Range 0 to 0.25.", "widget":"slider", "min":0, "max":0.25, "step":0.005}'
+    - '// @input float squishBulge = 0.5 {"hint":"Sideways bulge when squashed, unitless. 0.5 keeps the volume about the same. Range 0 to 1.", "widget":"slider", "min":0, "max":1, "step":0.01}'
+    - '// @input float squishHz = 4.5 {"hint":"Springiness speed (Hz = wobbles per second). Higher = tighter, quicker jiggle. Range 1 to 7.", "widget":"slider", "min":1, "max":7, "step":0.05}'
+    - '// @input float damping = 0.6 {"hint":"How quickly the springy wobble fades, unitless. Always below 1 so the blob springs past rest and wobbles back. Low = jelly, high = soft cushion. Range 0.3 to 0.9 (the Comfort Limiter sets the lowest allowed).", "widget":"slider", "min":0.3, "max":0.9, "step":0.01}'
+    - '// @input float driftSpeed = 4 {"hint":"How fast it falls back to the stage after you let go (cm per second). Range 1 to 8.", "widget":"slider", "min":1, "max":8, "step":0.1}'
+    - '// @input float settleSeconds = 0.45 {"hint":"How long the landing settle takes (seconds). Range 0.2 to 1.2.", "widget":"slider", "min":0.2, "max":1.2, "step":0.01}'
+    - '// @input float feelSeed {"hint":"Gives this toy its own wobble rate and starting phase. Whole number, 0 to 9999. Use a different number on every toy.", "widget":"slider", "min":0, "max":9999, "step":1}'
+    - '// @ui {"widget":"group_end"}'

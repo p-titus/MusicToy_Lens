@@ -1,0 +1,52 @@
+- !<AssetImportMetadata/b22708f4-4e5c-473f-b99a-4aa52ec17cdc>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> def428e4-43d0-4dad-8670-75f829e013b0
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> def428e4-43d0-4dad-8670-75f829e013b0
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 115256a9-bb4a-45bb-8e24-9157e557878c
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/115256a9-bb4a-45bb-8e24-9157e557878c>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  VersionPrerelease: ""
+  UpdateOrder: 0
+  ComponentUid: fee5ac46-62b8-4444-8225-e7ba34849331
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    alsoResetSockets: false
+    buttonObject: false
+    cooldownSeconds: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - buttonObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      cooldownSeconds: !<float> 1.000000
+      alsoResetSockets: true
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @input SceneObject buttonObject {"hint":"The button object. It (or one of its children) needs an Interactable. Empty = this object."}'
+    - '// @input float cooldownSeconds = 1 {"hint":"Seconds (s) after a press during which another press is ignored, so a double tap does not call twice."}'
+    - '// @input bool alsoResetSockets = true {"hint":"ON: pressing also puts every socket back at its starting Home Position (the same as ticking StageConfig > Sockets > Reset Sockets), so each toy floats back to its original spot, even a socket you dragged. OFF: toys only return to their current sockets."}'

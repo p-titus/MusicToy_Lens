@@ -1,0 +1,96 @@
+- !<AssetImportMetadata/0e9fa404-41ae-496c-a1f8-eb4427959e2d>
+  ImportedAssetIds:
+    12825afca07cde7e: !<reference> bafd1e79-a686-4f44-82e0-3b34e1355778
+    26ba073d67b9d0dd: !<reference> 7505e120-ab5c-4144-a76a-d5894d40f65f
+    6cd0dda353f865f6: !<reference> 25564f4d-535c-4cd6-8b39-b40af97b290f
+    Meshes/FlatBlob: !<reference> 2c381e08-1c12-4c59-bbef-0b737810f457
+    Scene: !<reference> 70db619a-50e7-48bf-aa94-30672e37be43
+  ImporterName: FbxImporter
+  PrimaryAsset: !<reference> 70db619a-50e7-48bf-aa94-30672e37be43
+  PackageType: LegacyPackage
+  LegacyPackagePolicy: CanBeUnpackedTransparent
+  ExtraData:
+    {}
+  AssetDataMap:
+    Scene: !<own> dc94896a-c102-47cf-8dfd-a305dfeb81d8
+  DependentFiles:
+    []
+  ImporterSettings: !<FbxImporterSettings>
+    UseLegacyImporter: false
+    WithMaterials: false
+    NamingConvention: ByCategorySanitizeV2
+    PersistentIdGenerationAlgorithm: DescriptorBasedV2
+    AnimationCurveOptimization: true
+    CustomAnimationSamplingRate: 30.000000
+    ImportVertexColor: true
+    ImportTangentsAndBinormals: true
+    RegenerateTangentsAndBinormals: false
+    RegenerateNormalsForSkinnedMeshes: true
+    ImportBlendShapeAnimation: false
+    ImportVertexAnimation: false
+    GeneratePivots: true
+    TriangulateNURBS: false
+    UseLegacyFbxLoader: false
+  CompressionSettings: !<ComplexCompressionSettings>
+    Presets:
+      None Compression: !<FileCompressionSettings>
+        {}
+    ExtensionMappings:
+      mesh: None Compression
+    Overrides:
+      {}
+- !<SceneObject/25564f4d-535c-4cd6-74c6-4bf50684d6f0>
+  PrefabRemaps:
+    []
+  Name: FlatBlob
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: -90.000000, y: -0.000000, z: 0.000000}
+    Scale: {x: 100.000000, y: 100.000000, z: 100.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> bafd1e79-a686-4f44-7d1f-c4cb1ecaa887
+- !<SceneObject/7505e120-ab5c-4144-5895-2a76b2bf09a0>
+  PrefabRemaps:
+    []
+  Name: Blob_03
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 25564f4d-535c-4cd6-74c6-4bf50684d6f0
+  Components:
+    []
+- !<RenderMeshVisual/bafd1e79-a686-4f44-7d1f-c4cb1ecaa887>
+  PrefabRemaps:
+    []
+  Name: component_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    []
+  Mesh: !<reference> 2c381e08-1c12-4c59-bbef-0b737810f457
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<ObjectPrefabAssetData/dc94896a-c102-47cf-8dfd-a305dfeb81d8>
+  Prototype: !<ObjectOwner/c15127a7-e6dd-47fe-9169-891fa057dc7e>
+    PackagePath: ""
+    objects:
+      - !<own> 7505e120-ab5c-4144-5895-2a76b2bf09a0

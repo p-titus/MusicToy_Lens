@@ -1,0 +1,55 @@
+- !<AssetImportMetadata/b63397ae-abb8-4b40-8cc6-f9de921c795b>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> bacadc0d-85b2-4196-8a43-c0a8c3795148
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> bacadc0d-85b2-4196-8a43-c0a8c3795148
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 9675c873-107a-4273-a0d4-6a609ccded1f
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/9675c873-107a-4273-a0d4-6a609ccded1f>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  VersionPrerelease: ""
+  UpdateOrder: 0
+  ComponentUid: 4c0633cc-ae47-41ad-a37a-c33d226c6d54
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    aliveScale: false
+    glowCoolDownSeconds: false
+    glowWarmUpSeconds: false
+    leanScale: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - glowWarmUpSeconds: 1.500000
+      glowCoolDownSeconds: !<float> 3.000000
+      aliveScale: !<float> 1.000000
+      leanScale: !<float> 1.000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @input float glowWarmUpSeconds = 1.5 {"hint":"Glow warm-up: seconds (s) for the core glow (coreHeat) to rise toward the loudness. Larger = slower rise."}'
+    - '// @input float glowCoolDownSeconds = 3 {"hint":"Glow cool-down: seconds (s) for the core glow (coreHeat) to fall when the music gets quieter. Larger = slower fade."}'
+    - '// @input float aliveScale = 1 {"hint":"Alive glow scale for THIS toy (unitless multiplier, 1 = the StageConfig > Alive and hover values; 0 = this toy has no resting or near glow). Scales both the breathing glow while off and the rise when a hand is near."}'
+    - '// @input float leanScale = 1 {"hint":"Lean scale for THIS toy (unitless multiplier, 1 = the StageConfig > Alive and hover lean; 0 = this toy never leans; 2 = leans twice as far)."}'

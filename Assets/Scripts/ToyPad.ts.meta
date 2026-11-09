@@ -1,0 +1,122 @@
+- !<AssetImportMetadata/99e39ba4-7ed7-4094-9ff1-b87bf6914108>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> a9d0582a-2b26-4476-a877-1f63c8b8d916
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> a9d0582a-2b26-4476-a877-1f63c8b8d916
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> afbde7b2-add3-434f-922b-3ab400942fba
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/afbde7b2-add3-434f-922b-3ab400942fba>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  VersionPrerelease: ""
+  UpdateOrder: 0
+  ComponentUid: 61fad23c-56db-47de-80b7-45028dd6dc7f
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    arcHit: false
+    arcVisual: false
+    baseColor: false
+    baseHit: false
+    baseVisual: false
+    buttonAngle: false
+    colourHigh: false
+    colourLow: false
+    colourMedium: false
+    colourOff: false
+    colourParam: false
+    colourSeconds: false
+    homeSizeOverride: false
+    offset: false
+    padVisual: false
+    resetPadColours: false
+    resetPadPosition: false
+    resetSocket: false
+    rippleVisual: false
+    toy: false
+    useDefaultOffset: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - toy: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      padVisual: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      baseVisual: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      baseHit: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      arcVisual: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      arcHit: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      useDefaultOffset: true
+      offset: !<Vec2> {x: 0.000000, y: 5.000000}
+      resetPadPosition: false
+      resetSocket: false
+      buttonAngle: !<float> 0.000000
+      baseColor: !<Vec4> {x: 0.620000, y: 0.820000, z: 1.000000, w: 1.000000}
+      colourOff: !<Vec4> {x: 0.256000, y: 0.277000, z: 0.296000, w: 1.000000}
+      colourLow: !<Vec4> {x: 0.434000, y: 0.525000, z: 0.607000, w: 1.000000}
+      colourMedium: !<Vec4> {x: 0.558000, y: 0.738000, z: 0.900000, w: 1.000000}
+      colourHigh: !<Vec4> {x: 0.715000, y: 0.865000, z: 1.000000, w: 1.000000}
+      colourSeconds: 0.150000
+      colourParam: baseColor
+      resetPadColours: false
+      homeSizeOverride: !<float> 0.000000
+      rippleVisual: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @input SceneObject toy {"hint":"The toy this pad controls (a Toy_xx object with ToyVolume)."}'
+    - "// @input SceneObject padVisual {\"hint\":\"The STRIP's artwork (old look, hidden when the arc is in use): a child object with a RenderMeshVisual. The script gives it the strip shape from StageConfig > Pads (or the mesh in Pad Strip Mesh), lifted by Pad Lift, sinking a little when pressed. Swap its material freely.\"}"
+    - '// @input SceneObject baseVisual {"hint":"The small circle under the toy, like a shadow: a child object with a RenderMeshVisual. The script gives it the circle shape from StageConfig > Pads (or the mesh in Pad Base Mesh). It follows the toy. Empty = no circle."}'
+    - '// @input SceneObject baseHit {"hint":"A child object holding a ColliderComponent for the circle under the toy (used only if StageConfig > Pad Base Touchable is on). Keep its scale at 1: the script sizes the collider. Empty = the circle cannot be touched."}'
+    - "// @input SceneObject arcVisual {\"hint\":\"The ARC's artwork: a child object with a RenderMeshVisual that uses your Arc_Mat and the flat quad mesh (Pad_Plane.mesh). The script sizes it (StageConfig > Arc dial tab > Arc Quad Size, cm), lays it on the ring and turns it to face you every frame. Empty = no arc (the old strip is used).\"}"
+    - "// @input SceneObject arcHit {\"hint\":\"The ARC's touch box: a child object with a ColliderComponent (any box; keep its scale at 1). The script sizes it to the arc, places it on the arc and turns it with the arc. Empty = no arc (the old strip is used).\"}"
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">Pad position</span>"}'
+    - '// @ui {"widget":"group_start", "label":"Pad position (this pad)"}'
+    - '// @input bool useDefaultOffset = true {"hint":"ON: this pad uses the default offset from its toy (StageConfig > Pads > Pad Front Offset, straight toward the front of the stage). OFF: it uses the Offset below."}'
+    - "// @input vec2 offset = {0,5} {\"hint\":\"This pad's own offset from its toy (cm), in the stage's own directions: x = right, y = toward you (front of the stage; the stage's fixed front, it does not turn with the toy). Used only when 'Use Default Offset' is OFF.\"}"
+    - '// @input bool resetPadPosition {"hint":"Tick to put THIS pad back at the default offset from its toy. It un-ticks itself in the Lens. Changes nothing else (not its colours, not its toy)."}'
+    - '// @input bool resetSocket {"hint":"Tick to put THIS socket (ring, arc and toy) back at its Home Position, undoing any dragging. It un-ticks itself in the Lens. Changes nothing else."}'
+    - "// @input float buttonAngle {\"hint\":\"Where THIS toy's dial button sits around its ring, as an angle in degrees ON TOP OF facing you. 0 = on the side facing you (as before). Positive turns it toward the stage's right, negative toward its left; 180 = the far side. The user can turn it by hand (hold the button, then drag around the ring); that stays until Reset Sockets or Call Home. Changing this number while the Lens runs sets the button to it again.\"}"
+    - '// @ui {"widget":"group_end"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">Pad colours</span>"}'
+    - '// @ui {"widget":"group_start", "label":"Pad colours (this pad, per state)"}'
+    - "// @input vec4 baseColor = {0.62,0.82,1,1} {\"hint\":\"Base colour (RGBA) the default colour set is made from. Changing it does nothing by itself: tick 'Reset Pad Colours' (below, or in StageConfig for all pads) to rebuild the four colours from it.\", \"widget\":\"color\"}"
+    - "// @input vec4 colourOff = {0.256,0.277,0.296,1} {\"hint\":\"Pad colour when its toy is OFF (RGBA). Default: dim and desaturated. Independent of the toy's own colours.\", \"widget\":\"color\"}"
+    - '// @input vec4 colourLow = {0.434,0.525,0.607,1} {"hint":"Pad colour in the LOW state (RGBA).", "widget":"color"}'
+    - '// @input vec4 colourMedium = {0.558,0.738,0.9,1} {"hint":"Pad colour in the MEDIUM state (RGBA).", "widget":"color"}'
+    - '// @input vec4 colourHigh = {0.715,0.865,1,1} {"hint":"Pad colour in the HIGH state (RGBA). Default: the brightest.", "widget":"color"}'
+    - '// @input float colourSeconds = 0.15 {"hint":"Seconds the colour takes to blend when the state changes (seconds). 0 = instant."}'
+    - "// @input string colourParam = \"baseColor\" {\"hint\":\"Name of the material parameter that receives the colour (a colour/vec4 parameter, for example baseColor). Change it to match your own material. The pad's material is copied first, so your asset is never edited. A warning is printed once if the name is not found.\"}"
+    - "// @input bool resetPadColours {\"hint\":\"Tick to put THIS pad's four colours back to the default set made from Base Color. It un-ticks itself in the Lens. Changes nothing else.\"}"
+    - '// @ui {"widget":"group_end"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">Home marker</span>"}'
+    - '// @ui {"widget":"group_start", "label":"Home marker (this pad)"}'
+    - "// @input float homeSizeOverride {\"hint\":\"Drawn size of THIS pad's home quad (cm, square). 0 = use StageConfig > Home > Home Quad Size. Picture only: it never changes stage spacing.\"}"
+    - '// @ui {"widget":"group_end"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">Ripple</span>"}'
+    - '// @ui {"widget":"group_start", "label":"Ripple (this pad)"}'
+    - '// @input SceneObject rippleVisual {"hint":"The Ripple object under this pad: a child with a RenderMeshVisual using your Ripple_Mat, kept DISABLED in the scene (the script enables it only while a wave plays). The script sizes it (StageConfig > Ripples > Ripple Size, cm) and places it flat at the socket. Empty = no waves from this socket."}'
+    - '// @ui {"widget":"group_end"}'

@@ -1,0 +1,441 @@
+- !<ObjectPrefab/0632871a-e044-423d-9afa-eae87daa7cc0>
+  PackagePath: ""
+  objects:
+    - !<own> fda985e2-0001-4c00-8c2e-28eac0e575b9
+  LazyLoading: false
+  RetainAssets: true
+  PreviewEnvironment: !<reference> 00000000-0000-0000-0000-000000000000
+- !<ScriptComponent/278e60ed-ebc5-433b-9052-6c9b938b7c91>
+  PrefabRemaps:
+    []
+  Name: ToyVolume
+  Enabled: true
+  ScriptAsset: !<reference> 8c804ff5-8227-4073-8c2f-1a30c9a31db3
+  ScriptInputsDefault:
+    {}
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      {}
+  ScriptTypes:
+    "":
+      {}
+- !<ScriptComponent/2daeaea2-5892-4fd4-817a-ba5fdf7d392d>
+  PrefabRemaps:
+    []
+  Name: ToyConfig
+  Enabled: true
+  ScriptAsset: !<reference> 91036694-2ad3-4395-95b1-f9e00583ac04
+  ScriptInputsDefault:
+    restHeight: true
+    shapeProportions: true
+    sizeMultiplier: true
+    visualOffset: true
+    visualRotation: true
+    autoRestOnFloor: true
+    footprintOverride: true
+    colliderSizeOverride: true
+    blobLook: true
+    resetToyPosition: true
+    overrideVolumes: true
+    volumes: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      stem: !<reference.AudioTrackAsset> 78ec6b8b-1a27-4026-b671-636a200ef03b
+      visual: !<reference.SceneObject> 5faa5671-f593-403b-b7a8-fc1f2612a704
+      restHeight: !<float> 0.000000
+      homePosition: !<Vec3> {x: -2.500000, y: 0.000000, z: -14.000000}
+      fitToMeshBounds: true
+      shapeProportions: !<Vec3> {x: 1.000000, y: 1.000000, z: 1.000000}
+      sizeMultiplier: !<float> 1.000000
+      visualOffset: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
+      visualRotation: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
+      autoRestOnFloor: true
+      footprintOverride: !<float> 0.000000
+      colliderSizeOverride: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
+      blobLook: true
+      blobSeconds: !<float> 2.000000
+      shaderDeformMode: !<float> 1.000000
+      resetToyPosition: false
+      overrideVolumes: false
+      volumes: !<Vec4> {x: 0.000000, y: 0.250000, z: 0.550000, w: 1.000000}
+  ScriptTypes:
+    "":
+      {}
+- !<RenderMeshVisual/2e5217ea-831c-4353-aacd-f222fdedee5d>
+  PrefabRemaps:
+    []
+  Name: Render Mesh Visual
+  Enabled: true
+  RenderOrder: 2
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 73db5c49-d6c5-4339-bdbc-fc1a918a4491
+  Mesh: !<reference> 2c381e08-1c12-4c59-bbef-0b737810f457
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<ScriptComponent/301712ef-a8a5-4a5f-8215-acedaf825240>
+  PrefabRemaps:
+    []
+  Name: ToyInteraction
+  Enabled: true
+  ScriptAsset: !<reference> 56a13ea5-6963-4b69-babe-c7eaed605421
+  ScriptInputsDefault:
+    {}
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      {}
+  ScriptTypes:
+    "":
+      {}
+- !<AudioComponent/4efdf9c0-ffe5-433d-86d7-3c73842a063f>
+  PrefabRemaps:
+    []
+  Name: Audio
+  Enabled: true
+  AudioTrack: !<reference> 00000000-0000-0000-0000-000000000000
+  EnableAutoplayLoop: true
+  Volume: 1.000000
+  EnableMixToSnap: false
+  RecordVolume: 1.000000
+  EnableSpatialAudio: false
+  EnableDistanceEffect: false
+  CurveType: Logarithm
+  MinDistance: 0.000000
+  MaxDistance: 100.000000
+  EnableDirectivityEffect: false
+  EnablePositionEffect: false
+- !<ScriptComponent/57bc9c8c-91aa-4841-b710-79559ae099c7>
+  PrefabRemaps:
+    []
+  Name: Interactable
+  Enabled: true
+  ScriptAsset: !<reference> 652e631a-22d0-4941-9f74-2943df59f34c
+  ScriptInputsDefault:
+    targetingVisual: true
+    ignoreInteractionPlane: true
+    keepHoverOnTrigger: true
+    enableInstantDrag: true
+    isScrollable: true
+    allowMultipleInteractors: true
+    enablePokeDirectionality: true
+    acceptableXDirections: true
+    acceptableYDirections: true
+    acceptableZDirections: true
+    useFilteredPinch: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      targetingMode: !<float> 7.000000
+      targetingVisual: !<float> 1.000000
+      ignoreInteractionPlane: false
+      keepHoverOnTrigger: false
+      enableInstantDrag: false
+      isScrollable: false
+      allowMultipleInteractors: true
+      enablePokeDirectionality: false
+      acceptableXDirections: !<float> 0.000000
+      acceptableYDirections: !<float> 0.000000
+      acceptableZDirections: !<float> 1.000000
+      useFilteredPinch: false
+  ScriptTypes:
+    "":
+      {}
+- !<SceneObject/5faa5671-f593-403b-b7a8-fc1f2612a704>
+  PrefabRemaps:
+    []
+  Name: Visual
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 1.299192, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 4.000000, y: 4.000000, z: 4.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 97349fe8-f383-47cf-b620-196db91f91dd
+  Components:
+    - !<own> 2e5217ea-831c-4353-aacd-f222fdedee5d
+    - !<own> 8717f601-eb9c-449c-9c10-abe009173fdd
+- !<ScriptComponent/7de61f68-90b7-4500-be8c-62cdee99ff91>
+  PrefabRemaps:
+    []
+  Name: ToyAudioReact
+  Enabled: true
+  ScriptAsset: !<reference> bacadc0d-85b2-4196-8a43-c0a8c3795148
+  ScriptInputsDefault:
+    glowWarmUpSeconds: true
+    glowCoolDownSeconds: true
+    aliveScale: true
+    leanScale: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      glowWarmUpSeconds: 1.500000
+      glowCoolDownSeconds: !<float> 3.000000
+      aliveScale: !<float> 1.000000
+      leanScale: !<float> 1.000000
+  ScriptTypes:
+    "":
+      {}
+- !<ColliderComponent/8717f601-eb9c-449c-9c10-abe009173fdd>
+  PrefabRemaps:
+    []
+  Name: Physics Collider
+  Enabled: true
+  Shape: !<Box>
+    FitVisual: false
+    Size: {x: 1.001322, y: 0.788913, z: 1.001322}
+  Matter: !<reference> 00000000-0000-0000-0000-000000000000
+  Filter: !<reference> 00000000-0000-0000-0000-000000000000
+  OverlapFilter: !<reference> 00000000-0000-0000-0000-000000000000
+  WorldSettings: !<reference> 00000000-0000-0000-0000-000000000000
+  EnableSmoothing: false
+  PositionTension: 50724638.000000
+  RotationTension: 30.000000
+  ForceCompound: false
+  Intangible: false
+  ShowCollider: false
+- !<SceneObject/97349fe8-f383-47cf-b620-196db91f91dd>
+  PrefabRemaps:
+    []
+  Name: GliterToy
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: -0.324798, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 0.250000, y: 0.250000, z: 0.250000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 9f944c9a-e597-4b47-93d9-a2d73dc22f4b
+    - !<own> dcd47940-579f-4150-bf75-edc4671b4232
+- !<VFXComponent/9f944c9a-e597-4b47-93d9-a2d73dc22f4b>
+  PrefabRemaps:
+    []
+  Name: VFX Component
+  Enabled: true
+  RenderOrder: 1
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  VFXAsset: !<reference> ba9cadc8-0c0a-4661-9fd3-d3e3e71fb057
+  SystemRenderLayerInfoMap:
+    0: !<VFXSystemRenderLayerInfo>
+      RenderLayerInfoMap:
+        render_0_0: !<VFXRenderLayerInfo>
+          Enabled: false
+          RenderLayers: 1
+- !<ScriptComponent/d0627608-fd14-4c59-a734-0c599dd262af>
+  PrefabRemaps:
+    []
+  Name: ToySquish
+  Enabled: true
+  ScriptAsset: !<reference> 3e29bebd-3241-4643-95d6-b0077af72cd0
+  ScriptInputsDefault:
+    {}
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      {}
+  ScriptTypes:
+    "":
+      {}
+- !<ScriptComponent/d12465b5-20e5-49f3-a360-1d7f30d7e856>
+  PrefabRemaps:
+    []
+  Name: ToyShape
+  Enabled: true
+  ScriptAsset: !<reference> b2a0cc2d-2098-459f-bd8a-ace8dc985d44
+  ScriptInputsDefault:
+    bendAmount: true
+    bendAxis: true
+    squareness: true
+    ridgeCount: true
+    ridgeAmp: true
+    wobbleDegrees: true
+    wobbleHz: true
+    levelFloor: true
+    hitSpacing: true
+    bandSplitHz: true
+    bandMixKick: true
+    bandMixSway: true
+    bandMixVfx: true
+    landSquash: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      taper: -0.050000
+      bendAmount: !<float> 0.000000
+      bendAxis: !<float> 0.000000
+      flattenBottom: 0.430000
+      squareness: !<float> 0.000000
+      ruffleCount: !<float> 5.000000
+      ruffleAmp: 0.070000
+      ruffleSoftness: 0.670000
+      ruffleBand: 0.590000
+      ruffleBandWidth: 0.720000
+      ruffleTwist: -0.410000
+      lumpCount: !<float> 4.000000
+      lumpAmp: 0.041000
+      lumpSize: 0.240000
+      seed: !<float> 2459.000000
+      dimpleCount: !<float> 3.000000
+      dimpleDepth: 0.100000
+      dimpleSize: 0.280000
+      ridgeCount: !<float> 0.000000
+      ridgeAmp: 0.015000
+      ridgeDirection: !<float> 1.000000
+      motionClass: !<float> 2.000000
+      reactAmount: 0.630000
+      scalePulse: 0.160000
+      bounceCm: 0.460000
+      wobbleDegrees: !<float> 6.000000
+      wobbleHz: 1.100000
+      onsetSensitivity: 0.190000
+      sustain: 0.890000
+      levelFloor: !<float> 0.000000
+      hitSpacing: 0.100000
+      bandSplitHz: !<float> 0.000000
+      bandMixKick: !<float> 0.000000
+      bandMixSway: 0.500000
+      bandMixVfx: !<float> 1.000000
+      kickHz: 2.650000
+      kickDamping: 0.890000
+      swayAmount: 0.115000
+      noiseAmount: 0.060000
+      noiseScale: !<float> 6.000000
+      noiseSpeed: !<float> 3.000000
+      pokeSquash: 0.160000
+      landSquash: 0.160000
+      grabStretch: 0.110000
+      squishBulge: 0.580000
+      squishHz: !<float> 5.000000
+      damping: 0.880000
+      driftSpeed: 2.200000
+      settleSeconds: 0.880000
+      feelSeed: !<float> 2785.000000
+  ScriptTypes:
+    "":
+      {}
+- !<ScriptComponent/dcd47940-579f-4150-bf75-edc4671b4232>
+  PrefabRemaps:
+    []
+  Name: GlitterDriver
+  Enabled: true
+  ScriptAsset: !<reference> e47a2035-c91d-445e-9adb-0f2fdbe6472c
+  ScriptInputsDefault:
+    cloneAsset: true
+    stateSeconds: true
+    hideWhenOff: true
+    keepInside: true
+    body: true
+    clusterSize: true
+    clusterMed: true
+    clusterHigh: true
+    spreadSeconds: true
+    outwardSpread: true
+    lagCm: true
+    fallbackPieceCm: true
+    riseSecondsMed: true
+    wanderSpeedHigh: true
+    puffStrength: true
+    puffSensitivity: true
+    puffSeconds: true
+    maxSpeed: true
+    maxAccel: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      glitterOn: true
+      vfx: !<reference.VFXComponent> 9f944c9a-e597-4b47-93d9-a2d73dc22f4b
+      toy: !<MappingBased.AssignableType_1> 2daeaea2-5892-4fd4-817a-ba5fdf7d392d
+      cloneAsset: true
+      stateSeconds: 0.250000
+      hideWhenOff: true
+      keepInside: true
+      body: !<reference.RenderMeshVisual> 00000000-0000-0000-0000-000000000000
+      bodyFit: !<float> 1.000000
+      clusterSize: 0.400000
+      clusterMed: 0.600000
+      clusterHigh: 0.900000
+      loudnessSpread: 0.400000
+      spreadSeconds: 0.600000
+      outwardSpread: 0.700000
+      wanderCm: !<float> 8.000000
+      lagCm: 0.300000
+      fallbackPieceCm: 0.100000
+      riseSecondsLow: !<float> 7.000000
+      riseSecondsMed: !<float> 6.000000
+      riseSecondsHigh: !<float> 4.000000
+      wanderSpeedLow: 0.400000
+      wanderSpeedMed: 0.600000
+      wanderSpeedHigh: 1.500000
+      puffStrength: 1.500000
+      puffSensitivity: !<float> 5.000000
+      puffSeconds: 0.350000
+      motionSmoothSeconds: 0.300000
+      maxSpeed: !<float> 80.000000
+      maxAccel: !<float> 1500.000000
+  ScriptTypes:
+    "":
+      {}
+- !<SceneObject/fda985e2-0001-4c00-8c2e-28eac0e575b9>
+  PrefabRemaps:
+    - 278e60ed-ebc5-433b-9052-6c9b938b7c91: 278e60ed-ebc5-433b-6fad-93646c74836e
+    - 2daeaea2-5892-4fd4-817a-ba5fdf7d392d: 2daeaea2-5892-4fd4-7e85-45a02082c6d2
+    - 2e5217ea-831c-4353-aacd-f222fdedee5d: 2e5217ea-831c-4353-5532-0ddd021211a2
+    - 301712ef-a8a5-4a5f-8215-acedaf825240: 301712ef-a8a5-4a5f-7dea-5312507dadbf
+    - 4efdf9c0-ffe5-433d-86d7-3c73842a063f: 4efdf9c0-ffe5-433d-7928-c38c7bd5f9c0
+    - 57bc9c8c-91aa-4841-b710-79559ae099c7: 57bc9c8c-91aa-4841-48ef-86aa651f6638
+    - 5faa5671-f593-403b-b7a8-fc1f2612a704: 5faa5671-f593-403b-4857-03e0d9ed58fb
+    - 7de61f68-90b7-4500-be8c-62cdee99ff91: 7de61f68-90b7-4500-4173-9d321166006e
+    - 8717f601-eb9c-449c-9c10-abe009173fdd: 8717f601-eb9c-449c-63ef-541ff6e8c022
+    - 97349fe8-f383-47cf-b620-196db91f91dd: 3ae340a7-f860-4f9a-b8af-38ba5b88d6db
+    - 9f944c9a-e597-4b47-93d9-a2d73dc22f4b: 8769ec23-2635-4d7d-aa8e-67749706189c
+    - d0627608-fd14-4c59-a734-0c599dd262af: 87bf7fe5-98ec-4435-96a9-9ccc66d4f2fd
+    - d12465b5-20e5-49f3-a360-1d7f30d7e856: 29907193-1a1e-4cb2-afc2-730b15066b19
+    - dcd47940-579f-4150-bf75-edc4671b4232: d96a0950-dc45-48dd-b7fd-276401fd443e
+    - fda985e2-0001-4c00-8c2e-28eac0e575b9: fda985e2-0001-4c00-73d1-d7153f1a8a46
+  Name: Toy
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 5faa5671-f593-403b-b7a8-fc1f2612a704
+  Components:
+    - !<own> 57bc9c8c-91aa-4841-b710-79559ae099c7
+    - !<own> 4efdf9c0-ffe5-433d-86d7-3c73842a063f
+    - !<own> 2daeaea2-5892-4fd4-817a-ba5fdf7d392d
+    - !<own> 278e60ed-ebc5-433b-9052-6c9b938b7c91
+    - !<own> 301712ef-a8a5-4a5f-8215-acedaf825240
+    - !<own> 7de61f68-90b7-4500-be8c-62cdee99ff91
+    - !<own> d0627608-fd14-4c59-a734-0c599dd262af
+    - !<own> d12465b5-20e5-49f3-a360-1d7f30d7e856

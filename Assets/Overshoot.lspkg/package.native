@@ -1,0 +1,38 @@
+- !<NativePackageDescriptor/8ec1de17-89d3-4aad-b9d8-443839c9892a>
+  PackagePath: ""
+  StudioVersion:
+    major: 5
+    minor: 23
+    patch: 2
+    build: 26081320
+    type: Unset
+    buildFlavor: ""
+    timestamp: 0
+    commit: ""
+  Description: "Overshoot The overshoot asset is a handy tool for adding a natural bounce to your animation (pop-up or fast-moving objects). This asset is represented by 2d and 3d examples, please read the README script inside the asset first. Click here to learn more about Material Editor"
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  VersionMajor: 1
+  VersionMinor: 0
+  VersionPatch: 0
+  UpdateCheckpoint: 102
+  ExportUid: 3c31a161-542e-4e1a-a1bb-c49e933b055d
+  ComponentUid: c3dc9549-7b54-453e-bb23-ec605426c15d
+  PackagePolicy: CanBeUnpackedTransparent
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  VersionPrerelease: ""
+  Instantiable: !<reference> 00000000-0000-0000-0000-000000000000
+  AssetLibraryDependencyStructure: !<AssetLibraryDependencyStructure>
+    Name: ""
+    AssetId: ""
+    Hash: ""
+    Version:
+      major: 0
+      minor: 0
+      patch: 0
+      build: 0

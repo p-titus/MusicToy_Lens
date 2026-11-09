@@ -1,0 +1,85 @@
+- !<AssetImportMetadata/8a64d41c-afe0-4987-8d23-fe1a388844ec>
+  ImportedAssetIds:
+    26ba073d67b9d0dd: !<reference> d5f42937-47cf-48af-a79e-64aea3ebf638
+    Meshes/Blob_07_Flower: !<reference> 2f694a9a-3bb5-47e3-ba5c-729f07de61aa
+    Scene: !<reference> 8f5eec68-0902-4273-b393-a0c430ba22a3
+    b8129c9a7e60dcc0: !<reference> 298eb5e9-ec0d-4199-a519-e6af0dda19e4
+    d19001e639c4f855: !<reference> 9c69e8f9-a8c1-4a15-8d42-3ec726de681c
+  ImporterName: ObjImporter
+  PrimaryAsset: !<reference> 8f5eec68-0902-4273-b393-a0c430ba22a3
+  PackageType: LegacyPackage
+  LegacyPackagePolicy: CanBeUnpackedTransparent
+  ExtraData:
+    {}
+  AssetDataMap:
+    Scene: !<own> d78f8dee-d1e5-49e1-92fd-cfa7febfce5e
+  DependentFiles:
+    []
+  ImporterSettings: !<D3FileImporterSettingsBase>
+    UseLegacyImporter: false
+    WithMaterials: true
+    NamingConvention: ByCategorySanitizeV2
+    PersistentIdGenerationAlgorithm: DescriptorBasedV2
+  CompressionSettings: !<ComplexCompressionSettings>
+    Presets:
+      None Compression: !<FileCompressionSettings>
+        {}
+    ExtensionMappings:
+      mesh: None Compression
+    Overrides:
+      {}
+- !<RenderMeshVisual/298eb5e9-ec0d-4199-5ae6-1950f225e61b>
+  PrefabRemaps:
+    []
+  Name: component_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    []
+  Mesh: !<reference> 2f694a9a-3bb5-47e3-ba5c-729f07de61aa
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/9c69e8f9-a8c1-4a15-72bd-c138d92197e3>
+  PrefabRemaps:
+    []
+  Name: Blob_07_Flower
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 298eb5e9-ec0d-4199-5ae6-1950f225e61b
+- !<SceneObject/d5f42937-47cf-48af-5861-9b515c1409c7>
+  PrefabRemaps:
+    []
+  Name: Blob_07_Flower
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 9c69e8f9-a8c1-4a15-72bd-c138d92197e3
+  Components:
+    []
+- !<ObjectPrefabAssetData/d78f8dee-d1e5-49e1-92fd-cfa7febfce5e>
+  Prototype: !<ObjectOwner/bdf7aaf1-7cbb-408e-8c6a-9a8879063cb6>
+    PackagePath: ""
+    objects:
+      - !<own> d5f42937-47cf-48af-5861-9b515c1409c7

@@ -1,0 +1,1765 @@
+SchemaVersion: 1
+Nodes:
+  ChildNodes:
+    Node0:
+      DependencyIndex: 0
+      LevelID: 0
+      NodeCount: 0
+      NodeType: 1
+      Ports:
+        ParticleCount:
+          Variable: 40
+        ParticleOut:
+          ClassType2: PARTICLE
+          IOType: 1
+      PositionX: -160
+      PositionY: 400
+      TemplateID: nodes_particle_emit_begin
+      Title1: Emit Particle
+      Title2: "Count: 40"
+    Node1:
+      DependencyIndex: 1
+      LevelID: 200
+      NodeCount: 0
+      NodeType: 1
+      Ports:
+        Frequency:
+          ItemIndex: 0
+          ItemList: "Per Second : Per Frame"
+        ParticleIn:
+          ClassType2: PARTICLE
+          Connection0:
+            NodeLevelID: 0
+            PortID: ParticleOut
+        ParticleOut:
+          ClassType2: PARTICLE
+          IOType: 1
+        SpawnRate:
+          Variable: 400.0
+      PositionX: -150
+      PositionY: 455
+      TemplateID: node_main_particle_spawn_continuous
+      Title1: Spawn Continuous
+    Node10:
+      DependencyIndex: 10
+      LevelID: 103
+      NodeCount: 0
+      NodeType: 1
+      Ports:
+        Channels:
+          ItemIndex: 5
+          ItemList: "xyzw : rgba : xyz : rgb : xy : x"
+        Default:
+          Variable: [0.10000000149011612, 0.0, 0.0, 0.0]
+        EnableMax:
+          Variable: false
+        EnableMin:
+          Variable: false
+        Group:
+          String: Glitter Look
+        Max:
+          Variable: 1.0
+        Min:
+          Variable: 0.0
+        Output:
+          IOType: 1
+          Variable: [0.0, 0.0, 0.0, 0.0]
+        ScriptName:
+          String: pieceSize
+        SortIndex:
+          Variable: 3
+        Step:
+          Variable: 0.009999999776482582
+        Title:
+          String: Piece Size
+        Tooltip:
+          String: "Average size of one glitter piece in cm (local units of the toy). The toy body is about 4 cm wide, so 0.1 to 0.2 is tiny."
+      PositionX: -900
+      PositionY: 10
+      TemplateID: nodes_inputs_parameters_float
+      Title1: Float Parameter
+      Title2: Piece Size
+    Node11:
+      DependencyIndex: 11
+      LevelID: 104
+      NodeCount: 0
+      NodeType: 1
+      Ports:
+        Channels:
+          ItemIndex: 5
+          ItemList: "xyzw : rgba : xyz : rgb : xy : x"
+        Default:
+          Variable: [0.4, 0.0, 0.0, 0.0]
+        EnableMax:
+          Variable: false
+        EnableMin:
+          Variable: false
+        Group:
+          String: Glitter Look
+        Max:
+          Variable: 1.0
+        Min:
+          Variable: 0.0
+        Output:
+          IOType: 1
+          Variable: [0.0, 0.0, 0.0, 0.0]
+        ScriptName:
+          String: sizeVariation
+        SortIndex:
+          Variable: 4
+        Step:
+          Variable: 0.009999999776482582
+        Title:
+          String: Size Variation
+        Tooltip:
+          String: "0 = all pieces the same size, 1 = sizes vary from 0 to 2x Piece Size (unitless)."
+      PositionX: -900
+      PositionY: 80
+      TemplateID: nodes_inputs_parameters_float
+      Title1: Float Parameter
+      Title2: Size Variation
+    Node12:
+      DependencyIndex: 12
+      LevelID: 105
+      NodeCount: 0
+      NodeType: 1
+      Ports:
+        Channels:
+          ItemIndex: 0
+          ItemList: "rgba : rgb"
+        Default:
+          Variable: [1.0, 0.85, 0.4, 1.0]
+        Group:
+          String: Glitter Look
+        Output:
+          IOType: 1
+          Variable: [0.0, 0.0, 0.0, 0.0]
+        ScriptName:
+          String: colorA
+        SortIndex:
+          Variable: 5
+        Tooltip:
+          String: One end of the palette. Each piece gets a random mix of Colour A and B.
+        UniqueID:
+          String: Colour A
+      PositionX: -900
+      PositionY: 150
+      TemplateID: nodes_inputs_parameters_color
+      Title1: Color Parameter
+      Title2: Colour A
+    Node13:
+      DependencyIndex: 13
+      LevelID: 106
+      NodeCount: 0
+      NodeType: 1
+      Ports:
+        Channels:
+          ItemIndex: 0
+          ItemList: "rgba : rgb"
+        Default:
+          Variable: [0.6, 0.85, 1.0, 1.0]
+        Group:
+          String: Glitter Look
+        Output:
+          IOType: 1
+          Variable: [0.0, 0.0, 0.0, 0.0]
+        ScriptName:
+          String: colorB
+        SortIndex:
+          Variable: 6
+        Tooltip:
+          String: Other end of the palette.
+        UniqueID:
+          String: Colour B
+      PositionX: -900
+      PositionY: 220
+      TemplateID: nodes_inputs_parameters_color
+      Title1: Color Parameter
+      Title2: Colour B
+    Node14:
+      DependencyIndex: 14
+      LevelID: 107
+      NodeCount: 0
+      NodeType: 1
+      Ports:
+        Channels:
+          ItemIndex: 0
+          ItemList: "rgba : rgb"
+        Default:
+          Variable: [1.0, 1.0, 1.0, 1.0]
+        Group:
+          String: Glitter Look
+        Output:
+          IOType: 1
+          Variable: [0.0, 0.0, 0.0, 0.0]
+        ScriptName:
+          String: flashColor
+        SortIndex:
+          Variable: 7
+        Tooltip:
+          String: Colour a piece flashes toward when it glints.
+        UniqueID:
+          String: Shine Colour
+      PositionX: -900
+      PositionY: 290
+      TemplateID: nodes_inputs_parameters_color
+      Title1: Color Parameter
+      Title2: Shine Colour
+    Node15:
+      DependencyIndex: 15
+      LevelID: 108
+      NodeCount: 0
+      NodeType: 1
+      Ports:
+        Channels:
+          ItemIndex: 5
+          ItemList: "xyzw : rgba : xyz : rgb : xy : x"
+        Default:
+          Variable: [1.5, 0.0, 0.0, 0.0]
+        EnableMax:
+          Variable: false
+        EnableMin:
+          Variable: false
+        Group:
+          String: Glitter Look
+        Max:
+          Variable: 1.0
+        Min:
+          Variable: 0.0
+        Output:
+          IOType: 1
+          Variable: [0.0, 0.0, 0.0, 0.0]
+        ScriptName:
+          String: flashAmount
+        SortIndex:
+          Variable: 8
+        Step:
+          Variable: 0.009999999776482582
+        Title:
+          String: Shine Strength
+        Tooltip:
+          String: "Specularity: how strong the flash is (unitless). 0 = matte, 1 = full flash colour, above 1 = brighter than the colour."
+      PositionX: -900
+      PositionY: 360
+      TemplateID: nodes_inputs_parameters_float
+      Title1: Float Parameter
+      Title2: Shine Strength
+    Node16:
+      DependencyIndex: 16
+      LevelID: 109
+      NodeCount: 0
+      NodeType: 1
+      Ports:
+        Channels:
+          ItemIndex: 5
+          ItemList: "xyzw : rgba : xyz : rgb : xy : x"
+        Default:
+          Variable: [12.0, 0.0, 0.0, 0.0]
+        EnableMax:
+          Variable: false
+        EnableMin:
+          Variable: false
+        Group:
+          String: Glitter Look
+        Max:
+          Variable: 1.0
+        Min:
+          Variable: 0.0
+        Output:
+          IOType: 1
+          Variable: [0.0, 0.0, 0.0, 0.0]
+        ScriptName:
+          String: shineSharpness
+        SortIndex:
+          Variable: 9
+        Step:
+          Variable: 0.009999999776482582
+        Title:
+          String: Shine Sharpness
+        Tooltip:
+          String: "Specular sharpness (unitless, 1..60). Each piece flashes when its face turns toward a fixed light direction while it tumbles. Higher = smaller, rarer, sharper flashes; lower = softer, more frequent shine."
+      PositionX: -900
+      PositionY: 430
+      TemplateID: nodes_inputs_parameters_float
+      Title1: Float Parameter
+      Title2: Shine Sharpness
+    Node17:
+      DependencyIndex: 17
+      LevelID: 110
+      NodeCount: 0
+      NodeType: 1
+      Ports:
+        Channels:
+          ItemIndex: 5
+          ItemList: "xyzw : rgba : xyz : rgb : xy : x"
+        Default:
+          Variable: [10.0, 0.0, 0.0, 0.0]
+        EnableMax:
+          Variable: false
+        EnableMin:
+          Variable: false
+        Group:
+          String: Glitter Amount
+        Max:
+          Variable: 1.0
+        Min:
+          Variable: 0.0
+        Output:
+          IOType: 1
+          Variable: [0.0, 0.0, 0.0, 0.0]
+        ScriptName:
+          String: countLow
+        SortIndex:
+          Variable: 10
+        Step:
+          Variable: 0.009999999776482582
+        Title:
+          String: Count at Low
+        Tooltip:
+          String: Pieces shown at state Low (0..40).
+      PositionX: -900
+      PositionY: 500
+      TemplateID: nodes_inputs_parameters_float
+      Title1: Float Parameter
+      Title2: Count at Low
+    Node18:
+      DependencyIndex: 18
+      LevelID: 111
+      NodeCount: 0
+      NodeType: 1
+      Ports:
+        Channels:
+          ItemIndex: 5
+          ItemList: "xyzw : rgba : xyz : rgb : xy : x"
+        Default:
+          Variable: [25.0, 0.0, 0.0, 0.0]
+        EnableMax:
+          Variable: false
+        EnableMin:
+          Variable: false
+        Group:
+          String: Glitter Amount
+        Max:
+          Variable: 1.0
+        Min:
+          Variable: 0.0
+        Output:
+          IOType: 1
+          Variable: [0.0, 0.0, 0.0, 0.0]
+        ScriptName:
+          String: countMed
+        SortIndex:
+          Variable: 11
+        Step:
+          Variable: 0.009999999776482582
+        Title:
+          String: Count at Medium
+        Tooltip:
+          String: Pieces shown at state Medium (0..40).
+      PositionX: -900
+      PositionY: 570
+      TemplateID: nodes_inputs_parameters_float
+      Title1: Float Parameter
+      Title2: Count at Medium
+    Node19:
+      DependencyIndex: 19
+      LevelID: 112
+      NodeCount: 0
+      NodeType: 1
+      Ports:
+        Channels:
+          ItemIndex: 5
+          ItemList: "xyzw : rgba : xyz : rgb : xy : x"
+        Default:
+          Variable: [40.0, 0.0, 0.0, 0.0]
+        EnableMax:
+          Variable: false
+        EnableMin:
+          Variable: false
+        Group:
+          String: Glitter Amount
+        Max:
+          Variable: 1.0
+        Min:
+          Variable: 0.0
+        Output:
+          IOType: 1
+          Variable: [0.0, 0.0, 0.0, 0.0]
+        ScriptName:
+          String: countHigh
+        SortIndex:
+          Variable: 12
+        Step:
+          Variable: 0.009999999776482582
+        Title:
+          String: Count at High
+        Tooltip:
+          String: Pieces shown at state High (0..40). 40 is the pool size.
+      PositionX: -900
+      PositionY: 640
+      TemplateID: nodes_inputs_parameters_float
+      Title1: Float Parameter
+      Title2: Count at High
+    Node1CheckEnabled: true
+    Node1CheckExists: true
+    Node2:
+      DependencyIndex: 2
+      LevelID: 1
+      NodeCount: 0
+      NodeType: 1
+      Ports:
+        ParticleIn:
+          ClassType2: PARTICLE
+          Connection0:
+            NodeLevelID: 200
+            PortID: ParticleOut
+        ParticleOut:
+          ClassType2: PARTICLE
+          IOType: 1
+      PositionX: -150
+      PositionY: 514
+      TemplateID: nodes_particle_emit_end
+      Title1: Particle ( Emit End )
+    Node20:
+      DependencyIndex: 20
+      LevelID: 113
+      NodeCount: 0
+      NodeType: 1
+      Ports:
+        Channels:
+          ItemIndex: 5
+          ItemList: "xyzw : rgba : xyz : rgb : xy : x"
+        Default:
+          Variable: [0.6, 0.0, 0.0, 0.0]
+        EnableMax:
+          Variable: false
+        EnableMin:
+          Variable: false
+        Group:
+          String: Glitter Area
+        Max:
+          Variable: 1.0
+        Min:
+          Variable: 0.0
+        Output:
+          IOType: 1
+          Variable: [0.0, 0.0, 0.0, 0.0]
+        ScriptName:
+          String: bandBottom
+        SortIndex:
+          Variable: 13
+        Step:
+          Variable: 0.009999999776482582
+        Title:
+          String: Band Bottom
+        Tooltip:
+          String: "Lowest height of the glitter area in cm, in the toy's local space (where pieces appear, just above the core). The toy body spans about -0.3 to 2.9."
+      PositionX: -900
+      PositionY: 710
+      TemplateID: nodes_inputs_parameters_float
+      Title1: Float Parameter
+      Title2: Band Bottom
+    Node21:
+      DependencyIndex: 21
+      LevelID: 114
+      NodeCount: 0
+      NodeType: 1
+      Ports:
+        Channels:
+          ItemIndex: 5
+          ItemList: "xyzw : rgba : xyz : rgb : xy : x"
+        Default:
+          Variable: [2.4, 0.0, 0.0, 0.0]
+        EnableMax:
+          Variable: false
+        EnableMin:
+          Variable: false
+        Group:
+          String: Glitter Area
+        Max:
+          Variable: 1.0
+        Min:
+          Variable: 0.0
+        Output:
+          IOType: 1
+          Variable: [0.0, 0.0, 0.0, 0.0]
+        ScriptName:
+          String: bandTop
+        SortIndex:
+          Variable: 14
+        Step:
+          Variable: 0.009999999776482582
+        Title:
+          String: Band Top
+        Tooltip:
+          String: "Highest height of the glitter area in cm, in the toy's local space (just below the top of the body)."
+      PositionX: -900
+      PositionY: 780
+      TemplateID: nodes_inputs_parameters_float
+      Title1: Float Parameter
+      Title2: Band Top
+    Node22:
+      DependencyIndex: 22
+      LevelID: 115
+      NodeCount: 0
+      NodeType: 1
+      Ports:
+        Channels:
+          ItemIndex: 5
+          ItemList: "xyzw : rgba : xyz : rgb : xy : x"
+        Default:
+          Variable: [1.3, 0.0, 0.0, 0.0]
+        EnableMax:
+          Variable: false
+        EnableMin:
+          Variable: false
+        Group:
+          String: Glitter Area
+        Max:
+          Variable: 1.0
+        Min:
+          Variable: 0.0
+        Output:
+          IOType: 1
+          Variable: [0.0, 0.0, 0.0, 0.0]
+        ScriptName:
+          String: radius
+        SortIndex:
+          Variable: 15
+        Step:
+          Variable: 0.009999999776482582
+        Title:
+          String: Radius
+        Tooltip:
+          String: Widest radius of the glitter area in cm. Keep it a little smaller than the toy body.
+      PositionX: -900
+      PositionY: 850
+      TemplateID: nodes_inputs_parameters_float
+      Title1: Float Parameter
+      Title2: Radius
+    Node23:
+      DependencyIndex: 23
+      LevelID: 116
+      NodeCount: 0
+      NodeType: 1
+      Ports:
+        Channels:
+          ItemIndex: 5
+          ItemList: "xyzw : rgba : xyz : rgb : xy : x"
+        Default:
+          Variable: [0.15, 0.0, 0.0, 0.0]
+        EnableMax:
+          Variable: false
+        EnableMin:
+          Variable: false
+        Group:
+          String: Glitter Movement
+        Max:
+          Variable: 1.0
+        Min:
+          Variable: 0.0
+        Output:
+          IOType: 1
+          Variable: [0.0, 0.0, 0.0, 0.0]
+        ScriptName:
+          String: drift
+        SortIndex:
+          Variable: 16
+        Step:
+          Variable: 0.009999999776482582
+        Title:
+          String: Drift Distance
+        Tooltip:
+          String: "How far pieces wander sideways, in cm, at full music energy."
+      PositionX: -900
+      PositionY: 920
+      TemplateID: nodes_inputs_parameters_float
+      Title1: Float Parameter
+      Title2: Drift Distance
+    Node24:
+      DependencyIndex: 24
+      LevelID: 117
+      NodeCount: 0
+      NodeType: 1
+      Ports:
+        Channels:
+          ItemIndex: 5
+          ItemList: "xyzw : rgba : xyz : rgb : xy : x"
+        Default:
+          Variable: [1.0, 0.0, 0.0, 0.0]
+        EnableMax:
+          Variable: false
+        EnableMin:
+          Variable: false
+        Group:
+          String: Glitter Movement
+        Max:
+          Variable: 1.0
+        Min:
+          Variable: 0.0
+        Output:
+          IOType: 1
+          Variable: [0.0, 0.0, 0.0, 0.0]
+        ScriptName:
+          String: driftSpeed
+        SortIndex:
+          Variable: 17
+        Step:
+          Variable: 0.009999999776482582
+        Title:
+          String: Drift Speed
+        Tooltip:
+          String: How fast pieces wander (rad/s of the drift cycle). Higher = busier.
+      PositionX: -900
+      PositionY: 990
+      TemplateID: nodes_inputs_parameters_float
+      Title1: Float Parameter
+      Title2: Drift Speed
+    Node25:
+      DependencyIndex: 25
+      LevelID: 118
+      NodeCount: 0
+      NodeType: 1
+      Ports:
+        Channels:
+          ItemIndex: 5
+          ItemList: "xyzw : rgba : xyz : rgb : xy : x"
+        Default:
+          Variable: [0.7, 0.0, 0.0, 0.0]
+        EnableMax:
+          Variable: false
+        EnableMin:
+          Variable: false
+        Group:
+          String: Glitter Movement
+        Max:
+          Variable: 1.0
+        Min:
+          Variable: 0.0
+        Output:
+          IOType: 1
+          Variable: [0.0, 0.0, 0.0, 0.0]
+        ScriptName:
+          String: energyDrift
+        SortIndex:
+          Variable: 18
+        Step:
+          Variable: 0.009999999776482582
+        Title:
+          String: Music Affects Drift
+        Tooltip:
+          String: "0 = drift ignores the music, 1 = pieces only drift when music energy is up (unitless, 0..1)."
+      PositionX: -900
+      PositionY: 1060
+      TemplateID: nodes_inputs_parameters_float
+      Title1: Float Parameter
+      Title2: Music Affects Drift
+    Node26:
+      DependencyIndex: 26
+      LevelID: 121
+      NodeCount: 0
+      NodeType: 1
+      Ports:
+        Channels:
+          ItemIndex: 5
+          ItemList: "xyzw : rgba : xyz : rgb : xy : x"
+        Default:
+          Variable: [2.0, 0.0, 0.0, 0.0]
+        EnableMax:
+          Variable: false
+        EnableMin:
+          Variable: false
+        Group:
+          String: Glitter Movement
+        Max:
+          Variable: 1.0
+        Min:
+          Variable: 0.0
+        Output:
+          IOType: 1
+          Variable: [0.0, 0.0, 0.0, 0.0]
+        ScriptName:
+          String: tumbleSpeed
+        SortIndex:
+          Variable: 21
+        Step:
+          Variable: 0.009999999776482582
+        Title:
+          String: Tumble Speed
+        Tooltip:
+          String: "How fast pieces spin, in rad/s."
+      PositionX: -900
+      PositionY: 1270
+      TemplateID: nodes_inputs_parameters_float
+      Title1: Float Parameter
+      Title2: Tumble Speed
+    Node27:
+      DependencyIndex: 27
+      LevelID: 119
+      NodeCount: 0
+      NodeType: 1
+      Ports:
+        Channels:
+          ItemIndex: 5
+          ItemList: "xyzw : rgba : xyz : rgb : xy : x"
+        Default:
+          Variable: [0.8, 0.0, 0.0, 0.0]
+        EnableMax:
+          Variable: false
+        EnableMin:
+          Variable: false
+        Group:
+          String: Glitter Movement
+        Max:
+          Variable: 1.0
+        Min:
+          Variable: 0.0
+        Output:
+          IOType: 1
+          Variable: [0.0, 0.0, 0.0, 0.0]
+        ScriptName:
+          String: riseAmount
+        SortIndex:
+          Variable: 19
+        Step:
+          Variable: 0.009999999776482582
+        Title:
+          String: Upward Movement
+        Tooltip:
+          String: "0 = pieces hover around fixed spots, 1 = pieces all rise upward from Band Bottom to Band Top, fade out at the top and reappear at the bottom (unitless, 0..1)."
+      PositionX: -900
+      PositionY: 1130
+      TemplateID: nodes_inputs_parameters_float
+      Title1: Float Parameter
+      Title2: Upward Movement
+    Node28:
+      DependencyIndex: 28
+      LevelID: 120
+      NodeCount: 0
+      NodeType: 1
+      Ports:
+        Channels:
+          ItemIndex: 5
+          ItemList: "xyzw : rgba : xyz : rgb : xy : x"
+        Default:
+          Variable: [0.5, 0.0, 0.0, 0.0]
+        EnableMax:
+          Variable: false
+        EnableMin:
+          Variable: false
+        Group:
+          String: Glitter Movement
+        Max:
+          Variable: 1.0
+        Min:
+          Variable: 0.0
+        Output:
+          IOType: 1
+          Variable: [0.0, 0.0, 0.0, 0.0]
+        ScriptName:
+          String: riseSpeed
+        SortIndex:
+          Variable: 20
+        Step:
+          Variable: 0.009999999776482582
+        Title:
+          String: Rise Speed
+        Tooltip:
+          String: "How fast pieces rise, in cm per second."
+      PositionX: -900
+      PositionY: 1200
+      TemplateID: nodes_inputs_parameters_float
+      Title1: Float Parameter
+      Title2: Rise Speed
+    Node29:
+      DependencyIndex: 29
+      LevelID: 122
+      NodeCount: 0
+      NodeType: 1
+      Ports:
+        Channels:
+          ItemIndex: 5
+          ItemList: "xyzw : rgba : xyz : rgb : xy : x"
+        Default:
+          Variable: [0.004, 0.0, 0.0, 0.0]
+        EnableMax:
+          Variable: false
+        EnableMin:
+          Variable: false
+        Group:
+          String: Glitter Movement
+        Max:
+          Variable: 1.0
+        Min:
+          Variable: 0.0
+        Output:
+          IOType: 1
+          Variable: [0.0, 0.0, 0.0, 0.0]
+        ScriptName:
+          String: pickupLag
+        SortIndex:
+          Variable: 22
+        Step:
+          Variable: 0.009999999776482582
+        Title:
+          String: Pickup Lag
+        Tooltip:
+          String: "How far pieces slide opposite to the toy's acceleration when it is lifted or swung, in cm per (cm/s^2). 0 = no reaction to pickup."
+      PositionX: -900
+      PositionY: 1340
+      TemplateID: nodes_inputs_parameters_float
+      Title1: Float Parameter
+      Title2: Pickup Lag
+    Node3:
+      DependencyIndex: 3
+      LevelID: 61
+      NodeCount: 0
+      NodeType: 1
+      Ports:
+        Burst:
+          Variable: 1.0
+        Custom Value:
+          Variable: 0.03333330154418945
+        Delay:
+          Variable: 0.0
+        Fixed Delta Time:
+          ItemIndex: 1
+          ItemList: "1/15 : 1/30 : 1/60 : 1/120 : Custom"
+        LifeSpan:
+          ItemIndex: 0
+          ItemList: "Live Forever : Max Life"
+        MaxLife:
+          Variable: 16.0
+        Maxparticles:
+          Variable: 40
+        Particle:
+          ClassType2: PARTICLE
+          IOType: 1
+        ParticleIn:
+          ClassType2: PARTICLE
+          Connection0:
+            NodeLevelID: 1
+            PortID: ParticleOut
+        PauseWhenNotVisible:
+          Variable: false
+        Play Rate:
+          Variable: 1.0
+        PositionMax:
+          Variable: [1000.0, 1000.0, 1000.0]
+        PositionMaxScalar:
+          Variable: 1000.0
+        PositionMin:
+          Variable: [-1000.0, -1000.0, -1000.0]
+        PositionMinScalar:
+          Variable: -1000.0
+        PositionPerAxis:
+          Variable: false
+        SizeInheritsParentScale:
+          Variable: true
+        Space:
+          ItemIndex: 1
+          ItemList: "World : Local"
+        SpawnAmount:
+          Variable: 40
+        SpawnMode:
+          ItemIndex: 0
+          ItemList: "Continuous : Burst : Once"
+        SpawnRate:
+          Variable: 400.0
+        Use Fixed Delta Time:
+          Variable: false
+        Warmup:
+          Variable: false
+        WarmupDt:
+          String: "0.0333333"
+        WarmupFPS:
+          Variable: 30.0
+        WarmupSteps:
+          Variable: 105
+        WarmupTime:
+          Variable: 3.5
+        _ScaleInit:
+          Variable: true
+      PositionX: -160
+      PositionY: 680
+      TemplateID: nodes_particle_spawn_begin
+      TemplateVersionMinor: 1
+      Title1: Initialize Particle
+    Node30:
+      DependencyIndex: 30
+      LevelID: 123
+      NodeCount: 0
+      NodeType: 1
+      Ports:
+        Channels:
+          ItemIndex: 5
+          ItemList: "xyzw : rgba : xyz : rgb : xy : x"
+        Default:
+          Variable: [0.4, 0.0, 0.0, 0.0]
+        EnableMax:
+          Variable: false
+        EnableMin:
+          Variable: false
+        Group:
+          String: Glitter Movement
+        Max:
+          Variable: 1.0
+        Min:
+          Variable: 0.0
+        Output:
+          IOType: 1
+          Variable: [0.0, 0.0, 0.0, 0.0]
+        ScriptName:
+          String: lagMax
+        SortIndex:
+          Variable: 23
+        Step:
+          Variable: 0.009999999776482582
+        Title:
+          String: Pickup Lag Limit
+        Tooltip:
+          String: "Furthest a piece can be pushed by pickup movement, in cm."
+      PositionX: -900
+      PositionY: 1410
+      TemplateID: nodes_inputs_parameters_float
+      Title1: Float Parameter
+      Title2: Pickup Lag Limit
+    Node31:
+      DependencyIndex: 31
+      LevelID: 124
+      NodeCount: 0
+      NodeType: 1
+      Ports:
+        Channels:
+          ItemIndex: 5
+          ItemList: "xyzw : rgba : xyz : rgb : xy : x"
+        Default:
+          Variable: [0.7, 0.0, 0.0, 0.0]
+        EnableMax:
+          Variable: false
+        EnableMin:
+          Variable: false
+        Group:
+          String: Glitter Movement
+        Max:
+          Variable: 1.0
+        Min:
+          Variable: 0.0
+        Output:
+          IOType: 1
+          Variable: [0.0, 0.0, 0.0, 0.0]
+        ScriptName:
+          String: outwardBias
+        SortIndex:
+          Variable: 24
+        Step:
+          Variable: 0.009999999776482582
+        Title:
+          String: Outward Spread
+        Tooltip:
+          String: "0 = pieces fade out near the top as before, 1 = pieces fade out while still at their widest, so they only ever move up and outward (unitless, 0..1)."
+      PositionX: -900
+      PositionY: 1550
+      TemplateID: nodes_inputs_parameters_float
+      Title1: Float Parameter
+      Title2: Outward Spread
+    Node32:
+      DependencyIndex: 32
+      LevelID: 125
+      NodeCount: 0
+      NodeType: 1
+      Ports:
+        Channels:
+          ItemIndex: 5
+          ItemList: "xyzw : rgba : xyz : rgb : xy : x"
+        Default:
+          Variable: [0.0, 0.0, 0.0, 0.0]
+        EnableMax:
+          Variable: false
+        EnableMin:
+          Variable: false
+        Group:
+          String: Set by script
+        Max:
+          Variable: 1000000.0
+        Min:
+          Variable: 0.0
+        Output:
+          IOType: 1
+          Variable: [0.0, 0.0, 0.0, 0.0]
+        ScriptName:
+          String: risePhase
+        SortIndex:
+          Variable: 25
+        Step:
+          Variable: 0.009999999776482582
+        Title:
+          String: Rise Phase (script)
+        Tooltip:
+          String: Set every frame by GlitterDriver. How far through its rise loop the glitter is (cycles). Do not edit.
+      PositionX: -900
+      PositionY: 1620
+      TemplateID: nodes_inputs_parameters_float
+      Title1: Float Parameter
+      Title2: Rise Phase (script)
+    Node33:
+      DependencyIndex: 33
+      LevelID: 126
+      NodeCount: 0
+      NodeType: 1
+      Ports:
+        Channels:
+          ItemIndex: 5
+          ItemList: "xyzw : rgba : xyz : rgb : xy : x"
+        Default:
+          Variable: [0.0, 0.0, 0.0, 0.0]
+        EnableMax:
+          Variable: false
+        EnableMin:
+          Variable: false
+        Group:
+          String: Set by script
+        Max:
+          Variable: 1000000.0
+        Min:
+          Variable: 0.0
+        Output:
+          IOType: 1
+          Variable: [0.0, 0.0, 0.0, 0.0]
+        ScriptName:
+          String: puffPhase
+        SortIndex:
+          Variable: 26
+        Step:
+          Variable: 0.009999999776482582
+        Title:
+          String: Puff Phase (script)
+        Tooltip:
+          String: Set every frame by GlitterDriver. Total upward lift from music puffs so far (cycles). Only ever increases. Do not edit.
+      PositionX: -900
+      PositionY: 1690
+      TemplateID: nodes_inputs_parameters_float
+      Title1: Float Parameter
+      Title2: Puff Phase (script)
+    Node34:
+      DependencyIndex: 34
+      LevelID: 127
+      NodeCount: 0
+      NodeType: 1
+      Ports:
+        Channels:
+          ItemIndex: 5
+          ItemList: "xyzw : rgba : xyz : rgb : xy : x"
+        Default:
+          Variable: [0.0, 0.0, 0.0, 0.0]
+        EnableMax:
+          Variable: false
+        EnableMin:
+          Variable: false
+        Group:
+          String: Set by script
+        Max:
+          Variable: 1000000.0
+        Min:
+          Variable: 0.0
+        Output:
+          IOType: 1
+          Variable: [0.0, 0.0, 0.0, 0.0]
+        ScriptName:
+          String: driftClock
+        SortIndex:
+          Variable: 27
+        Step:
+          Variable: 0.009999999776482582
+        Title:
+          String: Drift Clock (script)
+        Tooltip:
+          String: "Set every frame by GlitterDriver. The clock the wandering follows, so it can run slower in the Low state (seconds). Do not edit."
+      PositionX: -900
+      PositionY: 1760
+      TemplateID: nodes_inputs_parameters_float
+      Title1: Float Parameter
+      Title2: Drift Clock (script)
+    Node35:
+      DependencyIndex: 35
+      LevelID: 128
+      NodeCount: 0
+      NodeType: 1
+      Ports:
+        Channels:
+          ItemIndex: 5
+          ItemList: "xyzw : rgba : xyz : rgb : xy : x"
+        Default:
+          Variable: [0.15, 0.0, 0.0, 0.0]
+        EnableMax:
+          Variable: false
+        EnableMin:
+          Variable: false
+        Group:
+          String: Glitter Movement
+        Max:
+          Variable: 1.0
+        Min:
+          Variable: 0.0
+        Output:
+          IOType: 1
+          Variable: [0.0, 0.0, 0.0, 0.0]
+        ScriptName:
+          String: swirlTurns
+        SortIndex:
+          Variable: 25
+        Step:
+          Variable: 0.009999999776482582
+        Title:
+          String: Swirl
+        Tooltip:
+          String: "How much the glitter twists around the toy as it rises, like stirred water. Turns of rotation from the bottom to the top of the cluster (turns, 0.15 = about 54 degrees). 0 = no swirl. Keep it small."
+      PositionX: -900
+      PositionY: 1650
+      TemplateID: nodes_inputs_parameters_float
+      Title1: Float Parameter
+      Title2: Swirl
+    Node36:
+      DependencyIndex: 36
+      LevelID: 202
+      NodeCount: 0
+      NodeType: 1
+      Ports:
+        BandBottom:
+          Connection0:
+            NodeLevelID: 113
+            PortID: Output
+          Variable: 0.6
+        BandTop:
+          Connection0:
+            NodeLevelID: 114
+            PortID: Output
+          Variable: 2.4
+        Code:
+          ClassType1: TEXT
+          String: |
+            input_float GlitterState;
+            input_float GlitterEnergy;
+            input_vec3 ToyAccel;
+            input_float PieceSize;
+            input_float SizeVariation;
+            input_vec4 ColorA;
+            input_vec4 ColorB;
+            input_vec4 FlashColor;
+            input_float FlashAmount;
+            input_float ShineSharpness;
+            input_float CountLow;
+            input_float CountMed;
+            input_float CountHigh;
+            input_float BandBottom;
+            input_float BandTop;
+            input_float Radius;
+            input_float Drift;
+            input_float DriftSpeed;
+            input_float EnergyDrift;
+            input_float TumbleSpeed;
+            input_float RiseAmount;
+            input_float RiseSpeed;
+            input_float PickupLag;
+            input_float LagMax;
+            input_float OutwardBias;
+            input_float RisePhase;
+            input_float PuffPhase;
+            input_float DriftClock;
+            input_float SwirlTurns;
+            
+            mat3 rotAxis(vec3 ax, float a)
+            {
+            	float c = cos(a);
+            	float s = sin(a);
+            	float t = 1.0 - c;
+            	return mat3(
+            		t * ax.x * ax.x + c,        t * ax.x * ax.y + s * ax.z, t * ax.x * ax.z - s * ax.y,
+            		t * ax.x * ax.y - s * ax.z, t * ax.y * ax.y + c,        t * ax.y * ax.z + s * ax.x,
+            		t * ax.x * ax.z + s * ax.y, t * ax.y * ax.z - s * ax.x, t * ax.z * ax.z + c);
+            }
+            
+            void main()
+            {
+            	// Stable per-piece random numbers (no time, no node id, so they never change)
+            	vec3 r1 = system.getParticleRandomVec3(true, false, false, 11.0);
+            	vec3 r2 = system.getParticleRandomVec3(true, false, false, 23.0);
+            	vec3 r3 = system.getParticleRandomVec3(true, false, false, 37.0);
+            	vec4 r4 = system.getParticleRandomVec4(true, false, false, 51.0);
+            	float t = system.getTimeElapsed();
+            	float energy = clamp(GlitterEnergy, 0.0, 1.0);
+            
+            	// Home spot: inside an ellipsoid band (toy local space, +Y up)
+            	float ang0 = r1.x * 6.2831853;
+            	float h = max(BandTop - BandBottom, 0.01);
+            	// Height 0..1: fixed per piece, or (Upward Movement) rising and looping
+            	// Phase comes from the script (cycles), so changing the band size never makes pieces jump. Music puffs only ever add to it.
+            	float fr0 = fract(r1.y + RisePhase + PuffPhase * (0.6 + 0.8 * r4.x));
+            	float v = mix(r1.y, fr0, RiseAmount);
+            	float rr = Radius * sqrt(r1.z) * sqrt(max(0.0, 1.0 - pow(2.0 * v - 1.0, 2.0)));
+            	float ang = ang0 + SwirlTurns * 6.2831853 * mix(0.0, v, RiseAmount);
+            	vec3 home = vec3(cos(ang) * rr, BandBottom + v * h, sin(ang) * rr);
+            	// Outward Spread: fade out near the widest point instead of near the (narrow) top, so pieces only move up and out
+            	float ob = clamp(OutwardBias, 0.0, 1.0);
+            	float fadeStart = mix(0.85, 0.5, ob);
+            	float fadeEnd = mix(1.0, 0.8, ob);
+            	float edge = mix(1.0, smoothstep(0.0, 0.15, v) * (1.0 - smoothstep(fadeStart, fadeEnd, v)), RiseAmount);
+            
+            	// Drift: slow wander, bigger when the music is louder
+            	float amp = Drift * ((1.0 - EnergyDrift) + EnergyDrift * energy);
+            	vec3 ph = r2 * 6.2831853;
+            	vec3 fr = (0.6 + r3 * 0.8) * DriftSpeed;
+            	vec3 wander = vec3(sin(DriftClock * fr.x + ph.x), sin(DriftClock * fr.y + ph.y) * (1.0 - 0.8 * RiseAmount), sin(DriftClock * fr.z + ph.z)) * amp;
+            
+            	// Pickup: slide opposite to the toy's acceleration (nothing stored, so it catches up on its own)
+            	vec3 lag = -ToyAccel * PickupLag * (0.5 + r4.x);
+            	float lagLen = length(lag);
+            	if (lagLen > LagMax) { lag *= LagMax / lagLen; }
+            
+            	system.setParticlePosition(home + wander + lag);
+            	system.setParticleVelocity(vec3(0.0));
+            	system.setParticleForce(vec3(0.0));
+            
+            	// How many pieces are showing at this state (piece index below the count = visible)
+            	float s = clamp(GlitterState, 0.0, 3.0);
+            	float cnt = s < 1.0 ? mix(0.0, CountLow, s) : (s < 2.0 ? mix(CountLow, CountMed, s - 1.0) : mix(CountMed, CountHigh, s - 2.0));
+            	float vis = clamp(cnt - float(system.getParticleIndex()), 0.0, 1.0);
+            	system.setParticleSize(PieceSize * mix(1.0 - SizeVariation, 1.0 + SizeVariation, r4.y) * vis * edge);
+            
+            	// Colour: random palette mix, plus a glint that is stronger with the music
+            	// Specular: the piece flashes when its (two-sided) face turns toward a fixed light direction
+            	vec3 axis = normalize(r3 * 2.0 - 1.0 + vec3(0.001));
+            	mat3 rot = rotAxis(axis, r2.y * 6.2831853 + t * TumbleSpeed * (0.5 + r4.w));
+            	vec3 nrm = rot * vec3(0.0, 0.0, 1.0);
+            	float glint = pow(abs(dot(nrm, normalize(vec3(0.3, 0.8, 0.5)))), ShineSharpness) * FlashAmount * (0.4 + 0.6 * energy);
+            	vec3 base = mix(ColorA.rgb, ColorB.rgb, r4.z);
+            	vec3 col = mix(base, FlashColor.rgb, clamp(glint, 0.0, 1.0)) * (1.0 + max(0.0, glint - 1.0));
+            	system.setParticleColor(vec4(col, 1.0));
+            
+            	system.setParticleMatrix(rot);
+            }
+
+        ColorA:
+          Connection0:
+            NodeLevelID: 105
+            PortID: Output
+          Variable: [1.0, 0.85, 0.4, 1.0]
+        ColorB:
+          Connection0:
+            NodeLevelID: 106
+            PortID: Output
+          Variable: [0.6, 0.85, 1.0, 1.0]
+        CountHigh:
+          Connection0:
+            NodeLevelID: 112
+            PortID: Output
+          Variable: 40.0
+        CountLow:
+          Connection0:
+            NodeLevelID: 110
+            PortID: Output
+          Variable: 10.0
+        CountMed:
+          Connection0:
+            NodeLevelID: 111
+            PortID: Output
+          Variable: 25.0
+        CustomCodeNodeAsset:
+          ClassType1: REFUID
+          String: ""
+        Description:
+          ClassType1: TEXT
+          String: ""
+        Drift:
+          Connection0:
+            NodeLevelID: 116
+            PortID: Output
+          Variable: 0.15
+        DriftClock:
+          Connection0:
+            NodeLevelID: 127
+            PortID: Output
+          Variable: 0.0
+        DriftSpeed:
+          Connection0:
+            NodeLevelID: 117
+            PortID: Output
+          Variable: 1.0
+        EnergyDrift:
+          Connection0:
+            NodeLevelID: 118
+            PortID: Output
+          Variable: 0.7
+        Examples:
+          ItemIndex: 0
+          ItemList: "Custom : System Built-In Values/Functions"
+        FlashAmount:
+          Connection0:
+            NodeLevelID: 108
+            PortID: Output
+          Variable: 1.5
+        FlashColor:
+          Connection0:
+            NodeLevelID: 107
+            PortID: Output
+          Variable: [1.0, 1.0, 1.0, 1.0]
+        GlitterEnergy:
+          Connection0:
+            NodeLevelID: 101
+            PortID: Output
+          Variable: 0.0
+        GlitterState:
+          Connection0:
+            NodeLevelID: 100
+            PortID: Output
+          Variable: 0.0
+        ID:
+          Variable: 202
+        LagMax:
+          Connection0:
+            NodeLevelID: 123
+            PortID: Output
+          Variable: 0.4
+        Locked:
+          Variable: false
+        OutwardBias:
+          Connection0:
+            NodeLevelID: 124
+            PortID: Output
+          Variable: 0.7
+        ParticleIn:
+          ClassType2: PARTICLE
+          Connection0:
+            NodeLevelID: 85
+            PortID: ParticleOut
+        ParticleOut:
+          ClassType2: PARTICLE
+          IOType: 1
+        PickupLag:
+          Connection0:
+            NodeLevelID: 122
+            PortID: Output
+          Variable: 0.004
+        PieceSize:
+          Connection0:
+            NodeLevelID: 103
+            PortID: Output
+          Variable: 0.12
+        PuffPhase:
+          Connection0:
+            NodeLevelID: 126
+            PortID: Output
+          Variable: 0.0
+        Radius:
+          Connection0:
+            NodeLevelID: 115
+            PortID: Output
+          Variable: 1.3
+        RiseAmount:
+          Connection0:
+            NodeLevelID: 119
+            PortID: Output
+          Variable: 0.8
+        RisePhase:
+          Connection0:
+            NodeLevelID: 125
+            PortID: Output
+          Variable: 0.0
+        RiseSpeed:
+          Connection0:
+            NodeLevelID: 120
+            PortID: Output
+          Variable: 0.5
+        ShineSharpness:
+          Connection0:
+            NodeLevelID: 109
+            PortID: Output
+          Variable: 12.0
+        SizeVariation:
+          Connection0:
+            NodeLevelID: 104
+            PortID: Output
+          Variable: 0.4
+        Stage:
+          ItemIndex: 1
+          ItemList: "Vertex : Pixel"
+        SwirlTurns:
+          Connection0:
+            NodeLevelID: 128
+            PortID: Output
+          Variable: 0.15
+        Title:
+          String: Glitter Update
+        ToyAccel:
+          Connection0:
+            NodeLevelID: 102
+            PortID: Output
+          Variable: [0.0, 0.0, 0.0]
+        TumbleSpeed:
+          Connection0:
+            NodeLevelID: 121
+            PortID: Output
+          Variable: 2.0
+        UseExternalFile:
+          Variable: false
+        ngs_Height:
+          Variable: 400
+        ngs_Version:
+          String: 0.1.0
+      PositionX: -150
+      PositionY: 995
+      TemplateID: node_util_custom_container_update
+      Title1: Glitter Update
+    Node36CheckEnabled: true
+    Node36CheckExists: true
+    Node37:
+      DependencyIndex: 37
+      LevelID: 15
+      NodeCount: 0
+      NodeType: 1
+      Ports:
+        ParticleIn:
+          ClassType2: PARTICLE
+          Connection0:
+            NodeLevelID: 202
+            PortID: ParticleOut
+        ParticleOut:
+          ClassType2: PARTICLE
+          IOType: 1
+      PositionX: -150
+      PositionY: 1558
+      TemplateID: nodes_particle_update_end
+      Title1: Particle Update ( End )
+    Node37CheckValue: false
+    Node38:
+      DependencyIndex: 38
+      LevelID: 39
+      NodeCount: 0
+      NodeType: 1
+      Ports:
+        AlphaTestThreshold:
+          Variable: 0.0
+        AttributeUsageInfo:
+          String: "Position, Age, Life, Velocity, Size, Color, Matrix"
+        BlendMode:
+          ItemIndex: 0
+          ItemList: "Disabled : Normal : Multiply : Add : Premultiplied Alpha : Glass : Colored Glass : Alpha Test : Alpha To Coverage : Screen : Min : Max"
+        ColorMaskA:
+          Variable: true
+        ColorMaskB:
+          Variable: true
+        ColorMaskG:
+          Variable: true
+        ColorMaskR:
+          Variable: true
+        CullMode:
+          ItemIndex: 1
+          ItemList: "Front : Back"
+        CustomMaterial:
+          Variable: true
+        DebugMode:
+          ItemIndex: 0
+          ItemList: "Disabled : RT 0 : RT 1 : RT 2 : RT 3 : RT All : Position : Velocity : Color ( no alpha ) : Color ( alpha ) : Life : Age : Size : Matrix ( Right ) : Matrix ( Up ) : Matrix ( Forward )"
+        DebugMultiplier:
+          Variable: 1.0
+        DepthFunction:
+          ItemIndex: 3
+          ItemList: "Never : Less : Equal : LessEqual : Greater : NotEqual : GreaterEqual : Always"
+        DepthTest:
+          Variable: true
+        DepthWrite:
+          Variable: true
+        FlipBackfaceNormal:
+          Variable: false
+        GeometryType:
+          ItemIndex: 0
+          ItemList: "Quad : Mesh"
+        ID:
+          String: Output_39
+        Mesh:
+          ClassType1: REFUID
+          String: ""
+        MeshMaterial:
+          ClassType1: REFUID
+          String: ""
+        Name:
+          String: Effect_A
+        OutputName:
+          String: Output
+        Particle:
+          ClassType2: PARTICLE
+          Connection0:
+            NodeLevelID: 15
+            PortID: ParticleOut
+        ParticleOut:
+          ClassType2: PARTICLE
+          IOType: 1
+        PolygonOffsetFactor:
+          Variable: 0.0
+        PolygonOffsetUnits:
+          Variable: 0.0
+        RTUsageInfo:
+          String: "RT 0, RT 1, RT 2"
+        RenderOrderOffset:
+          Variable: 0
+        ShadowColor:
+          ClassType1: COLOR
+          Variable: [1.0, 1.0, 1.0, 1.0]
+        ShadowDensity:
+          Variable: 1.0
+        ShadowMode:
+          ItemIndex: 0
+          ItemList: "None : Caster"
+        SortByDepth:
+          Variable: false
+        TwoSided:
+          Variable: true
+      PositionX: -160
+      PositionY: 1300
+      TemplateID: nodes_particle_output_begin
+      Title1: Output Quad ( World Space )
+    Node38CheckEnabled: true
+    Node38CheckExists: true
+    Node39:
+      DependencyIndex: 39
+      LevelID: 40
+      NodeCount: 0
+      NodeType: 1
+      Ports:
+        Particle:
+          ClassType2: PARTICLE
+          Connection0:
+            NodeLevelID: 39
+            PortID: ParticleOut
+      PositionX: -147
+      PositionY: 1500
+      TemplateID: nodes_particle_output_end
+      Title1: Particle ( Output End )
+    Node39CheckValue: false
+    Node4:
+      DependencyIndex: 4
+      LevelID: 201
+      NodeCount: 0
+      NodeType: 1
+      Ports:
+        Code:
+          ClassType1: TEXT
+          String: |
+            void main()
+            {
+            	// Start hidden at the centre; the Update code places and sizes every piece each frame
+            	system.setParticlePosition(vec3(0.0));
+            	system.setParticleVelocity(vec3(0.0));
+            	system.setParticleSize(0.0);
+            }
+
+        CustomCodeNodeAsset:
+          ClassType1: REFUID
+          String: ""
+        Description:
+          ClassType1: TEXT
+          String: ""
+        Examples:
+          ItemIndex: 0
+          ItemList: "Custom : System Built-In Values/Functions"
+        ID:
+          Variable: 201
+        Locked:
+          Variable: false
+        ParticleIn:
+          ClassType2: PARTICLE
+          Connection0:
+            NodeLevelID: 61
+            PortID: Particle
+        ParticleOut:
+          ClassType2: PARTICLE
+          IOType: 1
+        Stage:
+          ItemIndex: 1
+          ItemList: "Vertex : Pixel"
+        Title:
+          String: Glitter Spawn
+        UseExternalFile:
+          Variable: false
+        ngs_Height:
+          Variable: 400
+        ngs_Version:
+          String: 0.1.0
+      PositionX: -150
+      PositionY: 735
+      TemplateID: node_util_custom_container_spawn
+      TemplateVersionMinor: 1
+      Title1: Glitter Spawn
+    Node4CheckEnabled: true
+    Node4CheckExists: true
+    Node5:
+      DependencyIndex: 5
+      LevelID: 25
+      NodeCount: 0
+      NodeType: 1
+      Ports:
+        ParticleIn:
+          ClassType2: PARTICLE
+          Connection0:
+            NodeLevelID: 201
+            PortID: ParticleOut
+        ParticleOut:
+          ClassType2: PARTICLE
+          IOType: 1
+      PositionX: -150
+      PositionY: 776
+      TemplateID: nodes_particle_spawn_end
+      Title1: Particle ( Spawn End )
+    Node5CheckValue: false
+    Node6:
+      DependencyIndex: 6
+      LevelID: 85
+      NodeCount: 0
+      NodeType: 1
+      Ports:
+        ParticleIn:
+          ClassType2: PARTICLE
+          Connection0:
+            NodeLevelID: 25
+            PortID: ParticleOut
+        ParticleOut:
+          ClassType2: PARTICLE
+          IOType: 1
+        Simulate:
+          Variable: true
+        Space:
+          ItemIndex: 1
+          ItemList: "World : Local"
+      PositionX: -160
+      PositionY: 940
+      TemplateID: nodes_particle_update_begin
+      Title1: Update Particle
+      Title2: Local Space
+    Node7:
+      DependencyIndex: 7
+      LevelID: 100
+      NodeCount: 0
+      NodeType: 1
+      Ports:
+        Channels:
+          ItemIndex: 5
+          ItemList: "xyzw : rgba : xyz : rgb : xy : x"
+        Default:
+          Variable: [0.0, 0.0, 0.0, 0.0]
+        EnableMax:
+          Variable: false
+        EnableMin:
+          Variable: false
+        Group:
+          String: Driven by GlitterDriver (leave alone)
+        Max:
+          Variable: 1.0
+        Min:
+          Variable: 0.0
+        Output:
+          IOType: 1
+          Variable: [0.0, 0.0, 0.0, 0.0]
+        ScriptName:
+          String: glitterState
+        SortIndex:
+          Variable: 0
+        Step:
+          Variable: 0.009999999776482582
+        Title:
+          String: Glitter State (script)
+        Tooltip:
+          String: "Set by GlitterDriver: 0 off, 1 low, 2 medium, 3 high (unitless)."
+      PositionX: -900
+      PositionY: -200
+      TemplateID: nodes_inputs_parameters_float
+      Title1: Float Parameter
+      Title2: Glitter State (script)
+    Node8:
+      DependencyIndex: 8
+      LevelID: 101
+      NodeCount: 0
+      NodeType: 1
+      Ports:
+        Channels:
+          ItemIndex: 5
+          ItemList: "xyzw : rgba : xyz : rgb : xy : x"
+        Default:
+          Variable: [0.0, 0.0, 0.0, 0.0]
+        EnableMax:
+          Variable: false
+        EnableMin:
+          Variable: false
+        Group:
+          String: Driven by GlitterDriver (leave alone)
+        Max:
+          Variable: 1.0
+        Min:
+          Variable: 0.0
+        Output:
+          IOType: 1
+          Variable: [0.0, 0.0, 0.0, 0.0]
+        ScriptName:
+          String: glitterEnergy
+        SortIndex:
+          Variable: 1
+        Step:
+          Variable: 0.009999999776482582
+        Title:
+          String: Glitter Energy (script)
+        Tooltip:
+          String: "Set by GlitterDriver: smoothed stem loudness 0..1 (unitless)."
+      PositionX: -900
+      PositionY: -130
+      TemplateID: nodes_inputs_parameters_float
+      Title1: Float Parameter
+      Title2: Glitter Energy (script)
+    Node9:
+      DependencyIndex: 9
+      LevelID: 102
+      NodeCount: 0
+      NodeType: 1
+      Ports:
+        Channels:
+          ItemIndex: 2
+          ItemList: "xyzw : rgba : xyz : rgb : xy : x"
+        Default:
+          Variable: [0.0, 0.0, 0.0, 0.0]
+        EnableMax:
+          Variable: false
+        EnableMin:
+          Variable: false
+        Group:
+          String: Driven by GlitterDriver (leave alone)
+        Max:
+          Variable: 1.0
+        Min:
+          Variable: 0.0
+        Output:
+          IOType: 1
+          Variable: [0.0, 0.0, 0.0, 0.0]
+        ScriptName:
+          String: toyAccel
+        SortIndex:
+          Variable: 2
+        Step:
+          Variable: 0.009999999776482582
+        Title:
+          String: Toy Accel (script)
+        Tooltip:
+          String: "Set by GlitterDriver: toy acceleration in cm/s^2 (world axes)."
+      PositionX: -900
+      PositionY: -60
+      TemplateID: nodes_inputs_parameters_float
+      Title1: Float Parameter
+      Title2: Toy Accel (script)
+  IsSubGraph0: true
+  IsSubGraph1: true
+  IsSubGraph2: true
+  IsSubGraph3: true
+  LevelID: 0
+  NodeType: 3
+  PositionX: 0
+  PositionY: 0
+  TemplateID: nodes_main_subgraph
+  Title1: ""
+SystemID: dev.snap.particles

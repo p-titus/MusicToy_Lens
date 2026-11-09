@@ -1,0 +1,1107 @@
+- !<AssetImportMetadata/a42450b1-9ec3-4687-b816-8bf113700554>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> a858a84f-ddb3-415a-bcbe-2ed422b231a1
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> a858a84f-ddb3-415a-bcbe-2ed422b231a1
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> faee4771-60a7-4f12-9aa3-e2b96ee4f39c
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/faee4771-60a7-4f12-9aa3-e2b96ee4f39c>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  VersionPrerelease: ""
+  UpdateOrder: 0
+  ComponentUid: dbea486d-fd00-4bc0-97bd-51a9ebc953f2
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    airPokeCyclesVolume: false
+    aliveBreathSeconds: false
+    aliveDialEnabled: false
+    aliveDialIdlePercent: false
+    aliveDialInnerCm: false
+    aliveDialNearPercent: false
+    aliveDialOuterCm: false
+    aliveEaseSeconds: false
+    aliveEnabled: false
+    aliveHandleEnabled: false
+    aliveHandleHoverLevel: false
+    aliveHandleInnerCm: false
+    aliveHandleOuterCm: false
+    aliveHandleParam: false
+    aliveHoverCounts: false
+    aliveIdleHeat: false
+    aliveLeanDamping: false
+    aliveLeanDegrees: false
+    aliveLeanEnabled: false
+    aliveLeanHz: false
+    aliveLeanMaxDegrees: false
+    aliveLeanWhenOff: false
+    aliveLeaveFrames: false
+    aliveMouseHand: false
+    aliveMouseHeightCm: false
+    aliveNearFrames: false
+    aliveNearHeat: false
+    aliveStagger: false
+    aliveToyEnabled: false
+    aliveToyInnerCm: false
+    aliveToyOuterCm: false
+    analysisSamples: false
+    arcBlendSeconds: false
+    arcBounceDamping: false
+    arcColorParam: false
+    arcDragEnabled: false
+    arcDragHandScale: false
+    arcDragThreshold: false
+    arcEnabled: false
+    arcHitMargin: false
+    arcLift: false
+    arcOrbitEnabled: false
+    arcOrbitHoldSeconds: false
+    arcPressDamping: false
+    arcPressParam: false
+    arcSegmentParamPrefix: false
+    arcSpringHz: false
+    arcTurnSpeed: false
+    arcUnlit: false
+    arcYawOffset: false
+    audioReactiveEnabled: false
+    autoLevel: false
+    awayDim: false
+    awayPulseAmount: false
+    awayPulseSeconds: false
+    baseBlobScale: false
+    blobLiveEdit: false
+    blobShapingEnabled: false
+    buttonCoreEnd: false
+    buttonCoreEndParam: false
+    buttonDiameter: false
+    buttonDiscRadiusParam: false
+    buttonGap: false
+    buttonGlowMargin: false
+    buttonHighBrightness: false
+    buttonLowBrightness: false
+    buttonMedBrightness: false
+    buttonMidEnd: false
+    buttonMidEndParam: false
+    buttonOffBrightness: false
+    buttonOutlineColorParam: false
+    buttonOutlineSoftParam: false
+    buttonOutlineSoftness: false
+    buttonOutlineWidth: false
+    buttonOutlineWidthParam: false
+    buttonPressDepth: false
+    buttonPressShrink: false
+    buttonRimRadius: false
+    buttonRingFollowsPress: false
+    buttonToyBodyColourPrefix: false
+    buttonToyEdgeColourPrefix: false
+    buttonUseToyEdgeColour: false
+    callHomeKey: false
+    callHomeNow: false
+    cameraObject: false
+    comfortLimiterEnabled: false
+    distanceFromUser: false
+    driftCheckInterval: false
+    driftLateralSpeed: false
+    driftTolerance: false
+    edgePaddingRatio: false
+    enableReplaceGesture: false
+    enforceBounds: false
+    fallbackHeightOffset: false
+    floatSway: false
+    floatSwaySpeed: false
+    floatTilt: false
+    foundationAudio: false
+    foundationTrack: false
+    foundationVolume: false
+    frameArcMarks: false
+    frameArcSteps: false
+    frameBracketLength: false
+    frameColor: false
+    frameDashGap: false
+    frameDashLength: false
+    frameFlatEdge: false
+    frameFollowFoundation: false
+    frameFoundationAmount: false
+    frameFoundationSmoothing: false
+    frameHeightOffset: false
+    frameMaxPieces: false
+    frameOpacity: false
+    frameSegmentPrefab: false
+    frameStyle: false
+    frameThickness: false
+    frameTintMaterial: false
+    frameVisible: false
+    gazeDepthRatio: false
+    grabFollowSpeed: false
+    grabMoveScale: false
+    heightOffset: false
+    hitsRequired: false
+    homeBeatFallSeconds: false
+    homeBeatParam: false
+    homeBeatStrength: false
+    homeBrightenBySquash: false
+    homeBrightnessHigh: false
+    homeBrightnessLow: false
+    homeBrightnessMed: false
+    homeBrightnessParam: false
+    homeBrightnessSeconds: false
+    homeColorParam: false
+    homeColourSource: false
+    homeEnabled: false
+    homeMockBeats: false
+    homeOnOpacity: false
+    homePadStateParam: false
+    homeQuadSize: false
+    homeRestBrightness: false
+    homeRingRadius: false
+    homeRingRadiusParam: false
+    homeRingSoftness: false
+    homeRingSoftnessParam: false
+    homeTightenBySquash: false
+    homeWidenPerCm: false
+    hoverHeight: false
+    idleMotionAmount: false
+    landPressSeconds: false
+    landingFlashSeconds: false
+    landingFlashStrength: false
+    levelDecaySeconds: false
+    levelFloor: false
+    levelReference: false
+    limitBounceCm: false
+    limitBulge: false
+    limitDamping: false
+    limitOvershoot: false
+    limitScalePulse: false
+    limitSquash: false
+    limitSquishHz: false
+    limitStretch: false
+    limitWobbleDegrees: false
+    limitWobbleHz: false
+    logQueries: false
+    loopPiece: false
+    loopTestJump: false
+    maxDriftSeconds: false
+    maxDropBelowEye: false
+    maxHitDistance: false
+    maxRescueDistance: false
+    minDropBelowEye: false
+    minHitDistance: false
+    minSurfaceUp: false
+    mouseHoldSeconds: false
+    moveEnabled: false
+    moveFaceUser: false
+    moveHandScale: false
+    moveHandleAuthored: false
+    moveHandleOffset: false
+    moveHandleSize: false
+    moveMaxDistance: false
+    moveMinDistance: false
+    moveSmoothSeconds: false
+    nudgeEnabled: false
+    outlineSegments: false
+    padAcceptsClick: false
+    padAcceptsPoke: false
+    padBaseDrop: false
+    padBaseLength: false
+    padBaseMesh: false
+    padBaseOffset: false
+    padBaseRoundness: false
+    padBaseShade: false
+    padBaseShape: false
+    padBaseTouchable: false
+    padBaseWidth: false
+    padColliderHeight: false
+    padCurveSteps: false
+    padFollowSpeed: false
+    padFrontOffset: false
+    padHitMargin: false
+    padLift: false
+    padPressDepth: false
+    padPressSeconds: false
+    padSlideEnabled: false
+    padSlideHandScale: false
+    padSlideSnap: false
+    padSlideThreshold: false
+    padStateParam: false
+    padStripLength: false
+    padStripMesh: false
+    padStripRoundness: false
+    padStripShape: false
+    padStripWidth: false
+    placementDelay: false
+    pokeDebounce: false
+    pokeLockoutAfterRelease: false
+    pokeMinDepth: false
+    pokePressSeconds: false
+    primitiveMeshSize: false
+    pushApartEnabled: false
+    pushGap: false
+    pushReturnSpeed: false
+    pushSoftness: false
+    queryFilter: false
+    queryRefreshRate: false
+    reactPosition: false
+    reactRotation: false
+    reactScale: false
+    reactSmoothing: false
+    reactWhenOff: false
+    replaceCentreOnToys: false
+    replaceHoldSeconds: false
+    requiredFreeSlots: false
+    rescueSpeed: false
+    resetPadColours: false
+    resetPadPositions: false
+    resetSockets: false
+    resetToyPositions: false
+    rippleColourParam: false
+    rippleEnabled: false
+    rippleEndBrightness: false
+    rippleEndWidth: false
+    rippleFadeDistance: false
+    rippleFadeSeconds: false
+    rippleLandingStrength: false
+    rippleLift: false
+    rippleLighten: false
+    rippleMaxWaves: false
+    rippleMergeGain: false
+    rippleMinGap: false
+    rippleOnHits: false
+    rippleProgressParam: false
+    rippleSeconds: false
+    rippleSize: false
+    rippleSoftness: false
+    rippleStartBrightness: false
+    rippleStartWidth: false
+    rippleStrengthParam: false
+    sameHandCooldown: false
+    searchRayLength: false
+    searchSeconds: false
+    settleEasing: false
+    shaderDeform: false
+    sharedWaveField: false
+    showBoundsOutline: false
+    socketGap: false
+    spacingRatio: false
+    squishEnabled: false
+    stageBackHandle: false
+    stageDepth: false
+    stageSideHandle: false
+    stageWidth: false
+    stopDepthWhenIdle: false
+    syncFadeSeconds: false
+    syncLog: false
+    syncMaxFixTries: false
+    syncOddOneOutFraction: false
+    syncTestKnock: false
+    syncTestKnockMs: false
+    tapAvoidEnabled: false
+    tapAvoidMarginCm: false
+    tapAvoidSocketRadius: false
+    tapAvoidToyRadius: false
+    tapDebugLog: false
+    tapWaveBrightness: false
+    tapWaveColor: false
+    tapWaveMax: false
+    tapWaveMinGap: false
+    tapWavesEnabled: false
+    toys: false
+    toysReturnToSockets: false
+    useClassification: false
+    useWorldQuery: false
+    verbose: false
+    volumeCooldown: false
+    volumeHigh: false
+    volumeLow: false
+    volumeMedium: false
+    volumeOff: false
+    volumeSmoothing: false
+    waveDebugLog: false
+    waveEdgeFade: false
+    waveFadeSeconds: false
+    waveFalloff: false
+    waveFieldCenter: false
+    waveFieldSize: false
+    waveFlipU: false
+    waveFlipV: false
+    waveLength: false
+    waveMergeGain: false
+    waveMinGap: false
+    waveParamPrefix: false
+    waveSeconds: false
+    waveSpeed: false
+    waveStartRadius: false
+    waveTestLoop: false
+    waveTrail: false
+    waveWidth: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - cameraObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      toys: !<reference.SceneObject[]>
+        []
+      foundationAudio: !<reference.AudioComponent> 00000000-0000-0000-0000-000000000000
+      foundationTrack: !<reference.AudioTrackAsset> 00000000-0000-0000-0000-000000000000
+      frameSegmentPrefab: !<reference.ObjectPrefab> 00000000-0000-0000-0000-000000000000
+      outlineSegments: !<reference.SceneObject[]>
+        []
+      enforceBounds: false
+      stageWidth: !<float> 28.000000
+      stageDepth: !<float> 30.000000
+      stageBackHandle: 0.850000
+      stageSideHandle: 0.550000
+      gazeDepthRatio: 0.420000
+      distanceFromUser: !<float> 52.000000
+      heightOffset: !<float> -10.000000
+      fallbackHeightOffset: !<float> -10.000000
+      placementDelay: 0.600000
+      enableReplaceGesture: true
+      replaceHoldSeconds: !<float> 1.000000
+      moveEnabled: true
+      moveHandleOffset: !<float> 4.000000
+      moveHandleSize: !<float> 5.000000
+      moveHandleAuthored: false
+      moveFaceUser: true
+      moveHandScale: !<float> 1.000000
+      moveSmoothSeconds: 0.080000
+      moveMinDistance: !<float> 20.000000
+      moveMaxDistance: !<float> 100.000000
+      frameVisible: true
+      frameStyle: !<float> 1.000000
+      frameColor: !<Vec4> {x: 0.920000, y: 0.940000, z: 1.000000, w: 1.000000}
+      frameOpacity: 0.350000
+      frameThickness: 0.150000
+      frameFlatEdge: true
+      frameArcMarks: !<float> 3.000000
+      frameBracketLength: !<float> 3.000000
+      frameDashLength: !<float> 1.000000
+      frameDashGap: 0.800000
+      frameArcSteps: !<float> 8.000000
+      frameHeightOffset: 0.050000
+      frameMaxPieces: !<float> 120.000000
+      frameTintMaterial: true
+      frameFollowFoundation: false
+      frameFoundationAmount: 0.150000
+      frameFoundationSmoothing: 0.400000
+      useWorldQuery: true
+      queryFilter: true
+      queryRefreshRate: !<float> 5.000000
+      searchSeconds: !<float> 3.000000
+      hitsRequired: !<float> 3.000000
+      searchRayLength: !<float> 200.000000
+      minHitDistance: !<float> 25.000000
+      maxHitDistance: !<float> 120.000000
+      minSurfaceUp: 0.850000
+      minDropBelowEye: !<float> 10.000000
+      maxDropBelowEye: !<float> 110.000000
+      useClassification: false
+      logQueries: true
+      replaceCentreOnToys: true
+      stopDepthWhenIdle: true
+      baseBlobScale: !<float> 4.000000
+      spacingRatio: 0.250000
+      edgePaddingRatio: 0.250000
+      nudgeEnabled: true
+      pushApartEnabled: true
+      pushGap: 0.500000
+      pushSoftness: 0.080000
+      pushReturnSpeed: !<float> 6.000000
+      requiredFreeSlots: !<float> 1.000000
+      volumeOff: !<float> 0.000000
+      volumeLow: 0.250000
+      volumeMedium: 0.550000
+      volumeHigh: !<float> 1.000000
+      volumeSmoothing: 0.150000
+      foundationVolume: 0.200000
+      padStripShape: !<float> 0.000000
+      padStripWidth: 2.200000
+      padStripLength: !<float> 7.000000
+      padStripRoundness: !<float> 1.000000
+      padStripMesh: !<reference.RenderMesh> 00000000-0000-0000-0000-000000000000
+      padBaseShape: !<float> 0.000000
+      padBaseWidth: 3.400000
+      padBaseLength: 3.400000
+      padBaseRoundness: !<float> 1.000000
+      padBaseOffset: !<Vec2> {x: 0.000000, y: 0.000000}
+      padBaseMesh: !<reference.RenderMesh> 00000000-0000-0000-0000-000000000000
+      padBaseShade: 0.550000
+      padBaseTouchable: false
+      padCurveSteps: !<float> 6.000000
+      padHitMargin: 0.750000
+      padBaseDrop: 0.030000
+      padSlideEnabled: true
+      padSlideThreshold: 0.800000
+      padSlideHandScale: !<float> 1.000000
+      padSlideSnap: false
+      padColliderHeight: 1.500000
+      padLift: 0.150000
+      padPressDepth: 0.200000
+      padPressSeconds: 0.140000
+      padFollowSpeed: !<float> 14.000000
+      padAcceptsPoke: true
+      padAcceptsClick: true
+      volumeCooldown: 0.300000
+      sameHandCooldown: !<float> 1.000000
+      padStateParam: padState
+      padFrontOffset: !<float> 5.000000
+      arcEnabled: true
+      buttonDiameter: !<float> 2.000000
+      buttonGap: !<float> 0.000000
+      buttonRimRadius: !<float> 0.000000
+      buttonGlowMargin: 0.500000
+      buttonCoreEnd: 0.340000
+      buttonMidEnd: 0.670000
+      buttonUseToyEdgeColour: true
+      buttonOffBrightness: !<float> 100.000000
+      buttonLowBrightness: !<float> 100.000000
+      buttonMedBrightness: !<float> 100.000000
+      buttonHighBrightness: !<float> 100.000000
+      buttonToyEdgeColourPrefix: edgeColor
+      buttonToyBodyColourPrefix: bodyColor
+      buttonOutlineWidth: 0.200000
+      buttonOutlineSoftness: 0.030000
+      arcLift: 0.030000
+      arcUnlit: 0.120000
+      arcBlendSeconds: 0.150000
+      arcTurnSpeed: !<float> 360.000000
+      arcYawOffset: !<float> 0.000000
+      arcHitMargin: 0.800000
+      arcDragEnabled: true
+      arcOrbitEnabled: true
+      arcOrbitHoldSeconds: 0.500000
+      arcDragThreshold: 0.800000
+      arcDragHandScale: !<float> 1.000000
+      buttonPressDepth: 0.100000
+      buttonPressShrink: 0.030000
+      buttonRingFollowsPress: false
+      arcSpringHz: !<float> 5.000000
+      arcPressDamping: 0.800000
+      arcBounceDamping: 0.300000
+      arcColorParam: arcColor
+      buttonOutlineColorParam: outlineColor
+      buttonOutlineWidthParam: outlineWidth
+      buttonOutlineSoftParam: outlineSoftness
+      buttonDiscRadiusParam: discRadius
+      buttonCoreEndParam: coreEnd
+      buttonMidEndParam: midEnd
+      arcSegmentParamPrefix: seg
+      arcPressParam: press
+      airPokeCyclesVolume: true
+      pokeDebounce: 0.250000
+      pokeMinDepth: 0.300000
+      pokeLockoutAfterRelease: 0.600000
+      mouseHoldSeconds: 0.250000
+      grabFollowSpeed: !<float> 18.000000
+      grabMoveScale: !<float> 1.000000
+      maxDriftSeconds: 2.500000
+      driftLateralSpeed: !<float> 8.000000
+      hoverHeight: 1.500000
+      floatSway: 1.400000
+      floatSwaySpeed: !<float> 1.000000
+      floatTilt: !<float> 12.000000
+      settleEasing: !<float> 1.000000
+      maxRescueDistance: !<float> 150.000000
+      rescueSpeed: !<float> 120.000000
+      loopPiece: true
+      driftCheckInterval: !<float> 4.000000
+      driftTolerance: 0.040000
+      syncFadeSeconds: 0.300000
+      syncOddOneOutFraction: 0.500000
+      syncMaxFixTries: !<float> 3.000000
+      syncLog: false
+      syncTestKnock: false
+      syncTestKnockMs: !<float> 80.000000
+      loopTestJump: false
+      audioReactiveEnabled: true
+      reactSmoothing: 0.080000
+      autoLevel: true
+      levelDecaySeconds: !<float> 8.000000
+      levelFloor: 0.005000
+      levelReference: 0.200000
+      analysisSamples: !<float> 512.000000
+      reactScale: true
+      reactPosition: true
+      reactRotation: true
+      shaderDeform: false
+      reactWhenOff: false
+      idleMotionAmount: 0.150000
+      squishEnabled: true
+      pokePressSeconds: 0.070000
+      landPressSeconds: 0.060000
+      comfortLimiterEnabled: true
+      limitSquash: 0.300000
+      limitStretch: 0.200000
+      limitBulge: 0.800000
+      limitOvershoot: 0.250000
+      limitDamping: 0.900000
+      limitSquishHz: !<float> 6.000000
+      limitWobbleHz: 1.500000
+      limitWobbleDegrees: !<float> 9.000000
+      limitScalePulse: 0.250000
+      limitBounceCm: 0.900000
+      resetToyPositions: false
+      resetPadPositions: false
+      resetPadColours: false
+      resetSockets: false
+      callHomeNow: false
+      callHomeKey: true
+      blobShapingEnabled: true
+      blobLiveEdit: true
+      homeEnabled: true
+      homeColourSource: !<float> 0.000000
+      homeQuadSize: !<float> 6.000000
+      homeRestBrightness: 0.250000
+      homeBrightnessLow: 0.350000
+      homeBrightnessMed: 0.600000
+      homeBrightnessHigh: 0.900000
+      homeOnOpacity: 0.750000
+      homeBrightnessSeconds: 0.250000
+      homeRingRadius: 0.600000
+      homeRingSoftness: 0.300000
+      homeTightenBySquash: 0.250000
+      homeWidenPerCm: 0.050000
+      homeBrightenBySquash: 0.300000
+      homeBeatStrength: !<float> 1.000000
+      homeBeatFallSeconds: 0.350000
+      homeMockBeats: true
+      homeColorParam: homeColor
+      homeBrightnessParam: brightness
+      homeRingRadiusParam: ringRadius
+      homeRingSoftnessParam: ringSoftness
+      homeBeatParam: beatPulse
+      homePadStateParam: padState
+      toysReturnToSockets: true
+      socketGap: 0.500000
+      awayDim: 0.700000
+      awayPulseSeconds: 2.500000
+      awayPulseAmount: 0.200000
+      landingFlashStrength: !<float> 1.000000
+      landingFlashSeconds: 0.350000
+      rippleEnabled: true
+      rippleOnHits: true
+      rippleLandingStrength: 0.500000
+      rippleSize: !<float> 16.000000
+      rippleSeconds: 0.800000
+      rippleStartWidth: 1.200000
+      rippleEndWidth: 0.300000
+      rippleStartBrightness: !<float> 1.000000
+      rippleEndBrightness: 0.500000
+      rippleLighten: 0.500000
+      rippleFadeDistance: !<float> 4.000000
+      rippleSoftness: 0.400000
+      rippleMaxWaves: !<float> 3.000000
+      rippleMinGap: 0.800000
+      rippleMergeGain: 0.500000
+      rippleFadeSeconds: 1.500000
+      rippleLift: 0.020000
+      rippleProgressParam: rippleProgress
+      rippleStrengthParam: rippleStrength
+      rippleColourParam: rippleColor
+      sharedWaveField: false
+      waveFieldSize: !<float> 60.000000
+      waveFieldCenter: !<Vec2> {x: 0.000000, y: -14.000000}
+      waveSpeed: !<float> 8.000000
+      waveSeconds: !<float> 4.000000
+      waveLength: !<float> 3.000000
+      waveWidth: 2.500000
+      waveTrail: 1.800000
+      waveFalloff: 0.500000
+      waveEdgeFade: !<float> 10.000000
+      waveStartRadius: !<float> 0.000000
+      waveFadeSeconds: 1.500000
+      waveMinGap: 0.600000
+      waveMergeGain: 0.500000
+      waveFlipU: false
+      waveFlipV: false
+      waveParamPrefix: wave
+      waveDebugLog: true
+      waveTestLoop: false
+      tapWavesEnabled: true
+      tapWaveColor: !<Vec4> {x: 0.550000, y: 0.900000, z: 1.000000, w: 1.000000}
+      tapWaveBrightness: !<float> 100.000000
+      tapWaveMax: !<float> 3.000000
+      tapWaveMinGap: 0.120000
+      tapAvoidSocketRadius: 3.800000
+      tapAvoidToyRadius: 2.500000
+      tapAvoidMarginCm: !<float> 3.000000
+      tapAvoidEnabled: true
+      tapDebugLog: true
+      aliveEnabled: true
+      aliveToyEnabled: true
+      aliveDialEnabled: true
+      aliveHandleEnabled: true
+      aliveHoverCounts: true
+      aliveNearFrames: !<float> 6.000000
+      aliveLeaveFrames: !<float> 12.000000
+      aliveEaseSeconds: 0.350000
+      aliveToyOuterCm: !<float> 8.000000
+      aliveToyInnerCm: 1.500000
+      aliveDialOuterCm: !<float> 5.000000
+      aliveDialInnerCm: 0.500000
+      aliveHandleOuterCm: !<float> 10.000000
+      aliveHandleInnerCm: !<float> 3.000000
+      aliveIdleHeat: 0.040000
+      aliveNearHeat: 0.350000
+      aliveBreathSeconds: !<float> 4.000000
+      aliveStagger: true
+      aliveDialIdlePercent: !<float> 12.000000
+      aliveDialNearPercent: !<float> 60.000000
+      aliveHandleParam: ""
+      aliveHandleHoverLevel: 0.500000
+      aliveLeanEnabled: true
+      aliveLeanWhenOff: true
+      aliveLeanDegrees: !<float> 6.000000
+      aliveLeanMaxDegrees: !<float> 10.000000
+      aliveLeanHz: 2.500000
+      aliveLeanDamping: 0.600000
+      aliveMouseHand: true
+      aliveMouseHeightCm: !<float> 3.000000
+      showBoundsOutline: false
+      primitiveMeshSize: !<float> 1.000000
+      verbose: false
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">References</span>"}'
+    - '// @ui {"widget":"group_start", "label":"References"}'
+    - '// @input SceneObject cameraObject {"hint":"The scene object with the Camera (head). Used to aim the World Query ray and for the floating fallback."}'
+    - '// @input SceneObject[] toys {"hint":"The toy objects (each needs ToyConfig, ToyInteraction, ToyVolume, ToyAudioReact)."}'
+    - '// @input Component.AudioComponent foundationAudio {"hint":"AudioComponent that plays the foundation track (stem owned by the stage)."}'
+    - "// @input Asset.AudioTrackAsset foundationTrack {\"hint\":\"The foundation stem audio file (01_MixBase_B). This is the ONLY place the track is chosen: leave the AudioComponent's own Audio Track and Autoplay Loop empty/off.\"}"
+    - '// @input Asset.ObjectPrefab frameSegmentPrefab {"hint":"The ONE piece of the stage frame: a prefab with a flat quad lying along X (length) and Z (thickness). The frame is built from copies of it, stretched in length only, so the line is always the same thickness. Swap the mesh or material inside the prefab, or assign your own prefab here. Empty = no frame."}'
+    - '// @input SceneObject[] outlineSegments {"hint":"Thin placeholder pieces used to draw the debug outline of the real landing bounds. They are only moved/scaled, never created."}'
+    - '// @ui {"widget":"group_end"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">Stage placement</span>"}'
+    - '// @ui {"widget":"group_start", "label":"Stage placement"}'
+    - '// @input bool enforceBounds {"hint":"TEMPORARY layout switch. ON: toys are kept inside the stage shape, pushed apart when they overlap, and rescued if released far away (the normal rules). OFF: none of that happens. Home Position and where you let go are used exactly as given, so you can place toys anywhere (in front, behind, outside the stage, overlapping). Turn it back ON when the layout is done."}'
+    - "// @input float stageWidth = 23 {\"hint\":\"Stage width at the flat edge, left to right (cm). The stage is a half ellipse-like shape with you, the conductor, at the middle of its flat edge. Toys settle inside it, minus edge padding. Shapes both the toy bounds and the frame. Snap's guide gives about 23 cm of comfortable width at 55 cm from the eyes (13 cm at 35 cm): check on a device.\"}"
+    - '// @input float stageDepth = 29 {"hint":"Stage depth (cm): from the flat edge (your side) to the far point at the back. The table runs away from you, so depth costs less of the display than width."}'
+    - '// @input float stageBackHandle = 1 {"hint":"How far the handle at the FAR POINT of the back is pulled out sideways, as a fraction of the half width (0.05 to 1). 0.55 is a true half ellipse. Bigger = a flatter, wider back (like a rounded rectangle). Imagine the bezier handle at the farthest point being pulled out."}'
+    - '// @input float stageSideHandle = 0.8 {"hint":"How far the handles at the two CORNERS (the ends of the flat edge) run straight back before the curve starts, as a fraction of the depth (0.05 to 1). 0.55 is a true half ellipse. Bigger = straighter sides."}'
+    - "// @input float gazeDepthRatio = 0.42 {\"hint\":\"Where your gaze lands on the stage when it is placed, as a fraction of the stage depth measured from the flat edge toward the far point (0 = on the flat edge, 1 = at the far point). 0.42 is about the middle of the stage's surface, so the stage is centred on what you look at. The flat edge then sits nearer to you.\"}"
+    - '// @input float distanceFromUser = 52 {"hint":"Distance from your head (cm) used by the FLOATING FALLBACK stage, and the distance a real table hit is expected near (see World Query min/max distance below)."}'
+    - '// @input float heightOffset = 0.2 {"hint":"How far above the real table surface the stage floor sits (cm). Small positive values stop flicker against the table."}'
+    - '// @input float fallbackHeightOffset = -10 {"hint":"Floating fallback only: height of the stage floor relative to eye level (cm). Negative = below the eyes."}'
+    - '// @input float placementDelay = 0.6 {"hint":"Seconds to wait at start before the first search, so head tracking has settled."}'
+    - '// @input bool enableReplaceGesture = true {"hint":"Turn the hold-to-re-place gesture on or off."}'
+    - '// @input float replaceHoldSeconds = 1 {"hint":"Seconds the palm tap must be held before the stage re-places where you are looking. (Editor test: hold the R key.)"}'
+    - '// @ui {"widget":"group_end"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">Moving the stage (pinch-drag handle)</span>"}'
+    - '// @ui {"widget":"group_start", "label":"Moving the stage"}'
+    - "// @input bool moveEnabled = true {\"hint\":\"Turn the pinch-drag handle on or off. The handle sits just in front of the stage's flat edge. Pinch it and drag to slide the stage across the table. The hold gesture above still works.\"}"
+    - '// @input float moveHandleOffset = 4 {"hint":"How far in front of the flat edge the handle sits, toward you (cm). Keep it clear of the pads."}'
+    - '// @input float moveHandleSize = 5 {"hint":"Touchable size of the handle (cm, a square box; also the size of its placeholder picture). Make it generous: it is pinched."}'
+    - "// @input bool moveHandleAuthored {\"hint\":\"ON = you author the handle: the script no longer sets the handle's collider shape or scales its picture, so a curved handle keeps the shape, size and collider you give it in Lens Studio. It still places the handle (Move Handle Offset, cm) and turns it on or off. OFF = old behaviour (square box and picture sized by Move Handle Size).\"}"
+    - "// @input bool moveFaceUser = true {\"hint\":\"Turn the stage to face you while you drag, so the flat edge always stays on your side. OFF = keep the stage's current angle.\"}"
+    - '// @input float moveHandScale = 1 {"hint":"Hand drag only: how far the stage moves for each cm your hand moves (1 = follows the hand exactly)."}'
+    - '// @input float moveSmoothSeconds = 0.08 {"hint":"Seconds the stage takes to catch up with the hand (0 = instant, bigger = softer)."}'
+    - '// @input float moveMinDistance = 20 {"hint":"The stage cannot be dragged closer than this to your head (cm, measured flat along the table)."}'
+    - '// @input float moveMaxDistance = 100 {"hint":"The stage cannot be dragged farther than this from your head (cm, measured flat along the table)."}'
+    - '// @ui {"widget":"group_end"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">Stage frame (outline only)</span>"}'
+    - '// @ui {"widget":"group_start", "label":"Stage frame"}'
+    - '// @input bool frameVisible = true {"hint":"Show the stage frame. It is only a picture: it never affects where toys can go (that is the stage width, depth and handles)."}'
+    - '// @input float frameStyle = 1 {"hint":"Line style: a full thin line, short brackets only (a quiet viewfinder look, fewest pieces), or dashes.", "widget":"combobox", "values":[{"label":"Thin line", "value":0}, {"label":"Corner brackets", "value":1}, {"label":"Dashed", "value":2}]}'
+    - "// @input vec4 frameColor = {0.92,0.94,1,1} {\"hint\":\"Frame color (RGBA). The alpha here multiplies the Opacity below. Needs a material with a Base Color; turn off 'Tint Material' to keep your own material's look.\", \"widget\":\"color\"}"
+    - '// @input float frameOpacity = 0.35 {"hint":"Frame opacity (0 = invisible, 1 = solid). Low by default so the frame stays in the background."}'
+    - '// @input float frameThickness = 0.15 {"hint":"Line thickness (cm). The same on every side and corner, whatever the stage size."}'
+    - "// @input bool frameFlatEdge = true {\"hint\":\"Draw the straight flat edge on your side of the stage (the conductor's side). OFF = only the curved back.\"}"
+    - '// @input float frameArcMarks = 3 {"hint":"Brackets only: how many marks along the curved back, between the two corners, evenly spaced along its length (1 = just the far point, 3 = far point plus one halfway to each corner). Whole numbers, 0 or more."}'
+    - "// @input float frameBracketLength = 3 {\"hint\":\"Brackets only: length of each mark's arm on either side of its spot (cm). Shortened automatically if neighbouring marks would meet. The corners and the middle of the flat edge also get a mark.\"}"
+    - '// @input float frameDashLength = 1 {"hint":"Dashed only: length of one dash (cm)."}'
+    - '// @input float frameDashGap = 0.8 {"hint":"Dashed only: gap between dashes (cm)."}'
+    - '// @input float frameArcSteps = 8 {"hint":"How many straight pieces make up each half of the curved back (so twice this in total) (more = smoother, more pieces). Whole numbers, 1 or more."}'
+    - '// @input float frameHeightOffset = 0.05 {"hint":"Height of the frame above the surface (cm). Keep it small (0.05 to 0.2): enough to stop flicker against the table, below the pads."}'
+    - '// @input float frameMaxPieces = 120 {"hint":"The most pieces the frame may use. A warning is printed if the style and size need more."}'
+    - "// @input bool frameTintMaterial = true {\"hint\":\"ON: the script sets the frame material's Base Color (color and opacity above) on a copy of your material. OFF: your material is used exactly as authored.\"}"
+    - "// @input bool frameFollowFoundation {\"hint\":\"Let the frame's opacity follow the foundation track's loudness a little. Off by default.\"}"
+    - '// @input float frameFoundationAmount = 0.15 {"hint":"How much opacity is added when the foundation track is at its loudest (0 to 1, added to Opacity)."}'
+    - '// @input float frameFoundationSmoothing = 0.4 {"hint":"Seconds the frame takes to follow the foundation level (bigger = calmer)."}'
+    - '// @ui {"widget":"group_end"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">World Query (finding the table)</span>"}'
+    - '// @ui {"widget":"group_start", "label":"World Query"}'
+    - '// @input bool useWorldQuery = true {"hint":"Use World Query to find the real table. OFF = always use the floating fallback stage. (World Query only works on a device or a depth-capable preview; without a hit the fallback is used.)"}'
+    - '// @input bool queryFilter = true {"hint":"Smooth the hit over several results (a double exponential filter inside World Query). Needs a few results to settle."}'
+    - '// @input float queryRefreshRate = 5 {"hint":"How many hit tests per second while searching (hits per second). Depth updates only about 5 times a second, so more than 5 does not help."}'
+    - '// @input float searchSeconds = 3 {"hint":"How long a search runs before giving up and using the fallback (seconds)."}'
+    - '// @input float hitsRequired = 3 {"hint":"How many accepted hits in a row are needed before the stage is placed (more = steadier, slower)."}'
+    - '// @input float searchRayLength = 200 {"hint":"Length of the search ray from your head along your gaze (cm)."}'
+    - '// @input float minHitDistance = 25 {"hint":"Reject hits closer than this to your head (cm)."}'
+    - '// @input float maxHitDistance = 120 {"hint":"Reject hits farther than this from your head (cm)."}'
+    - '// @input float minSurfaceUp = 0.85 {"hint":"A hit only counts as a table if its surface normal points up at least this much (0 = any, 1 = perfectly flat). 0.85 is about 32 degrees of slope."}'
+    - '// @input float minDropBelowEye = 10 {"hint":"Reject hits less than this far below your eyes (cm), so a raised hand or a screen is not taken for a table."}'
+    - '// @input float maxDropBelowEye = 110 {"hint":"Reject hits more than this far below your eyes (cm), so the floor is not taken for a table."}'
+    - '// @input bool useClassification {"hint":"Ask World Query for the surface type too (Ground / None). Needs Experimental APIs on in Project Settings; the type is only logged and used to reject Ground."}'
+    - '// @input bool logQueries = true {"hint":"Log every World Query result (hit or miss, position, normal, surface type, and why it was accepted or rejected)."}'
+    - "// @input bool replaceCentreOnToys = true {\"hint\":\"When you re-place the stage (palm-tap hold, or R in the Editor), put the middle of your toys (the average of their sockets, or of the toys themselves when they do not return to sockets) where you are looking, instead of the stage's default middle. Keeps a layout you have moved toys or sockets around in under your gaze. OFF = the stage's default middle is used (Gaze Depth Ratio). The first placement always uses the default middle.\"}"
+    - '// @input bool stopDepthWhenIdle = true {"hint":"Stop the depth sensing (World Query session) whenever the stage is not being searched for, and start it again when a search begins. Saves battery and processing on the glasses. The first hits after a restart may take a moment (the search runs up to Search Seconds). OFF = depth keeps running the whole time (the old behaviour)."}'
+    - '// @ui {"widget":"group_end"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">Stage and toy size</span>"}'
+    - '// @ui {"widget":"group_start", "label":"Toy spacing and edge"}'
+    - "// @input float baseBlobScale = 4 {\"hint\":\"BASE_BLOB_SCALE (cm): the size of the base blob mesh's longest side. Every toy's rest size is this x its Size Multiplier x its Shape Proportions (ToyConfig). It is also the reference size for spacing, edge padding and the toy slot count, so change it here and the toys, colliders and layout follow.\"}"
+    - '// @input float spacingRatio = 0.25 {"hint":"Smallest gap between toys, as a fraction of toy size (0.25 = 25% of the footprint, so 1 cm for a 4 cm toy)."}'
+    - '// @input float edgePaddingRatio = 0.25 {"hint":"Smallest gap between a toy and the stage edge, as a fraction of toy size (0.25 = 25% of the footprint)."}'
+    - '// @input bool nudgeEnabled = true {"hint":"Gently push toys apart (or find the nearest free spot) when a landing would overlap. OFF = toys may overlap."}'
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">Toys pushing each other</span>"}'
+    - '// @ui {"widget":"group_start", "label":"Toy collisions (push apart)"}'
+    - '// @input bool pushApartEnabled = true {"hint":"Toys can never overlap. A toy that touches another (carried, floating home, or resting) gently pushes it aside, and the pushed toy eases back when the way is clear. Works whether Enforce Bounds is on or off. OFF = toys may pass through each other."}'
+    - "// @input float pushGap = 0.5 {\"hint\":\"Extra clear space (cm) kept between two toys' footprints. 0 = they just touch. The footprint is the toy's widest side (ToyConfig).\"}"
+    - '// @input float pushSoftness = 0.08 {"hint":"Softness (seconds) of the push: how long a pushed toy takes to give way. 0 = instant and hard, 0.08 = gentle, 0.3 = very soft (toys may overlap briefly when pushed fast)."}'
+    - '// @input float pushReturnSpeed = 6 {"hint":"Speed (cm per second) at which a pushed toy eases back to where it was once nothing presses on it."}'
+    - '// @ui {"widget":"group_end"}'
+    - '// @input float requiredFreeSlots = 1 {"hint":"Free space the stage must have, counted in spare toy slots. A warning is printed if there is less."}'
+    - '// @ui {"widget":"group_end"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">Volume states</span>"}'
+    - '// @ui {"widget":"group_start", "label":"Volume states"}'
+    - '// @input float volumeOff {"hint":"Volume when a toy is OFF (0-1)."}'
+    - '// @input float volumeLow = 0.25 {"hint":"Volume in the LOW state (0-1)."}'
+    - '// @input float volumeMedium = 0.55 {"hint":"Volume in the MEDIUM state (0-1)."}'
+    - '// @input float volumeHigh = 1 {"hint":"Volume in the HIGH state (0-1)."}'
+    - '// @input float volumeSmoothing = 0.15 {"hint":"Seconds to glide between volumes (avoids clicks)."}'
+    - '// @input float foundationVolume = 0.2 {"hint":"Foundation track volume (0-1). It plays quietly all the time."}'
+    - '// @ui {"widget":"group_end"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">Pads</span>"}'
+    - '// @ui {"widget":"group_start", "label":"Pads (flat volume buttons)"}'
+    - '// @input float padStripShape {"hint":"STRIP shape. Rounded = a rectangle with rounded corners (see Strip Roundness); Ellipse = an oval. For any other shape, put your own mesh in Strip Mesh below.", "widget":"combobox", "values":[{"label":"Rounded", "value":0}, {"label":"Ellipse", "value":1}]}'
+    - "// @input float padStripWidth = 2.2 {\"hint\":\"STRIP width (cm, left to right): the narrow side. It does NOT change with the toy's size or the volume.\"}"
+    - "// @input float padStripLength = 7 {\"hint\":\"STRIP length (cm, toward you): how far a finger can slide. It does NOT change with the toy's size or the volume. Tap it to step the volume; slide along it to set the volume.\"}"
+    - '// @input float padStripRoundness = 1 {"hint":"STRIP roundness, Rounded shape only: 0 = square corners, 1 = fully rounded ends (a pill). Between is a rounded rectangle."}'
+    - "// @input Asset.RenderMesh padStripMesh {\"hint\":\"Optional: your own mesh for the strip. It is stretched to the strip's width (X) and length (Z), so use a flat shape 1 cm wide and 1 cm long (see Debug > Primitive Mesh Size). Empty = the script draws the shape above.\"}"
+    - '// @input float padBaseShape {"hint":"CIRCLE (under the toy) shape. Rounded = a rectangle with rounded corners (see Circle Roundness; at 1 with equal width and length it is a circle); Ellipse = an oval.", "widget":"combobox", "values":[{"label":"Rounded", "value":0}, {"label":"Ellipse", "value":1}]}'
+    - "// @input float padBaseWidth = 3.4 {\"hint\":\"CIRCLE width (cm, left to right). Keep it SMALLER than the toy's footprint (its collider) so it peeks out like a shadow: a warning is printed if it is not. It does NOT change with the toy's size or the volume. 0 = no circle.\"}"
+    - '// @input float padBaseLength = 3.4 {"hint":"CIRCLE length (cm, front to back). Same advice as the width. 0 = no circle."}'
+    - '// @input float padBaseRoundness = 1 {"hint":"CIRCLE roundness, Rounded shape only: 0 = square corners, 1 = fully rounded (a circle when width and length are equal)."}'
+    - "// @input vec2 padBaseOffset = {0,0} {\"hint\":\"Shifts the circle from the toy's centre (cm): x = right, y = toward you. A picture-only shift: for spacing and edge padding the circle still counts at the toy's centre.\"}"
+    - "// @input Asset.RenderMesh padBaseMesh {\"hint\":\"Optional: your own mesh for the circle, 1 cm wide and 1 cm long, stretched to the circle's width and length. Empty = the script draws the shape above.\"}"
+    - "// @input float padBaseShade = 0.55 {\"hint\":\"How dark the circle under the toy is compared with the pad's state colour (0 = black, 1 = the same colour). Lower = more like a shadow.\"}"
+    - '// @input bool padBaseTouchable {"hint":"ON: the circle under the toy can be touched too (as part of the pad). OFF (default): it is only a picture, so touching near the toy never changes the volume."}'
+    - '// @input float padCurveSteps = 6 {"hint":"How many straight pieces make up each rounded corner of the strip and the circle (more = smoother, 1 or more). Whole numbers."}'
+    - '// @input float padHitMargin = 0.75 {"hint":"Extra touch margin around the strip (cm), so the touchable box is a little bigger than the picture. Neighbouring pads may overlap: the nearest pad wins."}'
+    - '// @input float padBaseDrop = 0.03 {"hint":"How far the circle under the toy sits BELOW the strip (cm), so they do not flicker where they meet. Keep it tiny (0.01 to 0.05)."}'
+    - '// @input bool padSlideEnabled = true {"hint":"Slide a finger along the strip to set the volume: the end nearest the toy is loudest, the end nearest you is off (like pushing a fader away from you). A plain tap still steps off, low, medium, high."}'
+    - '// @input float padSlideThreshold = 0.8 {"hint":"How far (cm) a finger must travel along the strip before the touch counts as a slide instead of a tap."}'
+    - '// @input float padSlideHandScale = 1 {"hint":"Hand slides (not the mouse): how far the volume marker moves along the strip for each cm the hand moves along it (1 = the finger and the marker move together; higher = a short hand movement covers the whole strip, useful for a pinch aimed at the strip from a distance)."}'
+    - '// @input bool padSlideSnap {"hint":"ON: when the finger lifts after a slide, the volume settles on the nearest of the four states (off, low, medium, high). OFF: it stays exactly where the finger left it."}'
+    - "// @input float padColliderHeight = 1.5 {\"hint\":\"Height of the pad's touch discs (cm). Their top sits half this above Pad Lift, so a fingertip meets the pad before the real table.\"}"
+    - '// @input float padLift = 0.15 {"hint":"Height of the pad artwork above the stage floor (cm). Keep small (0.1 to 0.3) so it lies on the table without flicker."}'
+    - '// @input float padPressDepth = 0.2 {"hint":"How deep the pad artwork sinks when pressed (cm). Keep it tiny."}'
+    - '// @input float padPressSeconds = 0.14 {"hint":"Seconds the press-down and release take (the whole dip is about this long)."}'
+    - '// @input float padFollowSpeed = 14 {"hint":"How quickly a pad follows its toy (higher = snappier, 0 = instant)."}'
+    - '// @input bool padAcceptsPoke = true {"hint":"Pads respond to a fingertip poke (hand tracking)."}'
+    - '// @input bool padAcceptsClick = true {"hint":"Pads respond to a click: mouse click in the Editor, phone tap, or a pinch aimed at the pad."}'
+    - '// @input float volumeCooldown = 0.3 {"hint":"After ANY volume change on a toy (pad poke, pad click or air-poke), further changes on that toy are ignored for this many seconds. One finger action can then never change a volume twice. Seconds."}'
+    - '// @input float sameHandCooldown = 1 {"hint":"A second guard: after a change, further changes on that toy from the SAME HAND are ignored for this many seconds. A finger that taps a pad often brushes the toy on its way in or out; this stops that second touch from changing the volume again. A different hand is not blocked. Seconds."}'
+    - '// @input string padStateParam = "padState" {"hint":"Name of the number property the pad writes to its material: 0 = off, 1 = low, 2 = medium, 3 = high. Use it in your shader (a graph parameter with this exact name)."}'
+    - "// @input float padFrontOffset = 5 {\"hint\":\"Distance from a toy's centre to the CENTRE of its pad's strip (cm), straight toward the front of the stage (toward you). This is the default for every pad; one pad can use its own offset (ToyPad > Offset). The strip's near-the-toy end sits at this minus half the strip length: keep that about equal to half the circle under the toy, so the strip grows out of the circle like a lollipop stick (5 cm for a 7 cm strip and a 3.4 cm circle: the strip starts 1.5 cm from the toy's centre, just inside the circle's edge).\"}"
+    - '// @ui {"widget":"label", "label":"Pad and toy colours are set per pad (ToyPad > Pad colours) and per toy (ToyConfig > Toy colours), not here."}'
+    - '// @ui {"widget":"group_end"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">Dial button</span>"}'
+    - '// @ui {"widget":"group_start", "label":"Dial button (replaces the strip)"}'
+    - "// @ui {\"widget\":\"label\", \"label\":\"The dial button is a small flat disc (a coin with no thickness) on the socket ring's outer rim, on the side facing you, resting against the ring's edge (never inside it). It is the volume button AND the state display: tap = next state; drag = move the socket. Three concentric parts light up: centre = low, centre + middle ring = medium, all three = high, none = off. It is drawn by YOUR Arc_Mat on a flat quad (ToyPad > Arc Visual); nothing is generated. A pad uses it only when BOTH its Arc Visual and Arc Hit slots are filled; otherwise it keeps the old strip.\"}"
+    - '// @input bool arcEnabled = true {"hint":"Master switch. ON: pads that have an Arc Visual and an Arc Hit use the dial button and the old strip is hidden. OFF: every pad uses the old strip."}'
+    - '// @input float buttonDiameter = 2 {"hint":"Diameter (cm) of the button disc. The ring is about 3.6 cm across by default (Home Quad Size x Home Ring Radius), so 2 cm is a big button."}'
+    - "// @input float buttonGap {\"hint\":\"Empty space (cm) between the ring's outer edge and the button's edge. 0 = the button rests exactly on the ring's edge (the two circles just touch) and never goes inside it. Never below 0. The button's centre sits at (ring radius + button radius + this) from the ring centre. (Replaces the old Button Overlap.)\"}"
+    - "// @input float buttonRimRadius {\"hint\":\"Radius (cm) of the ring's outer rim that the button attaches to. 0 = work it out from Home Quad Size x Home Ring Radius / 2 (1.8 cm by default). Set a number if your Home_Mat draws the ring bigger or smaller. The shader may move the ring with squash and height; this number is the resting ring.\"}"
+    - '// @input float buttonGlowMargin = 0.5 {"hint":"Extra empty space (cm) around the disc inside its quad, for glow and soft edges. The quad is the button diameter + 2 x this. Picture only: it never changes stage spacing."}'
+    - "// @input float buttonCoreEnd = 0.34 {\"hint\":\"Where the central circle ends, as a fraction of the DISC radius (0 to 1, unitless). 0.34 = the centre is a third of the radius. Sent to the material as 'coreEnd'.\"}"
+    - "// @input float buttonMidEnd = 0.67 {\"hint\":\"Where the middle ring ends, as a fraction of the DISC radius (0 to 1, unitless). The outer ring runs from here to the edge (1). Sent to the material as 'midEnd'. Keep it bigger than Core End.\"}"
+    - "// @input bool buttonUseToyEdgeColour = true {\"hint\":\"ON: the button colours come from the toy's own material: edgeColorOff / Low / Med / High for the parts, and bodyColorOff for the outline. Unlit parts = Off edge colour, centre = Low, middle ring = Med, outer ring = High. OFF, or if the material cannot be read: the pad's own state colours (ToyPad > Pad colours).\"}"
+    - "// @input float buttonOffBrightness = 100 {\"hint\":\"Brightness of the button's OFF (unlit) parts as a percentage of the toy's own edgeColorOff (0 to 100, unitless %). 100 = exactly the toy's colour (as before), 50 = half as bright, 0 = black (nothing visible on an additive material). Only used when Use Toy Edge Colour is ON. Low / Med / High are not affected.\", \"widget\":\"slider\", \"min\":0, \"max\":100, \"step\":1}"
+    - "// @input float buttonLowBrightness = 100 {\"hint\":\"Brightness of the button's LOW part (the centre circle) as a percentage of the toy's own edgeColorLow (0 to 200, unitless %). 100 = exactly the toy's colour, 200 = twice as bright, 0 = black (nothing visible on an additive material). Only used when Use Toy Edge Colour is ON.\", \"widget\":\"slider\", \"min\":0, \"max\":200, \"step\":1}"
+    - "// @input float buttonMedBrightness = 100 {\"hint\":\"Brightness of the button's MEDIUM part (the middle ring) as a percentage of the toy's own edgeColorMed (0 to 200, unitless %). 100 = exactly the toy's colour, 200 = twice as bright, 0 = black. Only used when Use Toy Edge Colour is ON.\", \"widget\":\"slider\", \"min\":0, \"max\":200, \"step\":1}"
+    - "// @input float buttonHighBrightness = 100 {\"hint\":\"Brightness of the button's HIGH part (the outer ring) as a percentage of the toy's own edgeColorHigh (0 to 200, unitless %). 100 = exactly the toy's colour, 200 = twice as bright, 0 = black. Only used when Use Toy Edge Colour is ON.\", \"widget\":\"slider\", \"min\":0, \"max\":200, \"step\":1}"
+    - "// @input string buttonToyEdgeColourPrefix = \"edgeColor\" {\"hint\":\"Start of the toy material's edge colour parameter names:this text plus Off, Low, Med or High (default edgeColorOff, edgeColorLow, edgeColorMed, edgeColorHigh).\"}"
+    - "// @input string buttonToyBodyColourPrefix = \"bodyColor\" {\"hint\":\"Start of the toy material's body colour parameter name: this text plus Off (default bodyColorOff). The button outline uses this colour.\"}"
+    - '// @input float buttonOutlineWidth = 0.2 {"hint":"Width (cm) of the outline around the button, drawn OUTSIDE the disc edge (so the lit disc keeps its size). 0.2 = 2 mm. The button quad grows automatically to fit it."}'
+    - "// @input float buttonOutlineSoftness = 0.03 {\"hint\":\"Feather (cm) on the OUTER edge of the outline only, just enough to take the sharpness off. 0.03 = about 0.3 mm, roughly one to two pixels at arm's length (estimate, check on device). 0 = hard edge.\"}"
+    - '// @input float arcLift = 0.03 {"hint":"Height (cm) of the button quad above the ring quad, so they do not flicker where they overlap. Keep it tiny (0.02 to 0.05)."}'
+    - "// @input float arcUnlit {\"hint\":\"How far an UNLIT part moves from the Off colour toward its own lit colour (0 to 1, unitless). 0 = unlit parts are exactly the toy's Off edge colour; 0.12 = a faint hint of the lit colour.\"}"
+    - '// @input float arcBlendSeconds = 0.15 {"hint":"Seconds (s) the parts and colour take to follow a state change. 0 = instant."}'
+    - '// @input float arcTurnSpeed = 360 {"hint":"Fastest the button may swing around the ring to follow you (degrees per second). 0 = it snaps to face you every frame. Lower = a lazier, smoother swing."}'
+    - '// @input float arcYawOffset {"hint":"Extra rotation (degrees) added to the button quad ONLY if your Arc_Mat draws something that must point a certain way. A plain round disc does not need it. Touch always uses the true direction toward you."}'
+    - "// @input float arcHitMargin = 0.8 {\"hint\":\"Extra touch reach (cm) around the button's edge, so the touchable area is bigger than the picture. A fingertip is wider than a 2 cm button, so keep a margin.\"}"
+    - '// @input bool arcDragEnabled = true {"hint":"ON: dragging the button moves the socket (the ring, the button and the toy follow). Needs Sockets > Toys Return To Sockets ON. OFF: the button only taps."}'
+    - "// @input bool arcOrbitEnabled = true {\"hint\":\"ON: the user can turn the dial button around its ring by holding it still for Arc Orbit Hold Seconds, then dragging around the ring. The new place stays until Reset Sockets or Call Home. OFF: the button only faces you (plus each pad's Button Angle).\"}"
+    - '// @input float arcOrbitHoldSeconds = 0.5 {"hint":"Seconds (s) the user must hold the button still before dragging turns it around the ring instead of moving the socket. A quick tap still steps the volume; a drag that starts before this time still moves the socket."}'
+    - '// @input float arcDragThreshold = 0.8 {"hint":"How far (cm) a finger must travel across the table before a touch counts as a socket drag (or a button turn) instead of a tap."}'
+    - '// @input float arcDragHandScale = 1 {"hint":"Hand drags that touch or pinch directly (not a mouse, not a pointing ray): how far the socket moves for each cm the hand moves (1 = they move together). A mouse or a pointing ray is read where it meets the table, so this is not used for them."}'
+    - '// @input float buttonPressDepth = 0.1 {"hint":"How deep (cm) the button sinks into the table while pressed. Keep it small (0.1 = 1 mm) so it matches the feel of a real surface."}'
+    - '// @input float buttonPressShrink = 0.03 {"hint":"How much the button shrinks while fully pressed (fraction, unitless: 0.03 = 3% smaller). A flat quad that only moves down barely shows from above, so this helps. 0 = no shrink."}'
+    - '// @input bool buttonRingFollowsPress {"hint":"ON: the ring sinks and shrinks with the button when it is pressed (the old behaviour). OFF: only the button moves; the ring stays put."}'
+    - '// @input float arcSpringHz = 5 {"hint":"Spring speed of the press and the bounce back (cycles per second, Hz). Higher = snappier."}'
+    - '// @input float arcPressDamping = 0.8 {"hint":"Damping while PRESSING DOWN (0 to 1, unitless). 1 = sinks with no overshoot; lower overshoots a little."}'
+    - '// @input float arcBounceDamping = 0.3 {"hint":"Damping while BOUNCING BACK (0 to 1, unitless). 1 = returns with no bounce; 0.3 = a clear bounce past the top; 0 = it never stops."}'
+    - '// @ui {"widget":"label", "label":"Parameter names: Script Names of the Arc_Mat graph parameters. Change them to match your own material."}'
+    - "// @input string arcColorParam = \"arcColor\" {\"hint\":\"Start of the four colour parameter names (colour/vec4): this text plus Off, Low, Med and High (default arcColorOff, arcColorLow, arcColorMed, arcColorHigh). They receive the toy's edge colours.\"}"
+    - "// @input string buttonOutlineColorParam = \"outlineColor\" {\"hint\":\"Colour parameter (colour/vec4) that receives the outline colour (the toy's Off body colour).\"}"
+    - "// @input string buttonOutlineWidthParam = \"outlineWidth\" {\"hint\":\"Float parameter: how far the outline reaches outside the disc edge, as a fraction of the quad's half-width (unitless).\"}"
+    - "// @input string buttonOutlineSoftParam = \"outlineSoftness\" {\"hint\":\"Float parameter: feather on the outline's outer edge, as a fraction of the quad's half-width (unitless).\"}"
+    - "// @input string buttonDiscRadiusParam = \"discRadius\" {\"hint\":\"Float parameter: the disc's outer edge as a fraction of the quad's half-width (0 to 1, unitless).\"}"
+    - '// @input string buttonCoreEndParam = "coreEnd" {"hint":"Float parameter: where the central circle ends, as a fraction of the disc radius (0 to 1, unitless)."}'
+    - '// @input string buttonMidEndParam = "midEnd" {"hint":"Float parameter: where the middle ring ends, as a fraction of the disc radius (0 to 1, unitless)."}'
+    - '// @input string arcSegmentParamPrefix = "seg" {"hint":"Start of the three part parameter names: this text plus 1, 2 and 3 (default seg1, seg2, seg3). Each is a float 0 to 1, unitless: how lit that part is. 1 = centre circle, 2 = middle ring, 3 = outer ring."}'
+    - '// @input string arcPressParam = "press" {"hint":"Float parameter: press amount (unitless): 0 at rest, 1 fully pressed, slightly negative while it springs back."}'
+    - '// @ui {"widget":"group_end"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">Air-poke and grab</span>"}'
+    - '// @ui {"widget":"group_start", "label":"Air-poke and grab"}'
+    - '// @input bool airPokeCyclesVolume = true {"hint":"Poking a toy in mid-air cycles its volume (the same change as a pad). Stays ON for now; turn OFF to use pads only."}'
+    - '// @input float pokeDebounce = 0.25 {"hint":"Air-poke only: minimum seconds between two pokes on the same toy (stops double-triggers)."}'
+    - '// @input float pokeMinDepth = 0.3 {"hint":"Air-poke only: how deep a fingertip must push into a toy to count as a poke (0 = any touch, 1 = a full 2.5 cm push)."}'
+    - '// @input float pokeLockoutAfterRelease = 0.6 {"hint":"After a toy is let go, touches are ignored for this many seconds (a finger still resting on the toy must not count as a poke). Seconds."}'
+    - '// @input float mouseHoldSeconds = 0.25 {"hint":"Editor preview with the mouse: a click shorter than this many seconds is a poke; holding the button longer (or dragging) is a pinch/grab. Seconds."}'
+    - '// @input float grabFollowSpeed = 18 {"hint":"How quickly a held toy follows the hand (higher = snappier, 0 = instant)."}'
+    - '// @input float grabMoveScale = 1 {"hint":"Toy movement per unit of hand movement (1 = 1:1)."}'
+    - '// @ui {"widget":"group_end"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">Release, drift and settle</span>"}'
+    - '// @ui {"widget":"group_start", "label":"Release, drift and settle"}'
+    - '// @input float maxDriftSeconds = 10 {"hint":"Longest a drift may take (seconds). The drift speeds up if needed so tall releases do not take forever; a bigger value lets a toy that was let go high up fall at its own slow Drift Speed. If a drift has not arrived after 3 x this value it settles anyway."}'
+    - '// @input float driftLateralSpeed = 8 {"hint":"Sideways speed while drifting toward the landing spot, if it had to be corrected (cm per second)."}'
+    - '// @input float hoverHeight = 1.5 {"hint":"Height above the stage floor where the drift ends and the settle begins (cm)."}'
+    - '// @input float floatSway = 1.4 {"hint":"Feather/balloon float: how far (cm) a falling toy sways side to side. Fades to 0 as it lands. 0 = straight down."}'
+    - '// @input float floatSwaySpeed = 1 {"hint":"How fast the float sways (1 = normal, lower = lazier)."}'
+    - '// @input float floatTilt = 12 {"hint":"How much (degrees) a falling toy tilts as it sways. Levels out as it lands. 0 = no tilt."}'
+    - '// @input float settleEasing = 1 {"hint":"Shape of the settle motion. Ease Out Back overshoots a little (bouncy).", "widget":"combobox", "values":[{"label":"Linear", "value":0}, {"label":"Ease Out Quad", "value":1}, {"label":"Ease In Out Quad", "value":2}, {"label":"Ease Out Cubic", "value":3}, {"label":"Ease Out Back", "value":4}]}'
+    - '// @input float maxRescueDistance = 150 {"hint":"A toy released farther than this from the stage (cm) is rescued: it flies back quickly."}'
+    - '// @input float rescueSpeed = 120 {"hint":"Speed of a rescue flight (cm per second)."}'
+    - '// @ui {"widget":"group_end"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">Music and sync</span>"}'
+    - '// @ui {"widget":"group_start", "label":"Music and sync"}'
+    - "// @input bool loopPiece = true {\"hint\":\"Loop the piece. The end is detected every frame and ALL stems are restarted together in one call (this replaces the AudioComponent's Autoplay Loop, which stays off).\"}"
+    - '// @input float driftCheckInterval = 1 {"hint":"Seconds between sync checks (0 = never check). The foundation track is the clock: each toy stem is compared with it, and any stem that is out is restarted on its own."}'
+    - '// @input float driftTolerance = 0.02 {"hint":"Largest allowed offset (seconds) of a toy stem from the foundation track before that stem is restarted. 0.02 = 20 ms. Sharp sounds such as Chimes show an offset sooner than soft ones."}'
+    - '// @input float syncFadeSeconds = 0.3 {"hint":"Seconds a stem takes to fade out before it is restarted, and back in afterwards (max, seconds). A stem that is already off is restarted at once."}'
+    - '// @input float syncOddOneOutFraction = 0.5 {"hint":"If this fraction (0 to 1) of the toy stems are off in the SAME direction, the foundation is judged to be the one that slipped and ALL stems are restarted together instead (fraction of stems, 0 to 1)."}'
+    - '// @input float syncMaxFixTries = 3 {"hint":"How many single-stem restarts in a row may fail to bring a stem back in tolerance before everything is restarted together (count)."}'
+    - "// @input bool syncLog {\"hint\":\"Print every sync check to the log: each stem's offset from the foundation (milliseconds) and its volume. Turn on while testing, off afterwards.\"}"
+    - '// @input bool syncTestKnock {"hint":"TEST: tick to knock the Chimes stem out of sync by the amount below, once, while playing, to watch the sync check fix it. Un-ticks itself at runtime; the Inspector keeps showing the tick."}'
+    - '// @input float syncTestKnockMs = 80 {"hint":"TEST: how far (milliseconds) the knock moves the stem. Positive = ahead of the foundation."}'
+    - '// @input bool loopTestJump {"hint":"TEST: tick to jump all stems to 5 seconds before the end, once, to hear and log the loop without waiting 4 minutes. Un-ticks itself at runtime; the Inspector keeps showing the tick."}'
+    - '// @ui {"widget":"group_end"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">Audio-reactive motion</span>"}'
+    - '// @ui {"widget":"group_start", "label":"Audio-reactive motion"}'
+    - '// @input bool audioReactiveEnabled = true {"hint":"Master switch for audio-reactive motion."}'
+    - '// @input float reactSmoothing = 0.08 {"hint":"Seconds of smoothing on the level (higher = calmer)."}'
+    - '// @input bool autoLevel = true {"hint":"Auto-level: each toy measures the loudest level its own stem reaches and scales its motion to that, so quiet stems still move."}'
+    - "// @input float levelDecaySeconds = 8 {\"hint\":\"Auto-level only: seconds over which a toy slowly 'forgets' an old loud peak (higher = steadier scaling).\"}"
+    - '// @input float levelFloor = 0.005 {"hint":"Auto-level only: stems quieter than this (RMS, 0-1) are treated as silent, so noise does not wobble the toy."}'
+    - '// @input float levelReference = 0.1 {"hint":"Auto-level OFF only: track loudness (RMS, 0-1) that counts as full motion. Lower = more sensitive."}'
+    - '// @input float analysisSamples = 512 {"hint":"Samples read per frame for the level (more = steadier, costs more)."}'
+    - "// @input bool reactScale = true {\"hint\":\"Pulse the toy's scale with the music.\"}"
+    - '// @input bool reactPosition = true {"hint":"Bounce the toy up and down with the music."}'
+    - "// @input bool reactRotation = true {\"hint\":\"Wobble the toy's rotation with the music.\"}"
+    - '// @input bool shaderDeform {"hint":"Hand the music squash, sway and ripples to the vertex-deform shader (PLAN.md section 25) instead of squashing and rocking the whole Visual. Turn ON only after every toy material has the deform shader, otherwise the toys lose their music squash and rock. Bounce stays on the Visual."}'
+    - '// @input bool reactWhenOff {"hint":"Toys that are OFF still move (scaled by Idle Motion Amount). Default: OFF toys stay still."}'
+    - "// @input float idleMotionAmount = 0.15 {\"hint\":\"Strength of motion for an OFF toy when 'React When Off' is on (0-1).\"}"
+    - '// @ui {"widget":"group_end"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">Squishy poke and soft landing</span>"}'
+    - '// @ui {"widget":"group_start", "label":"Squish and soft landing"}'
+    - '// @input bool squishEnabled = true {"hint":"Master switch for the squish: toys squash when poked and when they land, and stretch a little while held. It is a springy overshoot: the toy squashes, springs past its normal shape, and wobbles back."}'
+    - '// @input float pokePressSeconds = 0.07 {"hint":"Seconds the poke squash is held before the toy springs back. Shorter = a quick jab, longer = a slow press."}'
+    - '// @input float landPressSeconds = 0.06 {"hint":"Seconds the landing squash is held before the toy springs back."}'
+    - '// @ui {"widget":"group_end"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">Comfort limiter</span>"}'
+    - '// @ui {"widget":"group_start", "label":"Comfort limiter (all toys)"}'
+    - "// @input bool comfortLimiterEnabled = true {\"hint\":\"Master switch. ON: no toy's Feel can go past the limits below, whatever is typed on that toy. Keeps the motion gentle on the eyes and in the hands. Damping always stays below 1 (the organic overshoot) even when this is OFF.\"}"
+    - '// @input float limitSquash = 0.3 {"hint":"Deepest squash allowed, as a fraction (0.3 = 30% flatter). Applies to poke, landing and the live squish."}'
+    - '// @input float limitStretch = 0.2 {"hint":"Tallest stretch allowed while held, as a fraction (0.2 = 20% taller)."}'
+    - '// @input float limitBulge = 0.8 {"hint":"Biggest sideways bulge allowed, unitless (1 = the bulge is as big as the squash)."}'
+    - '// @input float limitOvershoot = 0.25 {"hint":"Furthest a toy may spring past its resting shape, as a fraction (0.25 = 25% past, then it settles). This sets the LOWEST damping any toy can have."}'
+    - '// @input float limitDamping = 0.9 {"hint":"Highest damping allowed (unitless, always below 1 so every toy keeps a little bounce)."}'
+    - '// @input float limitSquishHz = 6 {"hint":"Fastest spring allowed (wobbles per second, Hz)."}'
+    - '// @input float limitWobbleHz = 1.5 {"hint":"Fastest music wobble allowed (Hz). 1.5 Hz is a gentle sway; higher starts to look jittery."}'
+    - '// @input float limitWobbleDegrees = 9 {"hint":"Largest music wobble angle allowed (degrees)."}'
+    - '// @input float limitScalePulse = 0.25 {"hint":"Largest music pulse allowed, as a fraction (0.25 = 25% bigger at full level)."}'
+    - '// @input float limitBounceCm = 0.9 {"hint":"Highest music bounce allowed (cm)."}'
+    - '// @ui {"widget":"group_end"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">Resets (all toys)</span>"}'
+    - '// @ui {"widget":"group_start", "label":"Resets (all toys)"}'
+    - "// @input bool resetToyPositions {\"hint\":\"Tick to put EVERY toy back at its start position (ToyConfig > Home Position). It un-ticks itself in the Lens. Changes nothing else. One toy only: tick the same box on that toy's ToyConfig.\"}"
+    - '// @input bool resetPadPositions {"hint":"Tick to put EVERY pad back at the default offset from its toy (Pad Front Offset above). It un-ticks itself in the Lens. Changes nothing else. One pad only: tick the same box on that ToyPad."}'
+    - "// @input bool resetPadColours {\"hint\":\"Tick to put EVERY pad's four colours back to the default set made from its Base Color. It un-ticks itself in the Lens. Changes nothing else. One pad only: tick the same box on that ToyPad.\"}"
+    - '// @input bool resetSockets {"hint":"Tick to put EVERY socket (ring, arc and toy) back at its Home Position (ToyConfig > Home Position), undoing any dragging. It un-ticks itself in the Lens. Changes nothing else. One socket only: tick the same box on that ToyPad."}'
+    - '// @input bool callHomeNow {"hint":"Tick to CALL HOME: every toy, even one in your hand, floats back to its own socket. A toy already on its socket does not move. It un-ticks itself in the Lens. The same call runs from a scene button (CallHomeButton) and, in the Editor Preview, the H key. Sockets you dragged stay where they are (use Reset Sockets for that)."}'
+    - '// @input bool callHomeKey = true {"hint":"Editor Preview only: pressing H calls every toy home (click the Preview first so it has keyboard focus)."}'
+    - '// @ui {"widget":"group_end"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">Blob shape</span>"}'
+    - '// @ui {"widget":"group_start", "label":"Blob shape (ToyShape)"}'
+    - "// @input bool blobShapingEnabled = true {\"hint\":\"Master switch for the shape toolkit. ON: each toy's ToyShape gives it its own shaped copy of the base blob mesh at startup. OFF: every toy uses the shared mesh as it is.\"}"
+    - '// @input bool blobLiveEdit = true {"hint":"ON: while the Preview runs, changing a ToyShape value re-shapes the blob about 0.3 seconds after you stop changing it, and ToyShape > Feel edits and Comfort limiter edits apply at once. Turn OFF for the final build (shape and Feel are then worked out once at startup and never checked again)."}'
+    - '// @ui {"widget":"group_end"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">Home markers</span>"}'
+    - '// @ui {"widget":"group_start", "label":"Home"}'
+    - "// @input bool homeEnabled {\"hint\":\"ON: the circle under each toy (BaseVisual) becomes a glow-ring home marker driven by the Home material (Home_Mat). OFF: the circle keeps its old pad colour look. The marker's size here never changes stage spacing.\"}"
+    - "// @input float homeColourSource {\"hint\":\"Where each ring's colour comes from, read from the TOY's own material. Edge Low is the first choice. 'Pad colour' = the old per-pad state colour (ToyPad > Pad colours).\", \"widget\":\"combobox\", \"values\":[{\"label\":\"Edge Low\", \"value\":0}, {\"label\":\"Edge Med\", \"value\":1}, {\"label\":\"Edge High\", \"value\":2}, {\"label\":\"Body Low\", \"value\":3}, {\"label\":\"Body Med\", \"value\":4}, {\"label\":\"Body High\", \"value\":5}, {\"label\":\"Pad colour\", \"value\":6}]}"
+    - '// @input float homeQuadSize = 6 {"hint":"Drawn size of the home quad (cm, square). Picture only: it is NOT used for stage spacing, edge padding or nudging (those still use Pad Base Width/Length). A pad can use its own size (ToyPad > Home Size Override). Needs Pad Base Mesh set to a flat 1 x 1 cm quad."}'
+    - "// @input float homeRestBrightness = 0.25 {\"hint\":\"Rest Brightness (0 to 1, unitless): the ring's brightness when the toy's volume is OFF. The ring is never hidden and is not audio reactive while off. Low, Medium and High below are the other three states.\"}"
+    - '// @input float homeBrightnessLow = 0.35 {"hint":"Brightness (0 to 1, unitless) in the LOW volume state."}'
+    - '// @input float homeBrightnessMed = 0.6 {"hint":"Brightness (0 to 1, unitless) in the MEDIUM volume state."}'
+    - '// @input float homeBrightnessHigh = 0.9 {"hint":"Brightness (0 to 1, unitless) in the HIGH volume state."}'
+    - "// @input float homeOnOpacity = 0.75 {\"hint\":\"On Opacity (0 to 1, unitless): multiplies the ring brightness while the toy is ON (low, medium, high), like the dial button's 75% opacity. 1 = no change, 0.75 = a quarter dimmer. Off keeps the Rest Brightness exactly; the multiplier fades in as the toy leaves Off.\"}"
+    - '// @input float homeBrightnessSeconds = 0.4 {"hint":"Seconds (s) the brightness takes to move between the rest and the active brightness, and to fade the away dim in and out. 0 = instant."}'
+    - "// @input float homeRingRadius = 0.6 {\"hint\":\"Ring radius at rest (0 to 1, unitless; 1 = the quad's edge).\"}"
+    - '// @input float homeRingSoftness = 0.3 {"hint":"Ring softness (0 to 1, unitless): how wide and soft the glow around the ring is. Sent to the material as is."}'
+    - '// @input float homeTightenBySquash = 0.25 {"hint":"How much the ring TIGHTENS (radius, 0 to 1 unitless) when the blob is squashed (squash 1 = fully flattened). Squash widens it the other way when negative (stretched)."}'
+    - '// @input float homeWidenPerCm = 0.05 {"hint":"How much the ring WIDENS (radius change per cm, unitless) as the blob rises above the floor. Rising also fades the brightness by the same factor."}'
+    - '// @input float homeBrightenBySquash = 0.3 {"hint":"Extra brightness (0 to 1, unitless) added while the blob is squashed (squash 1). The ring also fades as the blob rises: brightness is divided by (1 + Widen Per Cm x height in cm)."}'
+    - '// @input float homeBeatStrength = 1 {"hint":"How strongly a beat pulses the ring (0 to 1, unitless): beatPulse jumps to this x the hit strength."}'
+    - '// @input float homeBeatFallSeconds = 0.35 {"hint":"Seconds (s) for beatPulse to ease back to 0 after a beat."}'
+    - "// @input bool homeMockBeats = true {\"hint\":\"Editor only: keys 1 to 7 fire a fake beat for toy 1 to 7 (matched by the number in the toy's name, Toy_01 ...). Click the Preview first so it has keyboard focus.\"}"
+    - '// @input string homeColorParam = "homeColor" {"hint":"Material parameter names (Script Names) written to the Home material: colour, brightness, ring radius, ring softness, beat pulse, pad state. Change only if your Home_Mat uses other names."}'
+    - '// @input string homeBrightnessParam = "brightness"'
+    - '// @input string homeRingRadiusParam = "ringRadius"'
+    - '// @input string homeRingSoftnessParam = "ringSoftness"'
+    - '// @input string homeBeatParam = "beatPulse"'
+    - '// @input string homePadStateParam = "padState"'
+    - '// @ui {"widget":"group_end"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">Sockets</span>"}'
+    - '// @ui {"widget":"group_start", "label":"Sockets"}'
+    - '// @input bool toysReturnToSockets = true {"hint":"ON: each toy has a SOCKET (its Home Position, stage-local). The ring, the tab and the ripples stay fixed to it, and a toy that is let go floats back to its own socket (same drift and settle as before) instead of landing where it was let go. OFF: the old behaviour (the toy lands where let go and its pad follows it)."}'
+    - "// @input float socketGap = 0.5 {\"hint\":\"Extra clear space (cm) kept between two sockets when you drag a socket. A socket never sits on another toy's socket; 0 = the rings may just touch.\"}"
+    - '// @input float awayDim = 0.7 {"hint":"How much dimmer the ring is while its toy is away from the socket (0 to 1, unitless; 1 = no dimming, 0.7 = 70% of its brightness)."}'
+    - '// @input float awayPulseSeconds = 2.5 {"hint":"Seconds (s) for one slow pulse of the ring while its toy is away."}'
+    - '// @input float awayPulseAmount = 0.2 {"hint":"How deep the away pulse is (0 to 1, unitless; 0 = no pulse, 0.2 = the ring dips by up to 20% of its brightness)."}'
+    - '// @input float landingFlashStrength = 1 {"hint":"How bright the ring flashes when the toy lands on its socket (0 to 1, unitless). Sent through the Home beat parameter. 0 = no flash."}'
+    - '// @input float landingFlashSeconds = 0.35 {"hint":"Seconds (s) for the landing flash to ease back to nothing."}'
+    - '// @ui {"widget":"group_end"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">Ripples (waves)</span>"}'
+    - '// @ui {"widget":"group_start", "label":"Ripples"}'
+    - "// @input bool rippleEnabled = true {\"hint\":\"ON: waves spread from each socket (the Ripple object under each pad, drawn with Ripple_Mat). A wave plays on every hit of the toy's stem while the toy is NOT off, and a softer one when the toy lands. OFF: no waves.\"}"
+    - "// @input bool rippleOnHits = true {\"hint\":\"ON: every hit the audio analysis finds in the toy's stem starts a wave (not while the toy is off). OFF: waves only on landing.\"}"
+    - '// @input float rippleLandingStrength = 0.5 {"hint":"Strength of the wave made by a landing (0 to 1, unitless; 1 = same as a hit). Soft landing in a puddle: keep it below 1."}'
+    - '// @input float rippleSize = 20 {"hint":"Drawn size of the ripple quad (cm, square): how far a wave can travel (half of this from the centre). Picture only; never used for spacing. Bigger than Home Quad Size, and it can overlap the neighbours."}'
+    - '// @input float rippleSeconds = 2.5 {"hint":"Seconds (s) one wave takes to travel from the ring to the edge of the quad."}'
+    - '// @input float rippleStartWidth = 1.6 {"hint":"Thickness of a wave when it leaves the ring (cm)."}'
+    - '// @input float rippleEndWidth = 2.4 {"hint":"Thickness of a wave at the end of its travel (cm). Wider than the start width = it spreads and softens like a pond ring; smaller = it thins out."}'
+    - "// @input float rippleStartBrightness = 0.7 {\"hint\":\"Brightness of a wave when it leaves the ring, as a multiple of the ring's own brightness at that moment (unitless; 1 = as bright as the ring).\"}"
+    - '// @input float rippleEndBrightness = 0.4 {"hint":"Brightness of a wave at the end of its travel, as a fraction of its start brightness (0 to 1, unitless)."}'
+    - '// @input float rippleLighten = 0.5 {"hint":"How far the colour moves toward white as the wave travels (0 to 1, unitless; 0 = same colour as the ring, 1 = white at the end)."}'
+    - '// @input float rippleFadeDistance = 6 {"hint":"Fade-out distance (cm): the wave fades to nothing over its last this-many cm before the edge of the quad. 0 = it only disappears at the edge."}'
+    - "// @input float rippleSoftness = 0.7 {\"hint\":\"Softness of the wave's edges (0 to 1, unitless). Sent to the material as is.\"}"
+    - '// @input float rippleMaxWaves = 3 {"hint":"Most waves alive at once on one socket (1 to 3). Needs that many wave copies in Ripple_Mat (see PLAN.md section 35b)."}'
+    - '// @input float rippleMinGap = 0.8 {"hint":"Least time between two separate rings on one socket (seconds, s). A hit closer than this to the newest ring does not start a new ring; it merges into it (see Merge Gain). Also applies when all Max Waves are busy. Wider spacing between rings = larger value. 0 = every hit starts a ring."}'
+    - '// @input float rippleMergeGain = 0.5 {"hint":"How much a merged hit adds to the ring it merges into (0 to 1, unitless; 0 = merged hits are ignored, 1 = full strength added, capped at 1 total). A busy passage makes one stronger ring instead of many."}'
+    - '// @input float rippleFadeSeconds = 1.5 {"hint":"A ring fades out slowly over this many seconds (s) at the end of its life. The fade starts at whichever is earlier: this, or Fade Distance before the quad edge. 0 = use Fade Distance only."}'
+    - '// @input float rippleLift = 0.02 {"hint":"Height of the ripple quad above the ring (cm), so the wave draws over the ring without flicker. Keep it tiny."}'
+    - '// @input string rippleProgressParam = "rippleProgress" {"hint":"Material parameter names (Script Names) written to Ripple_Mat. Wave 2 and 3 add the suffix 1 and 2. Change only if your Ripple_Mat uses other names."}'
+    - '// @input string rippleStrengthParam = "rippleStrength"'
+    - '// @input string rippleColourParam = "rippleColor"'
+    - '// @ui {"widget":"group_end"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">Wave field (shared)</span>"}'
+    - '// @ui {"widget":"group_start", "label":"Wave field"}'
+    - '// @input bool sharedWaveField {"hint":"ON: all sockets send their waves to ONE big quad (the WaveField object, drawn with your Wave_Mat) so waves from different toys add up and cancel like ripples on water. The per-socket Ripple quads then stay off. OFF: each socket draws its own ripple (Ripples group above). Also needs Ripple Enabled and Home Enabled. Turn ON only after Wave_Mat exists and is on the Field Visual."}'
+    - '// @input float waveFieldSize = 60 {"hint":"Side of the big quad (cm, square). Waves fade out before its edge, so it must reach well past the stage. Picture only; never used for spacing. Bigger = more pixels to draw (cost on a device is unmeasured)."}'
+    - '// @input vec2 waveFieldCenter = {0,-14} {"hint":"Centre of the big quad on the stage (cm, stage-local: x = right, y = toward you, so a NEGATIVE y is toward the back of the stage). The stage reaches about 29 cm back from the flat edge, so the middle is around y = -14."}'
+    - '// @input float waveSpeed = 8 {"hint":"How fast a wave front travels (cm per second, cm/s). Pond-slow is about 8; faster looks like sound."}'
+    - '// @input float waveSeconds = 4 {"hint":"How long one wave lives (seconds, s). Speed x Seconds is how far it can travel (8 cm/s x 4 s = 32 cm)."}'
+    - '// @input float waveLength = 3 {"hint":"Distance between two crests of a wave (cm). Smaller = more, finer rings behind the front."}'
+    - "// @input float waveWidth = 2.5 {\"hint\":\"Thickness of the wave's leading edge (cm): the soft window the crests live in. Bigger = a broader, calmer wave packet.\"}"
+    - '// @input float waveTrail = 1.8 {"hint":"How much longer the tail behind the front is than the front itself (multiple, unitless; 1 = symmetric). Above 1 gives a pond-like trail of rings behind the leading one."}'
+    - '// @input float waveFalloff = 0.5 {"hint":"How fast a wave loses strength as it spreads (0 to 2, unitless; 0 = it stays as strong as it started, 1 = a ring gets weaker as its circle grows, as in real water)."}'
+    - "// @input float waveEdgeFade = 10 {\"hint\":\"Waves fade to nothing over this distance before the quad's edge (cm), so the quad edge is never seen. The table is the stage: waves just fade out; nothing reflects.\"}"
+    - "// @input float waveStartRadius {\"hint\":\"Radius (cm) where every wave starts: the front begins on a circle this big instead of at the centre point, and nothing is drawn inside it, so waves come out from under the home ring and dial button. 0 = automatic: the home ring's resting radius (Home Quad Size x Home Ring Radius / 2, 1.8 cm by default). Use about 3.8 to start outside the dial button as well.\"}"
+    - '// @input float waveFadeSeconds = 1.5 {"hint":"A wave fades out slowly over the last this-many seconds (s) of its life. 0 = it stops at once."}'
+    - "// @input float waveMinGap = 0.6 {\"hint\":\"Least time between two separate waves from ONE socket (seconds, s). A hit closer than this merges into that socket's newest wave instead of starting a new one. 0 = every hit starts a wave. There are 8 wave slots for all 7 sockets together.\"}"
+    - '// @input float waveMergeGain = 0.5 {"hint":"How much a merged hit adds to the wave it merges into (0 to 1, unitless; max total 1)."}'
+    - "// @input bool waveFlipU {\"hint\":\"Mirror the wave positions left-right on the quad (use only if waves start on the wrong side; depends on the quad mesh's UV direction).\"}"
+    - "// @input bool waveFlipV {\"hint\":\"Mirror the wave positions front-back on the quad (use only if waves start on the wrong side; depends on the quad mesh's UV direction).\"}"
+    - "// @input string waveParamPrefix = \"wave\" {\"hint\":\"Start of the material parameter names for the 8 waves (Script Names): wave0 to wave7 with the default 'wave'. Each is a Float Parameter with Channels xyzw. Change only if your Wave_Mat uses other names. The two shared packs, waveShape and waveMisc (also Float Parameters, Channels xyzw), have fixed names.\"}"
+    - '// @input bool waveDebugLog = true {"hint":"Print a line to the log for every key press seen by the wave field and every wave a socket sends (for finding why no wave shows). Turn off when it works."}'
+    - '// @input bool waveTestLoop {"hint":"TEST ONLY: start a test wave in the middle of the field every 3 seconds (s), without any toy or key, so you can look at the picture. Needs Shared Wave Field ON. Turn off when done."}'
+    - '// @ui {"widget":"group_end"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #34D399;\">Tap waves</span>"}'
+    - '// @ui {"widget":"group_start", "label":"Tap waves"}'
+    - '// @input bool tapWavesEnabled = true {"hint":"Master switch for tap waves: a finger tap (in the Preview, a mouse click) starts a wave in the shared wave field, with its own colour and brightness. Needs Shared Wave Field ON. In the Preview a click only counts while this is ON."}'
+    - "// @input vec4 tapWaveColor = {0.55,0.9,1,1} {\"hint\":\"Colour of tap waves (RGBA). Sent to Wave_Mat as the parameter 'tapWaveColor' (a Color Parameter); toy waves keep the material's own waveColor. Does nothing until Wave_Mat is updated to read it (PLAN.md section 16).\", \"widget\":\"color\"}"
+    - "// @input float tapWaveBrightness = 100 {\"hint\":\"Brightness of tap waves (percent, %). 100 = a full-strength wave like a loud toy hit, 0 = invisible, 200 = twice as strong. It scales the wave's height, so a dimmer tap wave also weighs less where it meets toy waves.\", \"widget\":\"slider\", \"min\":0, \"max\":200, \"step\":1}"
+    - "// @input float tapWaveMax = 3 {\"hint\":\"Most tap waves alive at once (count). They only ever replace other tap waves, so a busy hand cannot push the toys' waves out of the 8 slots. Toy waves and tap waves share the same 8 slots.\", \"widget\":\"slider\", \"min\":1, \"max\":6, \"step\":1}"
+    - '// @input float tapWaveMinGap = 0.12 {"hint":"Two taps closer together than this (seconds, s) merge into one wave instead of starting two. 0 = every tap starts its own wave."}'
+    - "// @input float tapAvoidSocketRadius = 3.8 {\"hint\":\"Taps near a socket (its home ring and dial button) get weaker the closer they are. Inside this radius (cm, measured from the socket's centre) a tap makes no wave at all. The ring and dial button reach about 3.8 cm.\"}"
+    - "// @input float tapAvoidToyRadius = 2.5 {\"hint\":\"Taps near a toy get weaker the closer they are. Inside this radius (cm, measured from the toy's centre) a tap makes no wave at all. A toy is about 4 cm wide, so about 2 is the toy's own body.\"}"
+    - '// @input float tapAvoidMarginCm = 3 {"hint":"How far (cm) the falloff reaches past the radius above: a tap this far outside the radius makes a full wave, and it fades smoothly down to nothing at the radius. Bigger = a wider soft zone around buttons and toys. 0 = a hard edge. Tune this by feel.", "widget":"slider", "min":0, "max":10, "step":0.1}'
+    - '// @input bool tapAvoidEnabled = true {"hint":"Turn the falloff around sockets and toys off completely (every tap makes a full wave wherever it lands, even on a dial button)."}'
+    - '// @input bool tapDebugLog = true {"hint":"Print a line for every tap (where it landed, which falloff applied, what was sent). Turn off when it works."}'
+    - '// @ui {"widget":"group_end"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #F472B6;\">Alive and hover</span>"}'
+    - '// @ui {"widget":"group_start", "label":"Alive and hover"}'
+    - '// @input bool aliveEnabled = true {"hint":"Master switch for everything in this group: the toy glow and lean, the dial button glow and the Move Handle reaction when a hand comes close or hovers."}'
+    - '// @input bool aliveToyEnabled = true {"hint":"The toys react to a nearby hand: the core glow (coreHeat) rises, the resting glow breathes while the toy is off, and the toy leans toward the hand."}'
+    - '// @input bool aliveDialEnabled = true {"hint":"The dial buttons react: the Button brightness rises when a hand is near, and the Off colour breathes very gently while the toy is off."}'
+    - "// @input bool aliveHandleEnabled = true {\"hint\":\"The Move Handle reacts to a nearby hand. It only writes the material parameter named in 'Handle Alive Parameter' below (empty = nothing is written).\"}"
+    - "// @input bool aliveHoverCounts = true {\"hint\":\"ON: hovering a toy, dial button or handle (the SIK hover, which also works with the mouse in the Preview and with the far ray on Specs) counts as 'close' even when no fingertip is near. Hover alone gives the glow but no lean (a hover has no side to lean toward).\"}"
+    - '// @input float aliveNearFrames = 6 {"hint":"How many frames in a row a hand must be close (or hovering) before the reaction starts (frames, whole number; 1 = at once). At 60 frames per second, 6 frames = 0.1 seconds. Raise it if a hand passing by sets things off too easily."}'
+    - '// @input float aliveLeaveFrames = 12 {"hint":"How many frames in a row a hand must be gone before the reaction stops (frames, whole number; 1 = at once). Stops a flicker of hand tracking from flashing the glow on and off."}'
+    - '// @input float aliveEaseSeconds = 0.35 {"hint":"Seconds (s) the reaction takes to fade in and out (about 63 percent of the way). 0 = instant."}'
+    - "// @input float aliveToyOuterCm = 8 {\"hint\":\"TOY: distance from the toy's surface (cm) where the reaction starts. Further than this, nothing happens.\"}"
+    - "// @input float aliveToyInnerCm = 1.5 {\"hint\":\"TOY: distance from the toy's surface (cm) where the reaction is at full strength (hand nearly touching).\"}"
+    - "// @input float aliveDialOuterCm = 5 {\"hint\":\"DIAL BUTTON: distance from the button's edge (cm) where the reaction starts.\"}"
+    - "// @input float aliveDialInnerCm = 0.5 {\"hint\":\"DIAL BUTTON: distance from the button's edge (cm) where the reaction is at full strength.\"}"
+    - "// @input float aliveHandleOuterCm = 10 {\"hint\":\"MOVE HANDLE: distance from the handle's centre (cm) where the reaction starts.\"}"
+    - "// @input float aliveHandleInnerCm = 3 {\"hint\":\"MOVE HANDLE: distance from the handle's centre (cm) where the reaction is at full strength.\"}"
+    - "// @input float aliveIdleHeat = 0.04 {\"hint\":\"TOY resting glow while the toy is OFF: how high the core glow (coreHeat, 0 to 1, unitless) breathes up to. Very low on purpose (0.04). 0 = no resting glow. Added to the music's own coreHeat; your BlobShader_01 decides how coreHeat looks.\", \"widget\":\"slider\", \"min\":0, \"max\":0.3, \"step\":0.005}"
+    - '// @input float aliveNearHeat = 0.35 {"hint":"TOY: how much the core glow (coreHeat, 0 to 1, unitless) is raised when a hand is fully close. Added on top of the resting glow and the music, for off and on toys alike.", "widget":"slider", "min":0, "max":1, "step":0.01}'
+    - '// @input float aliveBreathSeconds = 4 {"hint":"Seconds (s) for one slow breath of the resting glow (toy core and dial button). Longer = calmer."}'
+    - '// @input bool aliveStagger = true {"hint":"ON: each toy breathes at its own moment (seven toys are not in step). OFF: they all breathe together."}'
+    - "// @input float aliveDialIdlePercent = 12 {\"hint\":\"DIAL BUTTON resting glow while the toy is OFF: how much the Off colour breathes up (percent of the Off colour, %; 12 = up to 12 percent brighter at the top of a breath). It multiplies the Off part of 'Button Off Brightness', so with that at 0 there is nothing to breathe.\", \"widget\":\"slider\", \"min\":0, \"max\":100, \"step\":1}"
+    - "// @input float aliveDialNearPercent = 60 {\"hint\":\"DIAL BUTTON: how much brighter the button colours get when a hand is fully close (percent brighter, %; 60 = 60 percent brighter than 'Button ... Brightness'). Applies to all four button colours.\", \"widget\":\"slider\", \"min\":0, \"max\":300, \"step\":1}"
+    - "// @input string aliveHandleParam {\"hint\":\"MOVE HANDLE: name of a float material parameter (Script Name) that receives the reaction, 0 to 1 (unitless). Empty = nothing is written. The handle's default material has no such parameter: add one in your handle graph, then type its name here.\"}"
+    - "// @input float aliveHandleHoverLevel = 0.5 {\"hint\":\"MOVE HANDLE: the value written to 'Handle Alive Parameter' when a hand is fully close or hovering (0 to 1, unitless). While the handle is being pinch-dragged the value goes to 1. Use about 0.5 with the MoveHandle_Shader graph (0 = rest, 0.5 = hover, 1 = active).\", \"widget\":\"slider\", \"min\":0, \"max\":1, \"step\":0.01}"
+    - '// @input bool aliveLeanEnabled = true {"hint":"TOYS lean toward an approaching fingertip. Needs a fingertip (or the mouse stand-in); hover alone does not lean."}'
+    - '// @input bool aliveLeanWhenOff = true {"hint":"ON: a toy that is OFF also leans toward the hand. OFF: only toys that are on lean."}'
+    - "// @input float aliveLeanDegrees = 6 {\"hint\":\"How far a toy leans when the hand is fully close (degrees). With Shader Deform ON it becomes a sideways shift of the top (tan of this angle x the blob height), also scaled by the material's swayGain. Each toy can scale it with 'Lean Scale' on its ToyAudioReact.\", \"widget\":\"slider\", \"min\":0, \"max\":30, \"step\":0.5}"
+    - "// @input float aliveLeanMaxDegrees = 10 {\"hint\":\"Hard cap on the lean (degrees), whatever the other numbers say. The Comfort limiter's Max Wobble Degrees applies as well when it is on.\", \"widget\":\"slider\", \"min\":0, \"max\":30, \"step\":0.5}"
+    - '// @input float aliveLeanHz = 2.5 {"hint":"Speed of the lean spring (cycles per second, Hz). Lower = a lazier, softer lean."}'
+    - '// @input float aliveLeanDamping = 0.6 {"hint":"Damping of the lean spring (unitless; below 1 = a little overshoot and settle, 1 or more = no overshoot)."}'
+    - "// @input bool aliveMouseHand = true {\"hint\":\"PREVIEW ONLY: in the Editor Preview the mouse acts as a fingertip (there are no hand joints there). It is placed where the mouse ray meets a flat plane at 'Mouse Hand Height' above the stage. Has no effect on Specs.\"}"
+    - '// @input float aliveMouseHeightCm = 3 {"hint":"PREVIEW ONLY: height (cm) above the stage floor of the plane the mouse fingertip moves on. About 3 is toy-top height; make it larger to reach over the toys."}'
+    - '// @ui {"widget":"group_end"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">Debug</span>"}'
+    - '// @ui {"widget":"group_start", "label":"Debug"}'
+    - '// @input bool showBoundsOutline {"hint":"Show the real logical stage bounds (the stage shape toys are kept inside) as a thick outline, using the Outline Segments. Use it to compare with the frame."}'
+    - '// @input float primitiveMeshSize = 1 {"hint":"Size (cm) of your placeholder primitives at scale 1 (frame piece quad and debug outline segment edge). Used to size them."}'
+    - '// @input bool verbose {"hint":"Print extra logs."}'
+    - '// @ui {"widget":"group_end"}'

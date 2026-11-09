@@ -1,0 +1,49 @@
+- !<AssetImportMetadata/ce2eb976-e757-43b5-87e5-59aa628a44e8>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 34640ff7-314e-4412-8a29-77ca008f68f9
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 34640ff7-314e-4412-8a29-77ca008f68f9
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 10fa5d87-c31c-4819-9338-ae0e7805393a
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/10fa5d87-c31c-4819-9338-ae0e7805393a>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  VersionPrerelease: ""
+  UpdateOrder: 0
+  ComponentUid: 6dbd56a7-a3c9-47c7-9078-0d668782a61b
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    fieldVisual: false
+    testCamera: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - fieldVisual: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      testCamera: !<reference.Camera> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @input SceneObject fieldVisual {"hint":"The big quad the waves are drawn on: an object with a RenderMeshVisual using your Wave_Mat (a flat 1 x 1 cm quad such as Pad_Plane.mesh). Keep it DISABLED in the scene; this script enables it only while a wave is alive, sizes it (cm) and lays it flat on the stage. Empty = no shared waves."}'
+    - '// @input Component.Camera testCamera {"hint":"Preview testing only: the Camera used to turn a mouse click into a spot on the table. Assign your main Camera. With it set, clicking in the Preview window starts a wave where the click lands on the stage plane (needs Shared Wave Field ON). Empty = mouse test off (key 8 and the test loop still work). Ignored on a device."}'

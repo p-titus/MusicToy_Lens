@@ -1,0 +1,80 @@
+- !<AssetImportMetadata/1ec14e15-30ca-4146-433e-8c829e3e5308>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> 0282b662-a1e2-4c5e-84e1-2b4f79d7b917
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> 0282b662-a1e2-4c5e-84e1-2b4f79d7b917
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    AssetLibraryId: 5gDJwcHjyG7J9mVb165So6
+  AssetDataMap:
+    JavaScriptAsset: !<own> 4738040c-703e-49d9-91ac-0cb72aa23232
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/4738040c-703e-49d9-91ac-0cb72aa23232>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 1
+  VersionMinor: 0
+  VersionPatch: 0
+  VersionPrerelease: ""
+  UpdateOrder: 0
+  ComponentUid: 36ce4c23-bc0c-41f6-a44b-db3c27516f69
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    action: false
+    debug: false
+    desiredModelHeight: false
+    dimensionValue: false
+    directionValue: false
+    localToWorldObj: false
+    screenToWorldCamera: false
+    screenToWorldScreenTrans: false
+    screenTransObj: false
+    targetDimension: false
+    targetDirection: false
+    targetInvTrans: false
+    targetPosition: false
+    targetRotation: false
+    targetScale: false
+    vfx: false
+    vfxScriptName: false
+    worldToScreenCamera: false
+    worldToScreenObject: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - action: targetPosition
+      targetPosition: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      targetRotation: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      targetScale: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      directionValue: 0
+      targetDirection: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      targetInvTrans: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      dimensionValue: aabbMin
+      targetDimension: !<reference.RenderMeshVisual> 00000000-0000-0000-0000-000000000000
+      screenToWorldScreenTrans: !<reference.ScreenTransform> 00000000-0000-0000-0000-000000000000
+      screenToWorldCamera: !<reference.Camera> 00000000-0000-0000-0000-000000000000
+      desiredModelHeight: !<float> 250.000000
+      worldToScreenObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      worldToScreenCamera: !<reference.Camera> 00000000-0000-0000-0000-000000000000
+      localToWorldObj: !<reference.ScreenTransform> 00000000-0000-0000-0000-000000000000
+      screenTransObj: !<reference.ScreenTransform> 00000000-0000-0000-0000-000000000000
+      debug: false
+      vfx: !<reference.VFXComponent> 00000000-0000-0000-0000-000000000000
+      vfxScriptName: ""
+  ScriptTypes:
+    -
+      {}

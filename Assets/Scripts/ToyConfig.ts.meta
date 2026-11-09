@@ -1,0 +1,120 @@
+- !<AssetImportMetadata/d55aa9ad-7351-4bd5-9699-7d539dcda89f>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 91036694-2ad3-4395-95b1-f9e00583ac04
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 91036694-2ad3-4395-95b1-f9e00583ac04
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> c086e7ad-6c95-4f41-9b95-d39ff38b2d9e
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/c086e7ad-6c95-4f41-9b95-d39ff38b2d9e>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  VersionPrerelease: ""
+  UpdateOrder: 0
+  ComponentUid: 4fe21687-2500-4579-aa8d-49958197129a
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    autoRestOnFloor: false
+    blobLook: false
+    blobSeconds: false
+    colliderSizeOverride: false
+    fitToMeshBounds: false
+    footprintOverride: false
+    homePosition: false
+    overrideVolumes: false
+    resetToyPosition: false
+    restHeight: false
+    shaderDeformMode: false
+    shapeProportions: false
+    sizeMultiplier: false
+    stem: false
+    visual: false
+    visualOffset: false
+    visualRotation: false
+    volumes: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - stem: !<reference.AudioTrackAsset> 00000000-0000-0000-0000-000000000000
+      visual: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      restHeight: !<float> 0.000000
+      homePosition: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
+      fitToMeshBounds: false
+      shapeProportions: !<Vec3> {x: 1.000000, y: 1.000000, z: 1.000000}
+      sizeMultiplier: !<float> 1.000000
+      visualOffset: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
+      visualRotation: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
+      autoRestOnFloor: true
+      footprintOverride: !<float> 0.000000
+      colliderSizeOverride: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
+      blobLook: true
+      blobSeconds: 0.250000
+      shaderDeformMode: !<float> 0.000000
+      resetToyPosition: false
+      overrideVolumes: false
+      volumes: !<Vec4> {x: 0.000000, y: 0.250000, z: 0.550000, w: 1.000000}
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">This toy</span>"}'
+    - '// @ui {"widget":"group_start", "label":"This toy"}'
+    - "// @input Asset.AudioTrackAsset stem {\"hint\":\"The audio file (stem) this toy controls. This is the ONLY place it is chosen: leave the AudioComponent's own Audio Track empty and Autoplay Loop off.\"}"
+    - '// @input SceneObject visual {"hint":"The child object that holds your mesh. Audio-reactive motion moves only this object."}'
+    - "// @input float restHeight {\"hint\":\"Distance from the toy's pivot down to its base (cm), so it rests ON the stage floor.\"}"
+    - "// @input vec3 homePosition = {0,0,0} {\"hint\":\"This toy's HOME position on the stage, in cm, relative to the stage centre (stage axes, not world). X = left (-) / right (+). Y = height above the stage floor (0 = resting on it). Z = back (-) / front (+). Give every toy its own spot. The Transform in the Scene panel stays at 0,0,0 because this is applied when the Lens starts and on Reset.\"}"
+    - '// @ui {"widget":"group_end"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">Shape</span>"}'
+    - '// @ui {"widget":"group_start", "label":"Shape (stretch this toy)"}'
+    - "// @input bool fitToMeshBounds {\"hint\":\"OFF (default): the old rule. The mesh is assumed to fill a 1 x 1 x 1 box centred on its pivot, so the touch box, footprint and resting height are worked out from that. ON: they are taken from the mesh's OWN bounds instead, so any mesh (any file size, pivot anywhere) can be used as it is. The blob's real size is then its Rest Scale times the mesh's own size.\"}"
+    - "// @input vec3 shapeProportions = {1,1,1} {\"hint\":\"Optional deliberate squash or stretch, a unitless factor per axis (x, y, z) on top of the base blob size. (1, 1, 1) = the mesh's own proportions. Rest Scale = Base Blob Scale (StageConfig, cm) x Size Multiplier x Shape Proportions.\"}"
+    - '// @input float sizeMultiplier = 1 {"hint":"One unitless number that scales the whole blob (x, y and z together) relative to the base blob (StageConfig > Base Blob Scale, cm). 1 = same as the base blob, below 1 smaller, above 1 larger. Clamped to 0.75 - 1.3; a warning is logged if the value is outside that."}'
+    - '// @input vec3 visualOffset = {0,0,0} {"hint":"Extra shift of the mesh child (cm: x = right, y = up, z = toward you), on top of the automatic resting height."}'
+    - '// @input vec3 visualRotation = {0,0,0} {"hint":"Extra rotation of the mesh child in degrees (x, y, z). Rotating changes the footprint too."}'
+    - "// @input bool autoRestOnFloor = true {\"hint\":\"ON: lifts the mesh so it rests on the stage floor. With Fit To Mesh Bounds OFF this is half its height (right for meshes centred on their pivot, like the placeholder blobs); with it ON it uses the mesh's real lowest point, wherever the pivot is. Turn OFF for your own mesh whose pivot is already at its base.\"}"
+    - '// @input float footprintOverride {"hint":"Footprint diameter on the stage (cm), used for edge padding and spacing between toys. 0 = automatic from the stretched shape (its widest side). This does not resize the collider."}'
+    - '// @input vec3 colliderSizeOverride = {0,0,0} {"hint":"Collider box size in cm (x, y, z). 0 in all three = automatic: the collider is a 1x1x1 box on the mesh child, so it follows the stretched shape exactly. Enter sizes only if you want a bigger or smaller poke/pinch target."}'
+    - '// @ui {"widget":"group_end"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">Blob look (BlobShader_01 material)</span>"}'
+    - '// @ui {"widget":"group_start", "label":"Blob look (state look, this toy)"}'
+    - '// @input bool blobLook = true {"hint":"ON: this toy sends its volume state (lookState, 0 to 3) and the stem loudness (audioLevel, 0 to 1) to its material, if the material has a Float Parameter with the Script Name lookState. All colours and opacities per state are set in the Shader Graph (BlobShader_01), not here. OFF, or a material without lookState: the material is left as it is."}'
+    - '// @input float blobSeconds = 0.25 {"hint":"Seconds (s) the look takes to move by one state step, for example off to low. Off to loud takes three times this. 0 = instant."}'
+    - '// @ui {"widget":"group_end"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">Shader deform (this toy)</span>"}'
+    - '// @ui {"widget":"group_start", "label":"Shader deform (this toy)"}'
+    - '// @input float shaderDeformMode {"hint":"Whether THIS toy hands its music squash, sway and ripples to the vertex-deform shader. Follow Stage = use StageConfig > Shader Deform. On = this toy uses the shader even if the stage switch is off (use it for the one toy whose material has the deform graph). Off = this toy never does. Only turn On for a toy whose material has the deform parameters, or it loses its music squash and rocking.", "widget":"combobox", "values":[{"label":"Follow Stage", "value":0}, {"label":"On", "value":1}, {"label":"Off", "value":2}]}'
+    - '// @ui {"widget":"group_end"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">Reset (this toy)</span>"}'
+    - '// @ui {"widget":"group_start", "label":"Reset (this toy)"}'
+    - '// @input bool resetToyPosition {"hint":"Tick to put THIS toy back at its Home Position (above). It un-ticks itself in the Lens. Changes nothing else (not its pad)."}'
+    - '// @ui {"widget":"group_end"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">Overrides</span>"}'
+    - '// @ui {"widget":"group_start", "label":"Override volume states"}'
+    - "// @input bool overrideVolumes {\"hint\":\"Use this toy's own volumes instead of the global ones.\"}"
+    - "// @input vec4 volumes = {0,0.25,0.55,1} {\"hint\":\"This toy's volumes: x = off, y = low, z = medium, w = high.\"}"
+    - '// @ui {"widget":"group_end"}'

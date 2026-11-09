@@ -1,0 +1,192 @@
+- !<AssetImportMetadata/f644e041-0998-4c36-aad5-904d87aadaa0>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 25d4654c-f079-492e-8e9b-f55745242789
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 25d4654c-f079-492e-8e9b-f55745242789
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> c1e61310-f04d-473b-9072-b89d7a46ee3b
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/c1e61310-f04d-473b-9072-b89d7a46ee3b>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  VersionPrerelease: ""
+  UpdateOrder: 0
+  ComponentUid: 2a1c04e9-e51b-4da1-9210-bc21a3d1a10b
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    backgroundColor: false
+    cornerRadiusCm: false
+    edgeSoftnessCm: false
+    face: false
+    font: false
+    haloReachCm: false
+    haloStrength: false
+    heightCm: false
+    hitMarginCm: false
+    hoverEnabled: false
+    hoverGlow: false
+    label: false
+    labelText: false
+    nearInnerCm: false
+    nearOuterCm: false
+    opacity: false
+    positionCm: false
+    pressDepthCm: false
+    pressDownDamping: false
+    pressEnabled: false
+    pressGlowPercent: false
+    pressMinSeconds: false
+    pressShrink: false
+    pressSpringHz: false
+    pressTextBrightPercent: false
+    pressUpDamping: false
+    pulseBrightPercent: false
+    pulseIdlePercent: false
+    pulsePeriodSeconds: false
+    pulseScalePercent: false
+    quad: false
+    rimColor: false
+    rimRestGlow: false
+    rimWidthCm: false
+    suffix: false
+    suffixText: false
+    textColor: false
+    textGapCm: false
+    textHoverBrightnessPercent: false
+    textHoverColor: false
+    textLiftCm: false
+    textSizeCm: false
+    tiltDegrees: false
+    touchDepthCm: false
+    widthCm: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - quad: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      face: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      labelText: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      suffixText: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      positionCm: !<Vec3> {x: 0.000000, y: 0.050000, z: 8.000000}
+      widthCm: !<float> 5.000000
+      heightCm: !<float> 2.000000
+      cornerRadiusCm: 0.800000
+      tiltDegrees: !<float> 0.000000
+      hitMarginCm: 0.400000
+      touchDepthCm: !<float> 1.000000
+      backgroundColor: !<Vec4> {x: 0.050000, y: 0.100000, z: 0.200000, w: 1.000000}
+      rimColor: !<Vec4> {x: 0.300000, y: 0.700000, z: 1.000000, w: 1.000000}
+      rimWidthCm: 0.150000
+      edgeSoftnessCm: 0.030000
+      rimRestGlow: !<float> 1.000000
+      opacity: !<float> 1.000000
+      hoverEnabled: true
+      hoverGlow: !<float> 2.000000
+      haloReachCm: 0.500000
+      haloStrength: 0.600000
+      nearInnerCm: !<float> 1.000000
+      nearOuterCm: !<float> 6.000000
+      label: RESET
+      suffix: "?"
+      font: !<reference.Font> 00000000-0000-0000-0000-000000000000
+      textSizeCm: 0.700000
+      textColor: !<Vec4> {x: 0.800000, y: 0.900000, z: 1.000000, w: 1.000000}
+      textHoverColor: !<Vec4> {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+      textHoverBrightnessPercent: !<float> 150.000000
+      textGapCm: 0.120000
+      textLiftCm: 0.030000
+      pulsePeriodSeconds: 1.200000
+      pulseScalePercent: !<float> 15.000000
+      pulseBrightPercent: !<float> 40.000000
+      pulseIdlePercent: !<float> 0.000000
+      pressEnabled: true
+      pressDepthCm: 0.150000
+      pressShrink: 0.030000
+      pressGlowPercent: !<float> 50.000000
+      pressTextBrightPercent: !<float> 30.000000
+      pressMinSeconds: 0.080000
+      pressSpringHz: !<float> 5.000000
+      pressDownDamping: 0.800000
+      pressUpDamping: 0.300000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">Objects (hook-up)</span>"}'
+    - '// @input SceneObject quad {"hint":"The flat quad that shows the button: a RenderMeshVisual using CallHome_Mat on a flat 1 cm quad (the same mesh as the dial button). This script scales it. Empty = nothing is drawn."}'
+    - '// @input SceneObject face {"hint":"The object that carries the Interactable and the Collider (the touch box). The script tilts it, sizes its box and moves the picture and text with it. Empty = this object."}'
+    - '// @input Component.Text labelText {"hint":"The Text component for the main word (default RESET). Its font, size and colour are driven from this Inspector."}'
+    - '// @input Component.Text suffixText {"hint":"The Text component for the pulsing suffix (default ?). Empty = no suffix."}'
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">Size and location</span>"}'
+    - "// @input vec3 positionCm = {0,0.05,8} {\"hint\":\"Where the button sits, in the STAGE's local space (cm): X left/right, Y height above the table, Z back/front (+Z toward you). The move handle is at about Z = 4 cm, so 8 puts the button just in front of it.\"}"
+    - '// @input float widthCm = 5 {"hint":"Width of the button body (cm), not counting the rim."}'
+    - '// @input float heightCm = 2 {"hint":"Height of the button body (cm), not counting the rim."}'
+    - '// @input float cornerRadiusCm = 0.8 {"hint":"Roundness: corner radius (cm). 0 = square corners. It stops at half the shorter side, which makes a full pill shape."}'
+    - '// @input float tiltDegrees {"hint":"Tilt (degrees). 0 = lying flat on the table. 90 = standing upright facing you. Positive tilts the far edge up toward you."}'
+    - '// @input float hitMarginCm = 0.4 {"hint":"Extra touch area (cm) added around the body and rim, so a slightly off finger still hits. 0 = the touch box is exactly body + rim."}'
+    - '// @input float touchDepthCm = 1 {"hint":"Depth (cm) of the touch box, measured up from the button face. A flat button needs a little height to be touchable."}'
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">Background and rim</span>"}'
+    - '// @input vec4 backgroundColor = {0.05,0.1,0.2,1} {"hint":"Background (body) colour. On an additive material, black = invisible and brighter = more solid.", "widget":"color"}'
+    - '// @input vec4 rimColor = {0.3,0.7,1,1} {"hint":"Rim colour. The hover halo uses this colour too.", "widget":"color"}'
+    - '// @input float rimWidthCm = 0.15 {"hint":"Rim thickness (cm), drawn OUTSIDE the body so the body keeps its size. 0 = no rim. 0.15 = 1.5 mm."}'
+    - '// @input float edgeSoftnessCm = 0.03 {"hint":"Feather (cm) on the body and rim edges. 0.03 = about 0.3 mm, enough to take the sharpness off. 0 = hard edge."}'
+    - '// @input float rimRestGlow = 1 {"hint":"Rim brightness at rest (unitless multiplier, 1 = the colour as set, 0 = rim invisible until hover)."}'
+    - '// @input float opacity = 1 {"hint":"Overall opacity (0 to 1, unitless). Applies to the whole button picture, not the text."}'
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">Hover glow</span>"}'
+    - '// @input bool hoverEnabled = true {"hint":"Switch the hover reaction on or off. Off = the button stays at its rest look. (Also off when StageConfig > Alive and hover is off.)"}'
+    - '// @input float hoverGlow = 2 {"hint":"Rim brightness at full hover (unitless multiplier of the rim colour). 1 = no change from rest, 2 = twice as bright."}'
+    - '// @input float haloReachCm = 0.5 {"hint":"How far the soft glow around the rim reaches outside it (cm). 0 = no outer halo, only the rim itself brightens."}'
+    - '// @input float haloStrength = 0.6 {"hint":"Brightness of that outer halo at full hover (unitless, 1 = same as the rim colour)."}'
+    - "// @input float nearInnerCm = 1 {\"hint\":\"Distance from the button's surface (cm) at which a fingertip counts as fully near (glow at 100%).\"}"
+    - "// @input float nearOuterCm = 6 {\"hint\":\"Distance from the button's surface (cm) at which a fingertip starts to count (glow starts at 0%). How quickly the glow eases is StageConfig > Alive and hover > Ease Seconds.\"}"
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">Text</span>"}'
+    - '// @input string label = "RESET" {"hint":"The main word. Change it to anything (RESET, HOME, CALL HOME ...)."}'
+    - '// @input string suffix = "?" {"hint":"The suffix that pulses (default ?). Leave empty for no suffix."}'
+    - '// @input Asset.Font font {"hint":"Font for both texts. Empty = whatever font is already on the Text components."}'
+    - '// @input float textSizeCm = 0.7 {"hint":"Text size (cm): the height of the letter box (em). 0.7 cm is a little over a third of the default button height. Converted to Text size at 43.886 per cm."}'
+    - '// @input vec4 textColor = {0.8,0.9,1,1} {"hint":"Text colour at rest (RGBA).", "widget":"color"}'
+    - '// @input vec4 textHoverColor = {1,1,1,1} {"hint":"Text colour at full hover (RGBA). The text eases from the rest colour to this one.", "widget":"color"}'
+    - '// @input float textHoverBrightnessPercent = 150 {"hint":"Extra brightness of the text at full hover (percent of its colour, 100 = no extra, 150 = half again as bright). RGB only."}'
+    - '// @input float textGapCm = 0.12 {"hint":"Gap (cm) between the main word and the suffix."}'
+    - '// @input float textLiftCm = 0.03 {"hint":"How far the text floats above the button face (cm), so it never flickers with the picture. Keep it tiny."}'
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">Pulse of the suffix</span>"}'
+    - '// @input float pulsePeriodSeconds = 1.2 {"hint":"Seconds (s) for one full pulse of the suffix (minimum 0.5)."}'
+    - '// @input float pulseScalePercent = 15 {"hint":"How much the suffix grows at the top of a pulse (percent of its size). 15 = 15% bigger."}'
+    - '// @input float pulseBrightPercent = 40 {"hint":"How much brighter the suffix gets at the top of a pulse (percent on top of its hover brightness)."}'
+    - '// @input float pulseIdlePercent {"hint":"How much of the pulse also runs when nobody is near (percent of the full pulse). 0 = the suffix only pulses on hover. 100 = it pulses all the time."}'
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">Press (the click)</span>"}'
+    - '// @input bool pressEnabled = true {"hint":"Switch the press reaction (sink, shrink, glow) on or off."}'
+    - '// @input float pressDepthCm = 0.15 {"hint":"How deep the button picture and text sink while pressed (cm). Keep it tiny: 0.15 = 1.5 mm."}'
+    - '// @input float pressShrink = 0.03 {"hint":"How much the button picture and text shrink while fully pressed (fraction, unitless: 0.03 = 3% smaller). 0 = no shrink."}'
+    - '// @input float pressGlowPercent = 50 {"hint":"Extra rim and halo glow while pressed (percent on top of the hover glow). 50 = the hover glow multiplier is 1.5 times bigger. 0 = no extra glow."}'
+    - '// @input float pressTextBrightPercent = 30 {"hint":"Extra text brightness while pressed (percent on top of its colour). 30 = 30% brighter. RGB only."}'
+    - '// @input float pressMinSeconds = 0.08 {"hint":"Shortest time (s) the button stays pressed, so a very quick tap still shows the click. 0 = follow the finger exactly."}'
+    - '// @input float pressSpringHz = 5 {"hint":"Spring speed of the press and the bounce back (cycles per second, Hz). Higher = snappier. Default matches the dial button."}'
+    - '// @input float pressDownDamping = 0.8 {"hint":"Damping while PRESSING DOWN (0 to 1, unitless). 1 = sinks with no overshoot; lower overshoots a little."}'
+    - '// @input float pressUpDamping = 0.3 {"hint":"Damping while BOUNCING BACK (0 to 1, unitless). 1 = no bounce; 0.3 = a clear bounce past the top."}'

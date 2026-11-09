@@ -1,0 +1,85 @@
+- !<AssetImportMetadata/9a7bf24e-a167-4dfb-b648-218ee3ee7d20>
+  ImportedAssetIds:
+    26ba073d67b9d0dd: !<reference> 192ca0e1-4533-4300-9dd8-9b055e8fd38e
+    5f9843d9cd4584a1: !<reference> e324be11-f3a2-4ec8-9a8b-73e111741729
+    Meshes/Blob_01_PebbleLumpy: !<reference> e47597c1-dc3b-4d8e-8c87-f5bd7f847a11
+    Scene: !<reference> 60df53a6-545c-44ac-b6e2-ad424a603019
+    c01f9007330769a5: !<reference> bd243c0e-c241-4655-8e06-5bc8573ca5f7
+  ImporterName: ObjImporter
+  PrimaryAsset: !<reference> 60df53a6-545c-44ac-b6e2-ad424a603019
+  PackageType: LegacyPackage
+  LegacyPackagePolicy: CanBeUnpackedTransparent
+  ExtraData:
+    {}
+  AssetDataMap:
+    Scene: !<own> eafd6f6a-cd89-406a-a799-d3942504d103
+  DependentFiles:
+    []
+  ImporterSettings: !<D3FileImporterSettingsBase>
+    UseLegacyImporter: false
+    WithMaterials: true
+    NamingConvention: ByCategorySanitizeV2
+    PersistentIdGenerationAlgorithm: DescriptorBasedV2
+  CompressionSettings: !<ComplexCompressionSettings>
+    Presets:
+      None Compression: !<FileCompressionSettings>
+        {}
+    ExtensionMappings:
+      mesh: None Compression
+    Overrides:
+      {}
+- !<SceneObject/192ca0e1-4533-4300-6227-64faa1702c71>
+  PrefabRemaps:
+    []
+  Name: Blob_01_PebbleLumpy
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> e324be11-f3a2-4ec8-6574-8c1eee8be8d6
+  Components:
+    []
+- !<RenderMeshVisual/bd243c0e-c241-4655-71f9-a437a8c35a08>
+  PrefabRemaps:
+    []
+  Name: component_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    []
+  Mesh: !<reference> e47597c1-dc3b-4d8e-8c87-f5bd7f847a11
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/e324be11-f3a2-4ec8-6574-8c1eee8be8d6>
+  PrefabRemaps:
+    []
+  Name: Blob_01_PebbleLumpy
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> bd243c0e-c241-4655-71f9-a437a8c35a08
+- !<ObjectPrefabAssetData/eafd6f6a-cd89-406a-a799-d3942504d103>
+  Prototype: !<ObjectOwner/557f8a07-3a31-4a02-9863-47d78b12d30b>
+    PackagePath: ""
+    objects:
+      - !<own> 192ca0e1-4533-4300-6227-64faa1702c71

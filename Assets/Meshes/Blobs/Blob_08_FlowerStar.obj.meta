@@ -1,0 +1,85 @@
+- !<AssetImportMetadata/9e318945-3772-4767-9128-c295c3b2bb4d>
+  ImportedAssetIds:
+    26ba073d67b9d0dd: !<reference> b8c40bcd-7be7-4d6f-a2bb-8f781ca53388
+    5e69a405d196e9db: !<reference> 1ca09501-c1d3-4c29-a5a7-4174648de716
+    Meshes/Blob_08_FlowerStar: !<reference> cad31dfb-4a58-482d-950d-63de9295b7af
+    Scene: !<reference> e5f18f89-8d70-4e5a-ab91-d3b9426da821
+    d8ac9e6ffc020b8e: !<reference> b565c948-74ae-4da4-ad18-096c2b527093
+  ImporterName: ObjImporter
+  PrimaryAsset: !<reference> e5f18f89-8d70-4e5a-ab91-d3b9426da821
+  PackageType: LegacyPackage
+  LegacyPackagePolicy: CanBeUnpackedTransparent
+  ExtraData:
+    {}
+  AssetDataMap:
+    Scene: !<own> c48008cb-2e61-43b9-84e0-11317cc5bf0d
+  DependentFiles:
+    []
+  ImporterSettings: !<D3FileImporterSettingsBase>
+    UseLegacyImporter: false
+    WithMaterials: true
+    NamingConvention: ByCategorySanitizeV2
+    PersistentIdGenerationAlgorithm: DescriptorBasedV2
+  CompressionSettings: !<ComplexCompressionSettings>
+    Presets:
+      None Compression: !<FileCompressionSettings>
+        {}
+    ExtensionMappings:
+      mesh: None Compression
+    Overrides:
+      {}
+- !<RenderMeshVisual/1ca09501-c1d3-4c29-5a58-be8b9b7218e9>
+  PrefabRemaps:
+    []
+  Name: component_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    []
+  Mesh: !<reference> cad31dfb-4a58-482d-950d-63de9295b7af
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/b565c948-74ae-4da4-52e7-f693d4ad8f6c>
+  PrefabRemaps:
+    []
+  Name: Blob_08_FlowerStar
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 1ca09501-c1d3-4c29-5a58-be8b9b7218e9
+- !<SceneObject/b8c40bcd-7be7-4d6f-5d44-7087e35acc77>
+  PrefabRemaps:
+    []
+  Name: Blob_08_FlowerStar
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> b565c948-74ae-4da4-52e7-f693d4ad8f6c
+  Components:
+    []
+- !<ObjectPrefabAssetData/c48008cb-2e61-43b9-84e0-11317cc5bf0d>
+  Prototype: !<ObjectOwner/c63f263b-b698-42b7-b85a-14a1cb051b18>
+    PackagePath: ""
+    objects:
+      - !<own> b8c40bcd-7be7-4d6f-5d44-7087e35acc77

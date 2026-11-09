@@ -1,0 +1,832 @@
+SchemaVersion: 1
+Nodes:
+  ChildNodes:
+    Node0:
+      DependencyIndex: 0
+      LevelID: 0
+      NodeCount: 0
+      NodeType: 1
+      Ports:
+        Channels:
+          ItemIndex: 0
+          ItemList: "xyzw : rgba : xyz : rgb : xy : x"
+        Default:
+          Variable: [1.0, 1.0, 1.0, 1.0]
+        EnableMax:
+          Variable: false
+        EnableMin:
+          Variable: false
+        Group:
+          String: ""
+        Max:
+          Variable: 0.5
+        Min:
+          Variable: 0.5
+        Output:
+          IOType: 1
+          Variable: [0.0, 0.0, 0.0, 0.0]
+        ScriptName:
+          String: wave0
+        SortIndex:
+          Variable: 0
+        Step:
+          Variable: 0.009999999776482582
+        Title:
+          String: Wave 0
+        Tooltip:
+          String: ""
+      PositionX: 16
+      PositionY: -77
+      TemplateID: nodes_inputs_parameters_float
+      Title1: Float Parameter
+      Title2: Wave 0
+    Node1:
+      DependencyIndex: 1
+      LevelID: 1
+      NodeCount: 0
+      NodeType: 1
+      Ports:
+        Channels:
+          ItemIndex: 0
+          ItemList: "xyzw : rgba : xyz : rgb : xy : x"
+        Default:
+          Variable: [1.0, 1.0, 1.0, 1.0]
+        EnableMax:
+          Variable: false
+        EnableMin:
+          Variable: false
+        Group:
+          String: ""
+        Max:
+          Variable: 1.0
+        Min:
+          Variable: 0.0
+        Output:
+          IOType: 1
+          Variable: [0.0, 0.0, 0.0, 0.0]
+        ScriptName:
+          String: wave1
+        SortIndex:
+          Variable: 0
+        Step:
+          Variable: 0.009999999776482582
+        Title:
+          String: Wave 1
+        Tooltip:
+          String: ""
+      PositionX: 10
+      PositionY: 8
+      TemplateID: nodes_inputs_parameters_float
+      Title1: Float Parameter
+      Title2: Wave 1
+    Node10:
+      DependencyIndex: 10
+      LevelID: 11
+      NodeCount: 0
+      NodeType: 1
+      Ports:
+        Channels:
+          ItemIndex: 0
+          ItemList: "rgba : rgb"
+        Default:
+          Variable: [1.0, 1.0, 1.0, 1.0]
+        Group:
+          String: ""
+        Output:
+          IOType: 1
+          Variable: [0.0, 0.0, 0.0, 0.0]
+        ScriptName:
+          String: waveColor
+        SortIndex:
+          Variable: 0
+        Tooltip:
+          String: ""
+        UniqueID:
+          String: Wave Colour
+      PositionX: 73
+      PositionY: 813
+      TemplateID: nodes_inputs_parameters_color
+      Title1: Color Parameter
+      Title2: Wave Colour
+    Node11:
+      DependencyIndex: 11
+      LevelID: 14
+      NodeCount: 0
+      NodeType: 1
+      Ports:
+        Channels:
+          ItemIndex: 0
+          ItemList: "xyzw : rgba : xyz : rgb : xy : x"
+        Default:
+          Variable: [0.0, 0.0, 0.0, 0.0]
+        EnableMax:
+          Variable: false
+        EnableMin:
+          Variable: false
+        Group:
+          String: ""
+        Max:
+          Variable: 1.0
+        Min:
+          Variable: 0.0
+        Output:
+          IOType: 1
+          Variable: [0.0, 0.0, 0.0, 0.0]
+        ScriptName:
+          String: waveKind0
+        SortIndex:
+          Variable: 0
+        Step:
+          Variable: 0.009999999776482582
+        Title:
+          String: Wave Kind 0
+        Tooltip:
+          String: ""
+      PositionX: 44
+      PositionY: 1000
+      TemplateID: nodes_inputs_parameters_float
+      Title1: Float Parameter
+      Title2: Wave Kind 0
+    Node12:
+      DependencyIndex: 12
+      LevelID: 15
+      NodeCount: 0
+      NodeType: 1
+      Ports:
+        Channels:
+          ItemIndex: 0
+          ItemList: "xyzw : rgba : xyz : rgb : xy : x"
+        Default:
+          Variable: [0.0, 0.0, 0.0, 0.0]
+        EnableMax:
+          Variable: false
+        EnableMin:
+          Variable: false
+        Group:
+          String: ""
+        Max:
+          Variable: 1.0
+        Min:
+          Variable: 0.0
+        Output:
+          IOType: 1
+          Variable: [0.0, 0.0, 0.0, 0.0]
+        ScriptName:
+          String: waveKind1
+        SortIndex:
+          Variable: 0
+        Step:
+          Variable: 0.009999999776482582
+        Title:
+          String: Wave Kind 1
+        Tooltip:
+          String: ""
+      PositionX: 44
+      PositionY: 1090
+      TemplateID: nodes_inputs_parameters_float
+      Title1: Float Parameter
+      Title2: Wave Kind 1
+    Node13:
+      DependencyIndex: 13
+      LevelID: 16
+      NodeCount: 0
+      NodeType: 1
+      Ports:
+        Channels:
+          ItemIndex: 0
+          ItemList: "rgba : rgb"
+        Default:
+          Variable: [0.55, 0.9, 1.0, 1.0]
+        Group:
+          String: ""
+        Output:
+          IOType: 1
+          Variable: [0.0, 0.0, 0.0, 0.0]
+        ScriptName:
+          String: tapWaveColor
+        SortIndex:
+          Variable: 0
+        Tooltip:
+          String: ""
+        UniqueID:
+          String: Tap Wave Colour
+      PositionX: 73
+      PositionY: 1180
+      TemplateID: nodes_inputs_parameters_color
+      Title1: Color Parameter
+      Title2: Tap Wave Colour
+    Node14:
+      DependencyIndex: 14
+      LevelID: 12
+      NodeCount: 0
+      NodeType: 1
+      Ports:
+        Channels:
+          ItemIndex: 5
+          ItemList: "xyzw : rgba : xyz : rgb : xy : x"
+        Default:
+          Variable: [10.0, 1.0, 1.0, 1.0]
+        EnableMax:
+          Variable: false
+        EnableMin:
+          Variable: false
+        Group:
+          String: ""
+        Max:
+          Variable: 1.0
+        Min:
+          Variable: 0.0
+        Output:
+          IOType: 1
+          Variable: [0.0, 0.0, 0.0, 0.0]
+        ScriptName:
+          String: waveGain
+        SortIndex:
+          Variable: 0
+        Step:
+          Variable: 0.009999999776482582
+        Title:
+          String: Wave Gain
+        Tooltip:
+          String: ""
+      PositionX: 114
+      PositionY: 911
+      TemplateID: nodes_inputs_parameters_float
+      Title1: Float Parameter
+      Title2: Wave Gain
+    Node15:
+      DependencyIndex: 15
+      LevelID: 13
+      NodeCount: 0
+      NodeType: 1
+      Ports:
+        Code:
+          ClassType1: TEXT
+          String: |-
+            input_vec4 Wave0;
+            input_vec4 Wave1;
+            input_vec4 Wave2;
+            input_vec4 Wave3;
+            input_vec4 Wave4;
+            input_vec4 Wave5;
+            input_vec4 Wave6;
+            input_vec4 Wave7;
+            input_vec4 Shape;   // x speed cm/s, y length cm, z width cm, w trail
+            input_vec4 Misc;    // x quad side cm, y falloff, z edge fade cm
+            input_color3 Colour;
+            input_vec4 Kind0;   // 1 = wave 0..3 is a finger tap, 0 = a toy wave
+            input_vec4 Kind1;   // same for waves 4..7
+            input_color3 TapColour;
+            input_float Gain;
+            output_vec4 Result;
+            
+            // height of ONE wave at point p (uv, 0..1). w.xy = start, w.z = age (s), w.w = strength (0 = empty slot)
+            // Misc.w = start radius (cm): the front begins on this circle and nothing is drawn inside it
+            float waveHeight(vec4 w, vec2 p) {
+                if (w.w <= 0.0) {
+                    return 0.0;
+                }
+                float r0     = max(Misc.w, 0.0);                   // start radius (cm)
+                float lam    = max(Shape.y, 0.05);                 // wavelength (cm)
+                float d      = length(p - w.xy) * Misc.x;          // cm from the wave's start
+                float travel = Shape.x * w.z;                      // how far the front has moved since it started (cm)
+                float x      = d - (r0 + travel);                  // negative = behind the front
+            
+                // the packet can't be bigger than the distance it has travelled
+                float grow  = max(travel, 0.5 * lam);
+                float width = x > 0.0 ? Shape.z : Shape.z * max(Shape.w, 0.01);
+                float sigma = max(min(width, grow), 0.01);
+            
+                float e   = x / sigma;
+                float env = exp(-e * e);
+            
+                // hide everything inside the start circle, with a soft edge
+                float inside = smoothstep(r0 - max(0.25 * Shape.z, 0.001), r0, d);
+            
+                float spread = sqrt(1.0 + max(Misc.y, 0.0) * travel / lam);   // amplitude falloff with distance travelled
+                return inside * w.w * env * cos(6.2831853 * x / lam) / spread;
+            }
+            
+            void main() {
+                vec2 p = system.getSurfaceUVCoord0();
+                float h0 = waveHeight(Wave0, p);
+                float h1 = waveHeight(Wave1, p);
+                float h2 = waveHeight(Wave2, p);
+                float h3 = waveHeight(Wave3, p);
+                float h4 = waveHeight(Wave4, p);
+                float h5 = waveHeight(Wave5, p);
+                float h6 = waveHeight(Wave6, p);
+                float h7 = waveHeight(Wave7, p);
+                float h = h0 + h1 + h2 + h3 + h4 + h5 + h6 + h7;
+                // how much of the water here comes from tap waves (0..1), by the size of each wave's height
+                float tapSum = abs(h0) * Kind0.x + abs(h1) * Kind0.y + abs(h2) * Kind0.z + abs(h3) * Kind0.w
+                             + abs(h4) * Kind1.x + abs(h5) * Kind1.y + abs(h6) * Kind1.z + abs(h7) * Kind1.w;
+                float allSum = abs(h0) + abs(h1) + abs(h2) + abs(h3) + abs(h4) + abs(h5) + abs(h6) + abs(h7);
+                float tapShare = clamp(tapSum / (allSum + 0.0001), 0.0, 1.0);
+                vec3 col = mix(Colour, TapColour, tapShare);
+                // fade to nothing before the quad edge (Misc.z cm), so the edge is never seen
+                float from = clamp(1.0 - Misc.z / max(0.5 * Misc.x, 0.01), 0.0, 0.99);
+                float edge = 1.0 - smoothstep(from, 1.0, length(p - vec2(0.5)) * 2.0);
+                float b = clamp(h, 0.0, 1.0) * edge * Gain;       // crests only: a crest + a trough cancel
+                Result = vec4(col * b, 1.0);
+            }
+        Colour:
+          ClassType1: COLOR
+          Connection0:
+            NodeLevelID: 11
+            PortID: Output
+          Variable: [1.0, 1.0, 1.0, 1.0]
+        CustomCodeNodeAsset:
+          ClassType1: REFUID
+          String: ""
+        Description:
+          ClassType1: TEXT
+          String: ""
+        Examples:
+          ItemIndex: 0
+          ItemList: "Custom : Input/Output/Global Types : Extra Functions : Procedural Execution : Lighting Loop : System Built-In Values/Functions"
+        Gain:
+          Connection0:
+            NodeLevelID: 12
+            PortID: Output
+          Variable: 0.0
+        ID:
+          Variable: 13
+        Kind0:
+          Connection0:
+            NodeLevelID: 14
+            PortID: Output
+          Variable: [0.0, 0.0, 0.0, 0.0]
+        Kind1:
+          Connection0:
+            NodeLevelID: 15
+            PortID: Output
+          Variable: [0.0, 0.0, 0.0, 0.0]
+        Locked:
+          Variable: false
+        Misc:
+          Connection0:
+            NodeLevelID: 9
+            PortID: Output
+          Variable: [0.0, 0.0, 0.0, 0.0]
+        Result:
+          IOType: 1
+          Variable: [0.0, 0.0, 0.0, 0.0]
+        Shape:
+          Connection0:
+            NodeLevelID: 10
+            PortID: Output
+          Variable: [0.0, 0.0, 0.0, 0.0]
+        Stage:
+          ItemIndex: 1
+          ItemList: "Vertex : Pixel"
+        TapColour:
+          ClassType1: COLOR
+          Connection0:
+            NodeLevelID: 16
+            PortID: Output
+          Variable: [1.0, 1.0, 1.0, 1.0]
+        Title:
+          String: Custom Code
+        UseExternalFile:
+          Variable: false
+        Wave0:
+          Connection0:
+            NodeLevelID: 0
+            PortID: Output
+          Variable: [0.0, 0.0, 0.0, 0.0]
+        Wave1:
+          Connection0:
+            NodeLevelID: 1
+            PortID: Output
+          Variable: [0.0, 0.0, 0.0, 0.0]
+        Wave2:
+          Connection0:
+            NodeLevelID: 2
+            PortID: Output
+          Variable: [0.0, 0.0, 0.0, 0.0]
+        Wave3:
+          Connection0:
+            NodeLevelID: 3
+            PortID: Output
+          Variable: [0.0, 0.0, 0.0, 0.0]
+        Wave4:
+          Connection0:
+            NodeLevelID: 5
+            PortID: Output
+          Variable: [0.0, 0.0, 0.0, 0.0]
+        Wave5:
+          Connection0:
+            NodeLevelID: 6
+            PortID: Output
+          Variable: [0.0, 0.0, 0.0, 0.0]
+        Wave6:
+          Connection0:
+            NodeLevelID: 7
+            PortID: Output
+          Variable: [0.0, 0.0, 0.0, 0.0]
+        Wave7:
+          Connection0:
+            NodeLevelID: 8
+            PortID: Output
+          Variable: [0.0, 0.0, 0.0, 0.0]
+        ngs_Height:
+          Variable: 400
+        ngs_Version:
+          String: 0.1.0
+      PositionX: 361
+      PositionY: 218
+      TemplateID: node_util_custom
+      TemplateVersionMinor: 2
+      Title1: Custom Code
+    Node16:
+      CommentSizeX: 0
+      CommentSizeY: 0
+      DependencyIndex: 16
+      LevelID: 4
+      NodeCount: 0
+      NodeType: 1
+      Ports:
+        Depth:
+          Variable: 1.0
+        DepthMode:
+          ItemIndex: 0
+          ItemList: "Non-Linear - Normalized [0 to 1] : Linear - Normalized [-1 to 1] : View Space - Non-Normalized [-near to -far]"
+        DontFreezeSpec:
+          Variable: false
+        FinalColor:
+          ClassType1: COLOR
+          Connection0:
+            NodeLevelID: 13
+            PortID: Result
+          Variable: [1.0, 1.0, 1.0, 1.0]
+        FinalColor1:
+          ClassType1: COLOR
+          Variable: [1.0, 1.0, 1.0, 1.0]
+        FinalColor2:
+          ClassType1: COLOR
+          Variable: [1.0, 1.0, 1.0, 1.0]
+        FinalColor3:
+          ClassType1: COLOR
+          Variable: [1.0, 1.0, 1.0, 1.0]
+        GSplatPointSize:
+          Variable: 0.0
+        GSplatRotation:
+          Variable: [0.0, 0.0, 0.0, 1.0]
+        GSplatScale:
+          Variable: [0.0, 0.0, 0.0]
+        Motion Vector Pass:
+          ItemIndex: 0
+          ItemList: "Write Velocity and Depth : Discard Velocity but Write Depth : Discard Velocity and Depth"
+        Negative:
+          Variable: false
+        PrevWorldPosition:
+          Variable: [0.0, 0.0, 0.0]
+        RayDirection:
+          Variable: [0.0, 1.0, 0.0]
+        RayOrigin:
+          Variable: [0.0, 0.0, 0.0]
+        ShowPrevPos:
+          Variable: false
+        Targets:
+          ItemIndex: 0
+          ItemList: "1 : 2 : 3 : 4"
+        Type:
+          ItemIndex: 0
+          ItemList: "3D : Post Effect : Hair : Gaussian Splatting"
+        WorldNormal:
+          Variable: [0.0, 1.0, 0.0]
+        WorldPosition:
+          Variable: [0.0, 0.0, 0.0]
+        WorldTangent:
+          Variable: [0.0, 0.0, 1.0]
+        WriteDepth:
+          Variable: false
+      PositionX: 639
+      PositionY: 207
+      TemplateID: nodes_main_graph
+      Title1: Shader
+      Title2: 3D
+    Node2:
+      DependencyIndex: 2
+      LevelID: 2
+      NodeCount: 0
+      NodeType: 1
+      Ports:
+        Channels:
+          ItemIndex: 0
+          ItemList: "xyzw : rgba : xyz : rgb : xy : x"
+        Default:
+          Variable: [1.0, 1.0, 1.0, 1.0]
+        EnableMax:
+          Variable: false
+        EnableMin:
+          Variable: false
+        Group:
+          String: ""
+        Max:
+          Variable: 1.0
+        Min:
+          Variable: 0.0
+        Output:
+          IOType: 1
+          Variable: [0.0, 0.0, 0.0, 0.0]
+        ScriptName:
+          String: wave2
+        SortIndex:
+          Variable: 0
+        Step:
+          Variable: 0.009999999776482582
+        Title:
+          String: Wave 2
+        Tooltip:
+          String: ""
+      PositionX: 14
+      PositionY: 88
+      TemplateID: nodes_inputs_parameters_float
+      Title1: Float Parameter
+      Title2: Wave 2
+    Node3:
+      DependencyIndex: 3
+      LevelID: 3
+      NodeCount: 0
+      NodeType: 1
+      Ports:
+        Channels:
+          ItemIndex: 0
+          ItemList: "xyzw : rgba : xyz : rgb : xy : x"
+        Default:
+          Variable: [1.0, 1.0, 1.0, 1.0]
+        EnableMax:
+          Variable: false
+        EnableMin:
+          Variable: false
+        Group:
+          String: ""
+        Max:
+          Variable: 1.0
+        Min:
+          Variable: 0.0
+        Output:
+          IOType: 1
+          Variable: [0.0, 0.0, 0.0, 0.0]
+        ScriptName:
+          String: wave3
+        SortIndex:
+          Variable: 0
+        Step:
+          Variable: 0.009999999776482582
+        Title:
+          String: Wave 3
+        Tooltip:
+          String: ""
+      PositionX: 10
+      PositionY: 159
+      TemplateID: nodes_inputs_parameters_float
+      Title1: Float Parameter
+      Title2: Wave 3
+    Node4:
+      DependencyIndex: 4
+      LevelID: 5
+      NodeCount: 0
+      NodeType: 1
+      Ports:
+        Channels:
+          ItemIndex: 0
+          ItemList: "xyzw : rgba : xyz : rgb : xy : x"
+        Default:
+          Variable: [1.0, 1.0, 1.0, 1.0]
+        EnableMax:
+          Variable: false
+        EnableMin:
+          Variable: false
+        Group:
+          String: ""
+        Max:
+          Variable: 1.0
+        Min:
+          Variable: 0.0
+        Output:
+          IOType: 1
+          Variable: [0.0, 0.0, 0.0, 0.0]
+        ScriptName:
+          String: wave4
+        SortIndex:
+          Variable: 0
+        Step:
+          Variable: 0.009999999776482582
+        Title:
+          String: Wave 4
+        Tooltip:
+          String: ""
+      PositionX: 21
+      PositionY: 245
+      TemplateID: nodes_inputs_parameters_float
+      Title1: Float Parameter
+      Title2: Wave 4
+    Node5:
+      DependencyIndex: 5
+      LevelID: 6
+      NodeCount: 0
+      NodeType: 1
+      Ports:
+        Channels:
+          ItemIndex: 0
+          ItemList: "xyzw : rgba : xyz : rgb : xy : x"
+        Default:
+          Variable: [1.0, 1.0, 1.0, 1.0]
+        EnableMax:
+          Variable: false
+        EnableMin:
+          Variable: false
+        Group:
+          String: ""
+        Max:
+          Variable: 1.0
+        Min:
+          Variable: 0.0
+        Output:
+          IOType: 1
+          Variable: [0.0, 0.0, 0.0, 0.0]
+        ScriptName:
+          String: wave5
+        SortIndex:
+          Variable: 0
+        Step:
+          Variable: 0.009999999776482582
+        Title:
+          String: Wave 5
+        Tooltip:
+          String: ""
+      PositionX: 35
+      PositionY: 333
+      TemplateID: nodes_inputs_parameters_float
+      Title1: Float Parameter
+      Title2: Wave 5
+    Node6:
+      DependencyIndex: 6
+      LevelID: 7
+      NodeCount: 0
+      NodeType: 1
+      Ports:
+        Channels:
+          ItemIndex: 0
+          ItemList: "xyzw : rgba : xyz : rgb : xy : x"
+        Default:
+          Variable: [1.0, 1.0, 1.0, 1.0]
+        EnableMax:
+          Variable: false
+        EnableMin:
+          Variable: false
+        Group:
+          String: ""
+        Max:
+          Variable: 1.0
+        Min:
+          Variable: 0.0
+        Output:
+          IOType: 1
+          Variable: [0.0, 0.0, 0.0, 0.0]
+        ScriptName:
+          String: wave6
+        SortIndex:
+          Variable: 0
+        Step:
+          Variable: 0.009999999776482582
+        Title:
+          String: Wave 6
+        Tooltip:
+          String: ""
+      PositionX: 48
+      PositionY: 427
+      TemplateID: nodes_inputs_parameters_float
+      Title1: Float Parameter
+      Title2: Wave 6
+    Node7:
+      DependencyIndex: 7
+      LevelID: 8
+      NodeCount: 0
+      NodeType: 1
+      Ports:
+        Channels:
+          ItemIndex: 0
+          ItemList: "xyzw : rgba : xyz : rgb : xy : x"
+        Default:
+          Variable: [1.0, 1.0, 1.0, 1.0]
+        EnableMax:
+          Variable: false
+        EnableMin:
+          Variable: false
+        Group:
+          String: ""
+        Max:
+          Variable: 1.0
+        Min:
+          Variable: 0.0
+        Output:
+          IOType: 1
+          Variable: [0.0, 0.0, 0.0, 0.0]
+        ScriptName:
+          String: wave7
+        SortIndex:
+          Variable: 0
+        Step:
+          Variable: 0.009999999776482582
+        Title:
+          String: Wave 7
+        Tooltip:
+          String: ""
+      PositionX: 29
+      PositionY: 529
+      TemplateID: nodes_inputs_parameters_float
+      Title1: Float Parameter
+      Title2: Wave 7
+    Node8:
+      DependencyIndex: 8
+      LevelID: 10
+      NodeCount: 0
+      NodeType: 1
+      Ports:
+        Channels:
+          ItemIndex: 0
+          ItemList: "xyzw : rgba : xyz : rgb : xy : x"
+        Default:
+          Variable: [1.0, 1.0, 1.0, 1.0]
+        EnableMax:
+          Variable: false
+        EnableMin:
+          Variable: false
+        Group:
+          String: ""
+        Max:
+          Variable: 1.0
+        Min:
+          Variable: 0.0
+        Output:
+          IOType: 1
+          Variable: [0.0, 0.0, 0.0, 0.0]
+        ScriptName:
+          String: waveShape
+        SortIndex:
+          Variable: 0
+        Step:
+          Variable: 0.009999999776482582
+        Title:
+          String: Wave Shape
+        Tooltip:
+          String: ""
+      PositionX: 46
+      PositionY: 607
+      TemplateID: nodes_inputs_parameters_float
+      Title1: Float Parameter
+      Title2: Wave Shape
+    Node9:
+      DependencyIndex: 9
+      LevelID: 9
+      NodeCount: 0
+      NodeType: 1
+      Ports:
+        Channels:
+          ItemIndex: 0
+          ItemList: "xyzw : rgba : xyz : rgb : xy : x"
+        Default:
+          Variable: [1.0, 1.0, 1.0, 1.0]
+        EnableMax:
+          Variable: false
+        EnableMin:
+          Variable: false
+        Group:
+          String: ""
+        Max:
+          Variable: 1.0
+        Min:
+          Variable: 0.0
+        Output:
+          IOType: 1
+          Variable: [0.0, 0.0, 0.0, 0.0]
+        ScriptName:
+          String: waveMisc
+        SortIndex:
+          Variable: 0
+        Step:
+          Variable: 0.009999999776482582
+        Title:
+          String: Wave Misc
+        Tooltip:
+          String: ""
+      PositionX: 44
+      PositionY: 718
+      TemplateID: nodes_inputs_parameters_float
+      Title1: Float Parameter
+      Title2: Wave Misc
+  IsSubGraph0: true
+  IsSubGraph1: true
+  IsSubGraph2: true
+  IsSubGraph3: true
+  LevelID: 0
+  NodeType: 3
+  PositionX: 0
+  PositionY: 0
+  TemplateID: nodes_main_subgraph
+  Title1: ""
+SystemID: dev.snap.shaders
